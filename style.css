@@ -60,18 +60,16 @@ body {
 }
 
 .header {
-    padding-left: 20%;
-    background-color: white;
     display: flex;
     padding-top: 40px;
     margin-left: -10px;
-    width: 1638px;
+    width: 100%;
 }
 
 .gamename {
     color: orange;
     font-size: 45px;
-    margin-left: -52px;
+    margin-left: 400px;
     margin-top: 5px;
 }
 
@@ -135,13 +133,12 @@ body {
 }
 
 .main {
-    padding-left: 17%;
     border: none;
     background-color: white;
     display: flex;
     color: black;
-    margin-left: 5px;
-    width: 1698px;
+    margin-left: -10px;
+    width: 100%;
 }
 
 .category {
@@ -153,6 +150,7 @@ body {
     border-radius: 10px;
     margin-top: 5px;
     font-size: 19px;
+    margin-left: 17%;
 }
 
 .home {
@@ -379,8 +377,8 @@ a {
 }
 
 .new {
-    margin-left: 40px;
-    width: 2043px;
+    margin-left: -10px;
+    width: 100%;
     margin-top: 100px;
 }
 
@@ -453,7 +451,6 @@ a {
     width: 100%;
     height: 250px;
     border: none;
-    /* padding-left: 17%; */
     padding-top: 25px;
     display: flex;
     gap: 65px;
@@ -501,7 +498,7 @@ a {
 
 .theend {
     border: none;
-    width: 2043px;
+    width: 100%;
     height: 108px;
     padding-top: 20px;
     display: flex;
