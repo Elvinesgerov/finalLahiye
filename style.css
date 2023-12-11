@@ -4,7 +4,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.news{
+*{
+    box-sizing: border-box;
+}
+
+.news {
     margin-left: 18%;
 }
 
@@ -12,14 +16,14 @@ body {
     display: flex;
     gap: 20px;
     background-color: #f5f5f5;
-    height: 60px;
+    height: 80px;
     padding-top: 27px;
     margin-left: -10px;
     width: 100%;
     margin-top: -10px;
 }
 
-.elvingame{
+.elvingame {
     margin-left: 2%;
 }
 
@@ -69,7 +73,7 @@ body {
 .gamename {
     color: orange;
     font-size: 45px;
-    margin-left: 400px;
+    margin-left: 385px;
     margin-top: 5px;
 }
 
@@ -171,7 +175,7 @@ body {
 
 .games {
     width: 242.5px;
-    margin-left: 17.2%;
+    margin-left: 16.6%;
     margin-top: -2px;
     height: 135px;
     overflow: auto;
@@ -199,7 +203,7 @@ a {
     position: absolute;
     z-index: 1;
     margin-left: 17%;
-    top: 34%;
+    top: 31%;
     width: 1060px;
     height: 400px;
     border-radius: 25px;
@@ -207,7 +211,7 @@ a {
 
 .cards {
     margin-left: 68%;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 
@@ -251,7 +255,7 @@ a {
     height: 20px;
     position: relative;
     z-index: 1;
-    bottom: 93px;
+    bottom: 40px;
     left: 36%;
     border-radius: 50%;
 }
@@ -313,6 +317,8 @@ a {
 .spotifyfoto {
     width: 243px;
     border-radius: 15px;
+    margin-left: -7px;
+    margin-top: -6.5px;
 }
 
 .mobilefoto {
@@ -371,9 +377,10 @@ a {
 }
 
 .spotifyfoto {
-    width: 230px;
+    width: 225px;
     margin-left: 4px;
     margin-top: -7px;
+    height: 135px;
 }
 
 .new {
@@ -400,7 +407,7 @@ a {
     border: none;
     background-color: #eaeaea;
     width: 300px;
-    height: 180px;
+    height: 200px;
     margin-left: 30px;
 }
 
@@ -408,18 +415,30 @@ a {
     border: 3px solid orange;
     width: 50px;
     height: 50px;
-    padding-left: 4%;
-    padding-top: 16px;
+    padding-left: 1%;
+    padding-top: 7.5px;
     border-radius: 100%;
     color: orange;
     margin-left: 38%;
 }
 
-.ri-send-plane-fill,
+.ri-shield-fill{
+    margin-top: -10px;
+    margin-left: 2.5px;
+}
+
+.ri-money-dollar-circle-fill{
+    margin-left: 2.3px;
+}
+
 .ri-shield-fill,
 .ri-vip-fill,
 .ri-money-dollar-circle-fill {
     font-size: 35px;
+}
+
+.ri-send-plane-fill{
+    font-size: 25px;
 }
 
 .basliqxidmet {
@@ -449,7 +468,7 @@ a {
 .foot {
     background-color: #eaeaea;
     width: 100%;
-    height: 250px;
+    height: 270px;
     border: none;
     padding-top: 25px;
     display: flex;
@@ -477,7 +496,7 @@ a {
 }
 
 .inputfoot {
-    height: 30px;
+    height: 40px;
     width: 260px;
     border: 4px solid orange;
     border-radius: 15px;
@@ -490,10 +509,16 @@ a {
     color: white;
     background-color: orange;
     border: none;
-    width: 50px;
-    height: 50px;
+    width: 43px;
+    height: 43px;
     border-radius: 50%;
     margin-left: 10px;
+}
+
+.ri-arrow-right-up-line{
+    font-size: 34px;
+    margin-left: 3px;
+    margin-top: -2px;
 }
 
 .theend {
@@ -528,9 +553,13 @@ a {
     height: 20px;
     position: relative;
     z-index: 1;
-    bottom: 119px;
+    bottom: 59px;
     left: 48%;
     border-radius: 50%;
+}
+
+.ri-vip-fill{
+    margin-left: 2.5px;
 }
 
 .gorsel3 {
@@ -540,7 +569,7 @@ a {
     height: 20px;
     position: relative;
     z-index: 1;
-    bottom: 142px;
+    bottom: 78px;
     left: 42%;
     border-radius: 50%;
 }
@@ -582,11 +611,11 @@ a:hover {
     border: none;
     width: 100px;
     margin-top: -15px;
-    padding-left: 40px;
+    padding-left: 25px;
     color: white;
     background-color: orange;
     height: 20px;
-    margin-left: 66.5%;
+    margin-left: 76.5%;
     position: relative;
     z-index: 1;
     padding-top: -10px;
@@ -596,7 +625,7 @@ a:hover {
 }
 
 .ri-corner-right-up-fill {
-    margin-left: 69%;
+    margin-left: 78.2%;
     position: relative;
     top: 38px;
     font-size: 26px;
@@ -663,9 +692,9 @@ a:hover {
     min-height: 60px;
     max-height: 170px;
     width: 269px;
-    left: 44%;
+    left: 48.5%;
     border-radius: 15px;
-    top: 193px;
+    top: 178px;
     display: block;
     overflow: auto;
     display: none;
@@ -691,7 +720,7 @@ a:hover {
     margin-top: 20px;
 }
 
-input{
+input {
     box-shadow: 10px 5px 5px orange;
 }
 
@@ -764,6 +793,10 @@ input{
         box-sizing: border-box;
         margin: 0px;
         padding: 0px;
+    }
+
+    .footlist{
+        margin-left: 40px;
     }
 
     .began {
@@ -1254,22 +1287,22 @@ input{
     }
 
     .elvingame p {
-        margin-left: -50px;
+        margin-left: 8px;
         font-size: 15px;
         width: 390px;
     }
 
     .elvingame .gamestore {
-        margin-left: -50px;
+        margin-left: 7px;
         margin-top: -10px;
     }
 
     .footbasliq {
-        margin-left: 50px;
+        margin-left: 115px;
         margin-top: 20px;
     }
 
-    .elvingame ul li a {
+    ul li a {
         font-size: 15px;
     }
 
@@ -1278,12 +1311,12 @@ input{
     }
 
     .elvingame .footsira {
-        margin-left: 170px;
+        margin-left: 250px;
         margin-top: -92px;
     }
 
     .elvingame .footabune {
-        margin-left: -50px;
+        margin-left: 8px;
         margin-top: 20px;
     }
 
@@ -1293,7 +1326,7 @@ input{
     }
 
     .elvingame input {
-        margin-left: -50px;
+        margin-left: 8px;
         margin-top: 20px;
     }
 
@@ -1913,18 +1946,18 @@ input{
     }
 
     .elvingame p {
-        margin-left: -80px;
+        margin-left: 8px;
         font-size: 15px;
         width: 570px;
     }
 
     .elvingame .gamestore {
         margin-top: -10px;
-        margin-left: -80px;
+        margin-left: 8px;
     }
 
     .footbasliq {
-        margin-left: 30px;
+        margin-left: 170px;
         margin-top: 40px;
     }
 
@@ -1938,12 +1971,16 @@ input{
     }
 
     .elvingame .footsira {
-        margin-left: 170px;
+        margin-left: 320px;
         margin-top: -92px;
     }
 
+    .footlist{
+        margin-left:100px;
+    }
+
     .elvingame .footabune {
-        margin-left: -80px;
+        margin-left:8px;
         margin-top: 40px;
     }
 
@@ -1953,7 +1990,7 @@ input{
     }
 
     .elvingame input {
-        margin-left: -80px;
+        margin-left: 8px;
         margin-top: 20px;
     }
 
@@ -2023,5 +2060,14 @@ input{
         font-weight: 900;
         display: none;
         font-size: 12px;
+    }
+
+    .ri-corner-right-up-fill{
+        position: relative;
+        top: 38px;
+        font-size: 26px;
+        color: orange;
+        font-weight: 900;
+        margin-left: 68%;
     }
 }

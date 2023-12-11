@@ -53,6 +53,7 @@ let balancebtn1 = document.querySelector (".balancebtn1")
 let cards = document.querySelector(".cards")
 let hiddenlist = document.querySelector(".hiddenlist")
 let gamesfoto1 = document.querySelector(".gamesfoto1")
+let hiddenbalance = document.querySelector(".hiddenbalance")
 let flag = true
 let flag1 = true
 let flag2 = true
@@ -196,10 +197,14 @@ playerbtnn.addEventListener("click", () => {
     if (flag2 == true) {
         texthidden.style.display = "block"
         oxs.style.display = "block"
+        freehome.style.marginTop = "53px"
+        hiddenbalance.style.marginTop = "30px"
         flag2 = false
     } else {
         texthidden.style.display = "none"
         oxs.style.display = "none"
+        freehome.style.marginTop = "-3px"
+        hiddenbalance.style.marginTop = "-1px"
         flag2 = true
     }
 })

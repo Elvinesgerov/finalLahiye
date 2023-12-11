@@ -1,0 +1,359 @@
+*{
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.began {
+    display: flex;
+    gap: 20px;
+    background-color: #f5f5f5;
+    height: 80px;
+    padding-top: 27px;
+    margin-left: -10px;
+    width: 100%;
+    margin-top: -10px;
+}
+
+.news {
+    margin-left: 18%;
+}
+
+.ri-list-check{
+    display: none;
+}
+
+.gamename1{
+    display: none;
+}
+
+.ri-user-line{
+    display: none;
+}
+
+.mood {
+    margin-left: 30%;
+}
+
+.backmood {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    border: 3px solid orange;
+}
+
+.ri-sun-line {
+    color: orange;
+    font-size: 20px;
+}
+
+.entry {
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border: 3px solid orange;
+}
+
+.note {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 10px;
+    height: 30px;
+    border: 3px solid black;
+}
+
+.texthidden {
+    border: none;
+    width: 100px;
+    margin-top: -15px;
+    padding-left: 40px;
+    color: white;
+    background-color: orange;
+    height: 20px;
+    margin-left: 66.5%;
+    position: relative;
+    z-index: 1;
+    padding-top: -10px;
+    top: 31px;
+    font-weight: 900;
+    display: none;
+}
+
+.ri-corner-right-up-fill {
+    margin-left: 69%;
+    position: relative;
+    top: 38px;
+    font-size: 26px;
+    color: orange;
+    font-weight: 900;
+    display: none;
+}
+
+.hiddensearce {
+    position: absolute;
+    z-index: 2;
+    background-color: palegoldenrod;
+    color: black;
+    min-height: 60px;
+    max-height: 170px;
+    width: 269px;
+    left: 44%;
+    border-radius: 15px;
+    top: 193px;
+    display: block;
+    overflow: auto;
+    display: none;
+    margin-left: -45px;
+}
+
+.hiddenbalance {
+    display: none;
+}
+
+.ri-add-line {
+    font-size: 25px;
+    margin-left: -70px;
+    color: orange;
+}
+
+.header {
+    display: flex;
+    padding-top: 40px;
+    margin-left: -10px;
+    width: 100%;
+}
+
+.gamename {
+    color: orange;
+    font-size: 45px;
+    margin-left: 385px;
+    margin-top: 5px;
+}
+
+.searce {
+    width: 250px;
+    height: 50px;
+    border: 3px solid orange;
+    border-radius: 10px;
+    color: black;
+    outline: none;
+    padding-left: 10px;
+    margin-left: 20%;
+}
+
+.searcebtn {
+    height: 30px;
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+    border: 3px solid orange;
+    width: 30px;
+    margin-left: -45px;
+    margin-top: 12px;
+}
+
+.player {
+    margin-left: 18%;
+}
+
+.playerbtn {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid orange;
+    color: black;
+    background-color: white;
+    box-shadow: 10px 5px 5px orange;
+}
+
+.balancebtn {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid orange;
+    color: black;
+    background-color: white;
+    margin-left: 15px;
+    box-shadow: 10px 5px 5px orange;
+}
+
+.ri-shopping-basket-fill {
+    font-size: 20px;
+    margin-left: -50px;
+    color: orange;
+}
+
+.ri-add-line {
+    font-size: 25px;
+    margin-left: -70px;
+    color: orange;
+}
+
+.main {
+    border: none;
+    background-color: white;
+    display: flex;
+    color: black;
+    margin-left: -10px;
+    width: 100%;
+}
+
+.category {
+    width: 250px;
+    height: 50px;
+    border: 3px solid orange;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-size: 19px;
+    margin-left: 17%;
+}
+
+.home {
+    margin-left: 10%;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.game,
+.payy,
+.rule,
+.aboutme,
+.connection {
+    margin-left: 5%;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.mobilefoto:hover,
+.freefoto:hover,
+.tictocfoto:hover,
+.valorant:hover,
+.efutboll:hover,
+.pointblank:hover,
+.callduty:hover,
+.netflix:hover,
+.netflix1:hover,
+.spotify:hover {
+    background-color: orange;
+    position: relative;
+    top: -15px;
+}
+
+a:hover {
+    color: orange;
+    position: relative;
+    top: -5px;
+    transition: 0.7s;
+}
+
+.searcebtn:hover,
+.facebook:hover,
+.instagram:hover,
+.services1:hover {
+    transform: rotate(360deg);
+}
+
+.playerbtn:hover {
+    background-color: orange;
+    color: white;
+}
+
+.playerbtn:hover .ri-shopping-basket-fill {
+    color: white;
+}
+
+.balancebtn:hover {
+    background-color: orange;
+    color: white;
+}
+
+.balancebtn:hover .ri-add-line {
+    color: white;
+}
+
+.services1:hover {
+    position: relative;
+    top: -15px;
+}
+
+.playerbtn:hover,
+.balancebtn:hover,
+.gamename:hover {
+    transform: rotate(360deg);
+}
+
+.balans:hover,
+.bank:hover {
+    position: relative;
+    top: -15px;
+}
+
+.playerbtn,
+.balancebtn,
+.gamename {
+    transition: transform 0.5s ease;
+}
+
+.playerbtn:hover,
+.balancebtn:hover,
+.gamename:hover {
+    transform: rotate(360deg);
+}
+
+.searcebtn,
+.facebook,
+.instagram,
+.services1 {
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.searcebtn:hover,
+.facebook:hover,
+.instagram:hover,
+.services1:hover {
+    transform: rotate(360deg);
+}
+
+.gamessell1 {
+    border: none;
+    width: 1600px;
+    height: 60px;
+    background-color: orange;
+    margin-left: 17%;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+}
+
+.ri-shopping-cart-fill,
+.ri-bank-line,
+.ri-question-line {
+    color: white;
+    font-size: 30px;
+    margin-left: 22px;
+    margin-top: 14px;
+}
+
+.play {
+    margin-top: 16px;
+    color: white;
+    font-size: 25px;
+}
