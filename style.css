@@ -19,6 +19,10 @@ body {
     margin-top: -10px;
 }
 
+.elvingame{
+    margin-left: 2%;
+}
+
 .mood {
     margin-left: 30%;
 }
@@ -446,10 +450,10 @@ a {
 
 .foot {
     background-color: #eaeaea;
-    width: 1910px;
+    width: 100%;
     height: 250px;
     border: none;
-    padding-left: 17%;
+    /* padding-left: 17%; */
     padding-top: 25px;
     display: flex;
     gap: 65px;
