@@ -1,0 +1,654 @@
+.began {
+    display: flex;
+    gap: 20px;
+    background-color: #f5f5f5;
+    height: 60px;
+    padding-top: 27px;
+    padding-left: 18%;
+    margin-left: -10px;
+    width: 1877px;
+    margin-top: -10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mood {
+    margin-left: 30%;
+}
+
+.backmood {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    border: 3px solid orange;
+}
+
+.ri-sun-line {
+    color: orange;
+    font-size: 20px;
+}
+
+.button {
+    margin-left: 15px;
+}
+
+.entry {
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border: 3px solid orange;
+}
+
+.note {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 10px;
+    height: 30px;
+    border: 3px solid black;
+}
+
+.texthidden {
+    border: none;
+    width: 100px;
+    margin-top: -15px;
+    padding-left: 40px;
+    color: white;
+    background-color: orange;
+    height: 20px;
+    margin-left: 70%;
+    position: relative;
+    z-index: 1;
+    padding-top: -10px;
+    top: 31px;
+    font-weight: 900;
+    display: none;
+}
+
+.ri-corner-right-up-fill {
+    margin-left: 72.5%;
+    position: relative;
+    top: 38px;
+    font-size: 26px;
+    color: orange;
+    font-weight: 900;
+    display: none;
+}
+
+.hidden3{
+    margin-top: -45px;
+    margin-left: -100px;
+    font-size: 23px;
+    font-weight: 900;
+    color: green;
+}
+
+.hiddensearce {
+    position: absolute;
+    z-index: 2;
+    background-color: palegoldenrod;
+    color: black;
+    min-height: 60px;
+    max-height: 170px;
+    width: 280px;
+    left: 45.3%;
+    border-radius: 15px;
+    top: 193px;
+    display: block;
+    overflow: auto;
+    display: none;
+    margin-left: -45px;
+}
+
+.header {
+    padding-left: 20%;
+    background-color: white;
+    display: flex;
+    padding-top: 40px;
+    margin-left: -10px;
+    width: 1831.7px;
+}
+
+.gamename {
+    color: orange;
+    font-size: 45px;
+    margin-left: -52px;
+    margin-top: 5px;
+}
+
+.searce {
+    margin-left: 10%;
+    width: 250px;
+    height: 50px;
+    border: 3px solid orange;
+    border-radius: 10px;
+    color: black;
+    outline: none;
+    padding-left: 10px;
+    margin-left: 20%;
+}
+
+.searcebtn {
+    height: 30px;
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+    border: 3px solid orange;
+    width: 30px;
+    margin-left: -45px;
+    margin-top: 12px;
+}
+
+.player {
+    margin-left: 18%;
+}
+
+.playerbtn {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid orange;
+    color: black;
+    background-color: white;
+    box-shadow: 10px 5px 5px orange;
+}
+
+.balancebtn {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid orange;
+    color: black;
+    background-color: white;
+    margin-left: 15px;
+    box-shadow: 10px 5px 5px orange;
+}
+
+.playerbtn:hover .ri-shopping-basket-fill {
+    color: white;
+}
+
+.ri-add-line {
+    font-size: 25px;
+    margin-left: -70px;
+    color: orange;
+}
+
+.ri-shopping-basket-fill {
+    font-size: 20px;
+    margin-left: -50px;
+    color: orange;
+}
+
+.category {
+    width: 250px;
+    height: 50px;
+    border: 3px solid orange;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-size: 19px;
+    margin-left: 15px
+}
+
+.main {
+    padding-left: 17%;
+    border: none;
+    background-color: white;
+    display: flex;
+    color: black;
+    margin-left: -10px;
+    width: 1899px;
+}
+
+.home {
+    margin-left: 10%;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.game,
+.payy,
+.rule,
+.aboutme,
+.connection {
+    margin-left: 5%;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.gamessell {
+    border: none;
+    width: 1523px;
+    height: 60px;
+    background-color: orange;
+    margin-left: 17%;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+}
+
+a:hover {
+    color: orange;
+    position: relative;
+    top: -5px;
+    transition: 0.7s;
+}
+
+.games {
+    width: 242.5px;
+    margin-left: 16.5%;
+    margin-top: -2px;
+    height: 135px;
+    overflow: auto;
+    position: absolute;
+    z-index: 2;
+    display: none;
+    background-color: white;
+    border: 3px solid orange;
+}
+
+.playerbtn:hover {
+    background-color: orange;
+    color: white;
+}
+
+.playerbtn:hover .ri-shopping-basket-fill {
+    color: white;
+}
+
+.balancebtn:hover {
+    background-color: orange;
+    color: white;
+}
+
+.balancebtn:hover .ri-add-line {
+    color: white;
+}
+
+.playerbtn:hover,
+.balancebtn:hover,
+.gamename:hover {
+    transform: rotate(360deg);
+}
+
+.balans:hover,
+.bank:hover {
+    position: relative;
+    top: -15px;
+}
+
+.playerbtn,
+.balancebtn,
+.gamename {
+    transition: transform 0.5s ease;
+}
+
+.searcebtn,
+.facebook,
+.instagram,
+.services1 {
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.searcebtn:hover,
+.facebook:hover,
+.instagram:hover,
+.services1:hover {
+    transform: rotate(360deg);
+}
+
+.connectionboxs {
+    width: 100.8%;
+    height: 350px;
+    background-color:white;
+    margin-top: 20px;
+    margin-left: -10px;
+    display: flex;
+}
+
+.gamessell1 {
+    border: none;
+    width: 1525px;
+    height: 60px;
+    background-color: orange;
+    margin-left: 17.3%;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+}
+
+.ri-shopping-cart-fill,
+.ri-bank-line,
+.ri-question-line {
+    color: white;
+    font-size: 30px;
+    margin-left: 22px;
+    margin-top: 14px;
+}
+
+.play {
+    margin-top: 16px;
+    color: white;
+    font-size: 25px;
+}
+
+.address {
+    background-color: #f5f5f5;
+    width: 350px;
+    height: 250px;
+    margin-left: 18%;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.email,
+.mobile {
+    background-color: #f5f5f5;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 7%;
+}
+
+.addresslogo {
+    border: 3px solid orange;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.ri-community-fill,
+.ri-mail-fill,
+.ri-smartphone-fill {
+    color: orange;
+    font-size: 38px;
+    margin-left: -2px;
+}
+
+.addressheader {
+    font-size: 25px;
+}
+
+.addresstext {
+    font-size: 22px;
+    margin-top: -12px;
+    margin-left: 5px;
+}
+
+.inputnamesurname center input {
+    border: 3px solid blue;
+    outline: none;
+    padding-left: 20px;
+    width: 250px;
+    height: 40px;
+    box-shadow: 10px 5px 5px blue;
+}
+
+.inputnamesurname center h1{
+    margin-top: -70px;
+}
+
+.inputSurname {
+    margin-left: 25px
+}
+
+.inputnumber {
+    margin-left: 26px;
+}
+
+input{
+    box-shadow: 10px 5px 5px orange;
+}
+
+.inputs {
+    height: 60px;
+    margin-left: -10px;
+    display: flex;
+    padding-left: 850px;
+    margin-top: 40px;
+}
+
+.inputs center input {
+    border: 3px solid blue;
+    outline: none;
+    padding-left: 20px;
+    width: 250px;
+    height: 40px;
+    box-shadow: 10px 5px 5px blue;
+}
+
+textarea {
+    margin-left: 840px;
+    border: 3px solid blue;
+    outline: none;
+    padding-left: 20px;
+    margin-top: 20px;
+    box-shadow: 10px 5px 5px blue;
+}
+
+.inputnamesurname {
+    margin-top: 120px;
+}
+
+
+.connectionbtn{
+    width:90px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    margin-left: 550px;
+    border: 3px solid blue;
+}
+
+.new {
+    margin-left: 40px;
+    width: 2043px;
+    margin-top: 100px;
+}
+
+.ri-shopping-cart-fill, .ri-newspaper-fill{
+    color: white;
+    font-size: 30px;
+    margin-left: 22px;
+    margin-top: 14px;
+}
+
+.play{
+    margin-top: 16px;
+    color: white;
+    font-size: 25px;
+}
+
+.servicesboxs{
+    display: flex;
+    gap: 55px;
+    margin-left: 17%;
+    height: 300px;
+}
+
+.searcebtn,
+.facebook,
+.instagram,
+.services1 {
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.searcebtn:hover,
+.facebook:hover,
+.instagram:hover,
+.services1:hover {
+    transform: rotate(360deg);
+}
+
+.services1{
+    margin-top: 40px;
+    border-radius: 10px;
+    padding-top: 30px;
+    border: none;
+    background-color: #eaeaea;
+    width: 300px;
+    height: 180px;
+    margin-left: 20px;
+}
+
+.searcebtn, .facebook, .instagram, .services1{
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.services1:hover{
+    position: relative;
+    top: -15px;
+}
+
+.jeticon{
+    border: 3px solid orange;
+    width: 50px;
+    height: 50px;
+    padding-left: 4%;
+    padding-top: 16px;
+    border-radius: 100%;
+    color: orange;
+    margin-left: 38%;
+}
+
+.ri-send-plane-fill, .ri-shield-fill, .ri-vip-fill, .ri-money-dollar-circle-fill{
+    font-size: 35px;
+}
+
+.basliqxidmet{
+    margin-left: -40px;
+    width: 123.8px;
+    margin-top: 28px;
+}
+
+.textxidmet{
+    width: 270px;
+    margin-left: -110px;
+}
+
+.basliqmusteri{
+    margin-left: -75px;
+    width: 200px;
+    margin-top: 30px;
+}
+
+a{
+    font-size: 23px;
+}
+
+.foot{
+    background-color: #eaeaea;
+    width: 1899px;
+    height: 250px;
+    border: none;
+    padding-left: 17%;
+    padding-top: 25px;
+    display: flex;
+    gap: 65px;
+    margin-left: -10px;
+}
+
+.textfoot{
+    width: 440px;
+}
+
+.footbasliq{
+    margin-left: 65%;
+}
+
+.footsira{
+    margin-top: 66px;
+    margin-left: -35px;
+}
+
+input{
+    box-shadow: 10px 5px 5px orange;
+}
+
+.textfoot1{
+    width: 270px;
+    margin-top: 23px;
+    font-size: 19px;
+}
+
+.inputfoot{
+    height: 30px;
+    width: 260px;
+    border: 4px solid orange;
+    border-radius: 15px;
+    outline: none;
+    color: black;
+    padding-left: 15px;
+}
+
+.footbtn{
+    color: white;
+    background-color: orange;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.abunemesaage{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: 500;
+    color: green;
+    display: none;
+}
+
+.theend{
+    border: none;
+    width: 2043px;
+    height: 108px;
+    padding-top: 20px;
+    display: flex;
+    gap: 35px;
+    margin-left: -10px;
+}
+
+.endtext{
+    margin-left: 17%;
+}
+
+.facebook{
+    margin-left: 45%;
+    width: 40px;
+    height: 40px;
+}
+
+.searcebtn, .facebook, .instagram, .services1{
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.searcebtn:hover, .facebook:hover, .instagram:hover, .services1:hover{
+    transform: rotate(360deg);
+}
+
+.instagram{
+    width: 40px;
+    height: 40px;
+}
+
+::-webkit-scrollbar {
+    background-color: orange;
+    width: 8px;
+}

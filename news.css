@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.began {
+    display: flex;
+    gap: 20px;
+    background-color: #f5f5f5;
+    height: 60px;
+    padding-top: 27px;
+    padding-left: 18%;
+    margin-left: -10px;
+    width: 1888.8px;
+}
+
+.mood {
+    margin-left: 30%;
+}
+
+.button {
+    margin-left: 15px;
+}
+
+.entry {
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border: 3px solid orange;
+}
+
+.note {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 10px;
+    height: 30px;
+    border: 3px solid black;
+}
+
+
+.backmood {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    border: 3px solid orange;
+}
+
+.texthidden {
+    border: none;
+    width: 100px;
+    margin-top: -15px;
+    padding-left: 40px;
+    color: white;
+    background-color: orange;
+    height: 20px;
+    margin-left: 70.3%;
+    position: relative;
+    z-index: 1;
+    padding-top: -10px;
+    top: 31px;
+    font-weight: 900;
+    display: none;
+}
+
+.ri-corner-right-up-fill {
+    margin-left: 73%;
+    position: relative;
+    top: 38px;
+    font-size: 26px;
+    color: orange;
+    font-weight: 900;
+    display: none;
+}
+
+.hiddensearce {
+    position: absolute;
+    z-index: 2;
+    background-color: palegoldenrod;
+    color: black;
+    min-height: 60px;
+    max-height: 170px;
+    width: 269px;
+    left: 44%;
+    border-radius: 15px;
+    top: 193px;
+    display: block;
+    overflow: auto;
+    display: none;
+    margin-left: -15px;
+}
+
+.header {
+    padding-left: 20%;
+    background-color: white;
+    display: flex;
+    padding-top: 40px;
+    margin-left: -10px;
+    width: 1843px;
+}
+
+.gamename {
+    color: orange;
+    font-size: 45px;
+    margin-left: -65px;
+    margin-top: 5px;
+}
+
+.searce {
+    margin-left: 10%;
+    width: 250px;
+    height: 50px;
+    border: 3px solid orange;
+    border-radius: 10px;
+    color: black;
+    outline: none;
+    padding-left: 10px;
+    margin-left: 20%;
+}
+
+.searcebtn {
+    height: 30px;
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+    border: 3px solid orange;
+    width: 30px;
+    margin-left: -45px;
+    margin-top: 12px;
+}
+
+.searcebtn,
+.facebook,
+.instagram,
+.services1 {
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.searcebtn:hover,
+.facebook:hover,
+.instagram:hover,
+.services1:hover {
+    transform: rotate(360deg);
+}
+
+.playerbtn,
+.balancebtn,
+.gamename {
+    transition: transform 0.5s ease;
+    
+}
+
+.playerbtn:hover,
+.balancebtn:hover,
+.gamename:hover {
+    transform: rotate(360deg);
+}
+
+.balancebtn:hover .ri-add-line{
+    color: white;
+}
+
+
+.player{
+    margin-left: 18%;
+}
+
+.playerbtn:hover{
+    background-color: orange;
+    color: white;
+}
+
+.playerbtn:hover .ri-shopping-basket-fill{
+    color: white;
+}
+
+.playerbtn{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid orange;
+    color: black;
+    background-color: white;
+}
+
+.ri-shopping-basket-fill{
+    font-size: 20px;
+    margin-left: -50px;
+    color: orange;
+}
+
+.playerbtn:hover .ri-shopping-basket-fill{
+    color: white;
+}
+
+.balancebtn{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid orange;
+    color: black;
+    background-color: white;
+    margin-left: 15px;
+}
+
+.ri-add-line{
+    font-size: 25px;
+    margin-left: -70px;
+    color: orange;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.6s;
+    color: black;
+}
+
+a:hover{
+    color: orange;
+    position: relative;
+    top: -5px;
+    border-bottom: 1px solid black;
+    transition: 0.6s;
+}
+
+.ri-sun-line{
+    color: orange;
+    font-size: 20px;
+}
+
+.new{
+    margin-left: -25px;
+    width: 2314px;
+}
+
+.gamessell1{
+    border: none;
+    width: 1535px;
+    height: 60px;
+    background-color: orange;
+    margin-left: 17.5%;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+}
+
+.ri-shopping-cart-fill, .ri-newspaper-fill{
+    color: white;
+    font-size: 30px;
+    margin-left: 22px;
+    margin-top: 14px;
+}
+
+.play{
+    margin-top: 16px;
+    color: white;
+    font-size: 25px;
+}
+
+.servicesboxs{
+    display: flex;
+    gap: 55px;
+    margin-left: 17%;
+    height: 300px;
+}
+
+.services1{
+    margin-top: 40px;
+    border-radius: 10px;
+    padding-top: 30px;
+    border: none;
+    background-color: #eaeaea;
+    width: 300px;
+    height: 180px;
+    margin-left: 20px;
+}
+
+.searcebtn, .facebook, .instagram, .services1{
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.services1:hover{
+    position: relative;
+    top: -15px;
+}
+
+.jeticon{
+    border: 3px solid orange;
+    width: 50px;
+    height: 50px;
+    padding-left: 4%;
+    padding-top: 16px;
+    border-radius: 100%;
+    color: orange;
+    margin-left: 38%;
+}
+
+.ri-send-plane-fill, .ri-shield-fill, .ri-vip-fill, .ri-money-dollar-circle-fill{
+    font-size: 35px;
+}
+
+.basliqxidmet{
+    margin-left: -40px;
+    width: 123.8px;
+    margin-top: 28px;
+}
+
+.textxidmet{
+    width: 270px;
+    margin-left: -110px;
+}
+
+.basliqmusteri{
+    margin-left: -75px;
+    width: 200px;
+    margin-top: 30px;
+}
+
+.main{
+    padding-left: 17%;
+    border: none;
+    background-color: white;
+    display: flex;
+    color: black;
+    margin-left: -10px;
+    width: 1911px;
+}
+
+.category{
+    width: 250px;
+    height: 50px;
+    border: 3px solid orange;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-size: 19px;
+}
+
+.home{
+    margin-left: 10%;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.game, .payy, .rule, .aboutme, .connection{
+    margin-left: 5%;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.games{
+    width: 242.5px;
+    margin-left: 16.5%;
+    margin-top: -17.2%;
+    height: 135px;
+    overflow: auto;
+    position: absolute;
+    z-index: 2;
+    display: none;
+    background-color: white;
+    border: 3px solid orange;
+}
+
+::-webkit-scrollbar {
+    background-color: orange;
+    width: 8px;
+}
+
+.balancebtn:hover{
+    background-color: orange;
+    color: white;
+}
+
+.foot{
+    background-color: #eaeaea;
+    width: 1910px;
+    height: 250px;
+    border: none;
+    padding-left: 17%;
+    padding-top: 25px;
+    display: flex;
+    gap: 65px;
+    margin-left: -10px;
+}
+
+.textfoot{
+    width: 440px;
+}
+
+.footbasliq{
+    margin-left: 65%;
+}
+
+.footsira{
+    margin-top: 66px;
+    margin-left: -35px;
+}
+
+input{
+    box-shadow: 10px 5px 5px orange;
+}
+
+.textfoot1{
+    width: 270px;
+    margin-top: 23px;
+    font-size: 19px;
+}
+
+.inputfoot{
+    height: 30px;
+    width: 260px;
+    border: 4px solid orange;
+    border-radius: 15px;
+    outline: none;
+    color: black;
+    padding-left: 15px;
+}
+
+.footbtn{
+    color: white;
+    background-color: orange;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.theend{
+    border: none;
+    width: 2043px;
+    height: 108px;
+    padding-top: 20px;
+    display: flex;
+    gap: 35px;
+    margin-left: -10px;
+}
+
+.endtext{
+    margin-left: 17%;
+}
+
+.facebook{
+    margin-left: 45%;
+    width: 40px;
+    height: 40px;
+}
+
+.searcebtn, .facebook, .instagram, .services1{
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.searcebtn:hover, .facebook:hover, .instagram:hover, .services1:hover{
+    transform: rotate(360deg);
+}
+
+.instagram{
+    width: 40px;
+    height: 40px;
+}
+
+
+.abunemesaage{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: 500;
+    color: green;
+    display: none;
+}
+

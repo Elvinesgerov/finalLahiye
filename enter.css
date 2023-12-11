@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.5s;
+}
+
+.back-auto{
+    display: flex;
+    gap: 5px;
+}
+
+::-webkit-scrollbar {
+    background-color: orange;
+    width: 10px;
+}
+
+.back-boxs{
+    width: 190px;
+    height: 140px;
+    background-color: #f5f5f5;
+}
+
+.back-boxs:hover{
+    background-color: orange;
+}
+
+.back-auto1, .back-auto2, .back-auto3, .back-auto4, .back-auto5, .back-auto6, .back-auto7{
+    display: flex;
+    gap: 5px;
+    margin-top: 7px;
+}
+
+.enterinputs{
+    width: 600px;
+    min-height: 550px;
+    max-height: 750px;
+    background-color: #f5f5f5;
+    border: 5px solid orange;
+    padding-top: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+    left: 900px;
+}
+
+.mood {
+    margin-left: 80%;
+    margin-top: -55px;
+}
+
+.backmood {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    border: 3px solid orange;
+    display: flex;
+    gap: 15px;
+}
+
+.ri-moon-fill{
+    font-size: 16px;
+    margin-left: 7px;
+    margin-top: 4px;
+}
+
+.ri-sun-line {
+    color: orange;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+input{
+    width: 450px;
+    height: 50px;
+    padding-left: 15px;
+    border: 3px solid blue;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px blue;
+    outline: none;
+}
+
+.enteremail{
+    margin-left: 25px;
+    margin-top: 60px;
+}
+
+.inputpassword{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.entersifre, .hiddenemail, .hiddenpassword{
+    margin-left: 25px;
+    margin-top: 45px;
+    display: none;
+}
+
+.entertext{
+    display: flex;
+    gap: 85px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.enterbtn{
+    width: 220px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    border: 3px solid blue;
+    margin-left: 175px;
+    margin-top: 20px;
+    font-size: 18px;
+}

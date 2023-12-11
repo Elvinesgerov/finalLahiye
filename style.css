@@ -1,0 +1,2023 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.began {
+    display: flex;
+    gap: 20px;
+    background-color: #f5f5f5;
+    height: 60px;
+    padding-top: 27px;
+    padding-left: 18%;
+    margin-left: -10px;
+    width: 1888.8px;
+    margin-top: -10px;
+}
+
+.mood {
+    margin-left: 30%;
+}
+
+.backmood {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    border: 3px solid orange;
+}
+
+.button {
+    margin-left: 15px;
+}
+
+.entry {
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border: 3px solid orange;
+}
+
+.note {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 10px;
+    height: 30px;
+    border: 3px solid black;
+}
+
+.header {
+    padding-left: 20%;
+    background-color: white;
+    display: flex;
+    padding-top: 40px;
+    margin-left: -10px;
+    width: 1638px;
+}
+
+.gamename {
+    color: orange;
+    font-size: 45px;
+    margin-left: -52px;
+    margin-top: 5px;
+}
+
+.searce {
+    width: 250px;
+    height: 50px;
+    border: 3px solid orange;
+    border-radius: 10px;
+    color: black;
+    outline: none;
+    padding-left: 10px;
+    margin-left: 20%;
+}
+
+.searcebtn {
+    height: 30px;
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+    border: 3px solid orange;
+    width: 30px;
+    margin-left: -45px;
+    margin-top: 12px;
+}
+
+.player {
+    margin-left: 18%;
+}
+
+.playerbtn {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid orange;
+    color: black;
+    background-color: white;
+    box-shadow: 10px 5px 5px orange;
+}
+
+.balancebtn {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid orange;
+    color: black;
+    background-color: white;
+    margin-left: 15px;
+    box-shadow: 10px 5px 5px orange;
+}
+
+.ri-shopping-basket-fill {
+    font-size: 20px;
+    margin-left: -50px;
+    color: orange;
+}
+
+.ri-add-line {
+    font-size: 25px;
+    margin-left: -70px;
+    color: orange;
+}
+
+.main {
+    padding-left: 17%;
+    border: none;
+    background-color: white;
+    display: flex;
+    color: black;
+    margin-left: 5px;
+    width: 1698px;
+}
+
+.category {
+    width: 250px;
+    height: 50px;
+    border: 3px solid orange;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-size: 19px;
+}
+
+.home {
+    margin-left: 10%;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.game,
+.payy,
+.rule,
+.aboutme,
+.connection {
+    margin-left: 5%;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.games {
+    width: 242.5px;
+    margin-left: 17.2%;
+    margin-top: -2px;
+    height: 135px;
+    overflow: auto;
+    position: absolute;
+    z-index: 2;
+    display: none;
+    background-color: white;
+    border: 3px solid orange;
+}
+
+::-webkit-scrollbar {
+    background-color: orange;
+    width: 8px;
+}
+
+li {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.freehome {
+    position: absolute;
+    z-index: 1;
+    margin-left: 17%;
+    top: 34%;
+    width: 1060px;
+    height: 400px;
+    border-radius: 25px;
+}
+
+.cards {
+    margin-left: 68%;
+    margin-top: 30px;
+}
+
+
+.bank,
+.balans {
+    height: 190px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    filter: brightness(110%);
+}
+
+.bank {
+    margin-top: 85px;
+    margin-left: 10px;
+}
+
+.balans {
+    margin-top: 5px;
+    filter: brightness(130%);
+    margin-left: 10px;
+}
+
+.ri-arrow-left-circle-fill {
+    font-size: 50px;
+    margin-left: 15%;
+    position: absolute;
+    top: 52.7%;
+    color: orange;
+}
+
+.ri-arrow-right-circle-fill {
+    font-size: 50px;
+    color: orange;
+}
+
+.gorsel1 {
+    border: 2.5px solid orange;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    z-index: 1;
+    bottom: 93px;
+    left: 36%;
+    border-radius: 50%;
+}
+
+.sell {
+    background-color: #eaeaea;
+    border: none;
+    height: 475px;
+    padding-top: 10px;
+    margin-left: -10px;
+    width: 2299px;
+}
+
+.gamessell {
+    border: none;
+    width: 1523px;
+    height: 60px;
+    background-color: orange;
+    margin-left: 17%;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+}
+
+.gamessell1 {
+    border: none;
+    width: 1525px;
+    height: 60px;
+    background-color: orange;
+    margin-left: 17%;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+}
+
+.ri-shopping-cart-fill,
+.ri-newspaper-fill {
+    color: white;
+    font-size: 30px;
+    margin-left: 22px;
+    margin-top: 14px;
+}
+
+.play {
+    margin-top: 16px;
+    color: white;
+    font-size: 25px;
+}
+
+.pubgfoto,
+.freefrifoto,
+.tiktokfoto,
+.valorantfoto,
+.efutbollfoto,
+.pointblankfoto,
+.calldutyfoto,
+.netflixfoto,
+.spotifyfoto {
+    width: 243px;
+    border-radius: 15px;
+}
+
+.mobilefoto {
+    margin-left: 17%;
+    margin-top: 2%;
+    background-color: white;
+    width: 250px;
+    height: 150px;
+    padding-left: 10px;
+    padding-top: 12px;
+    border-radius: 15px;
+}
+
+.mobilefoto:hover,
+.freefoto:hover,
+.tictocfoto:hover,
+.valorant:hover,
+.efutboll:hover,
+.pointblank:hover,
+.callduty:hover,
+.netflix:hover,
+.netflix1:hover,
+.spotify:hover {
+    background-color: orange;
+    position: relative;
+    top: -15px;
+}
+
+.gamesfoto {
+    display: flex;
+    gap: 55px;
+}
+
+.freefoto,
+.tictocfoto,
+.valorant,
+.efutboll,
+.pointblank,
+.callduty,
+.netflix,
+.netflix1,
+.spotify {
+    margin-top: 2%;
+    background-color: white;
+    width: 250px;
+    height: 150px;
+    padding-left: 10px;
+    padding-top: 12px;
+    border-radius: 15px;
+}
+
+.gamesfoto1 {
+    margin-left: 17%;
+    display: flex;
+    gap: 55px;
+}
+
+.spotifyfoto {
+    width: 230px;
+    margin-left: 4px;
+    margin-top: -7px;
+}
+
+.new {
+    margin-left: 40px;
+    width: 2043px;
+    margin-top: 100px;
+}
+
+.services {
+    border: none;
+    background-color: #eaeaea;
+    width: 300px;
+    height: 180px;
+    margin-left: 17.2%;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding-top: 30px;
+}
+
+.services1 {
+    margin-top: 40px;
+    border-radius: 10px;
+    padding-top: 30px;
+    border: none;
+    background-color: #eaeaea;
+    width: 300px;
+    height: 180px;
+    margin-left: 30px;
+}
+
+.jeticon {
+    border: 3px solid orange;
+    width: 50px;
+    height: 50px;
+    padding-left: 4%;
+    padding-top: 16px;
+    border-radius: 100%;
+    color: orange;
+    margin-left: 38%;
+}
+
+.ri-send-plane-fill,
+.ri-shield-fill,
+.ri-vip-fill,
+.ri-money-dollar-circle-fill {
+    font-size: 35px;
+}
+
+.basliqxidmet {
+    margin-left: -40px;
+    width: 123.8px;
+    margin-top: 28px;
+}
+
+.textxidmet {
+    width: 270px;
+    margin-left: -110px;
+}
+
+.servicesboxs {
+    display: flex;
+    gap: 55px;
+    margin-left: 17%;
+    height: 300px;
+}
+
+.basliqmusteri {
+    margin-left: -75px;
+    width: 200px;
+    margin-top: 30px;
+}
+
+.foot {
+    background-color: #eaeaea;
+    width: 1910px;
+    height: 250px;
+    border: none;
+    padding-left: 17%;
+    padding-top: 25px;
+    display: flex;
+    gap: 65px;
+    margin-left: -10px;
+}
+
+.textfoot {
+    width: 440px;
+}
+
+.footsira {
+    margin-top: 66px;
+    margin-left: -35px;
+}
+
+.footbasliq {
+    margin-left: 65%;
+}
+
+.textfoot1 {
+    width: 270px;
+    margin-top: 23px;
+    font-size: 19px;
+}
+
+.inputfoot {
+    height: 30px;
+    width: 260px;
+    border: 4px solid orange;
+    border-radius: 15px;
+    outline: none;
+    color: black;
+    padding-left: 15px;
+}
+
+.footbtn {
+    color: white;
+    background-color: orange;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.theend {
+    border: none;
+    width: 2043px;
+    height: 108px;
+    padding-top: 20px;
+    display: flex;
+    gap: 35px;
+    margin-left: -10px;
+}
+
+.endtext {
+    margin-left: 17%;
+}
+
+.facebook {
+    margin-left: 45%;
+    width: 40px;
+    height: 40px;
+}
+
+.instagram {
+    width: 40px;
+    height: 40px;
+}
+
+.gorsel2 {
+    border: 2.5px solid orange;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    z-index: 1;
+    bottom: 119px;
+    left: 48%;
+    border-radius: 50%;
+}
+
+.gorsel3 {
+    border: 2.5px solid orange;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    z-index: 1;
+    bottom: 142px;
+    left: 42%;
+    border-radius: 50%;
+}
+
+a:hover {
+    color: orange;
+    position: relative;
+    top: -5px;
+    transition: 0.7s;
+}
+
+.ri-sun-line {
+    color: orange;
+    font-size: 20px;
+}
+
+.div2 {
+    margin-top: -30px;
+    margin-left: -10px;
+    width: 2200px;
+}
+
+.searcebtn,
+.facebook,
+.instagram,
+.services1 {
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.searcebtn:hover,
+.facebook:hover,
+.instagram:hover,
+.services1:hover {
+    transform: rotate(360deg);
+}
+
+.texthidden {
+    border: none;
+    width: 100px;
+    margin-top: -15px;
+    padding-left: 40px;
+    color: white;
+    background-color: orange;
+    height: 20px;
+    margin-left: 66.5%;
+    position: relative;
+    z-index: 1;
+    padding-top: -10px;
+    top: 31px;
+    font-weight: 900;
+    display: none;
+}
+
+.ri-corner-right-up-fill {
+    margin-left: 69%;
+    position: relative;
+    top: 38px;
+    font-size: 26px;
+    color: orange;
+    font-weight: 900;
+    display: none;
+}
+
+.playerbtn:hover {
+    background-color: orange;
+    color: white;
+}
+
+.playerbtn:hover .ri-shopping-basket-fill {
+    color: white;
+}
+
+.balancebtn:hover {
+    background-color: orange;
+    color: white;
+}
+
+.balancebtn:hover .ri-add-line {
+    color: white;
+}
+
+.services1:hover {
+    position: relative;
+    top: -15px;
+}
+
+.playerbtn,
+.balancebtn,
+.gamename {
+    transition: transform 0.5s ease;
+}
+
+.playerbtn:hover,
+.balancebtn:hover,
+.gamename:hover {
+    transform: rotate(360deg);
+}
+
+.balans:hover,
+.bank:hover {
+    position: relative;
+    top: -15px;
+}
+
+.ri-shopping-cart-fill,
+.ri-bank-line,
+.ri-question-line {
+    color: white;
+    font-size: 30px;
+    margin-left: 22px;
+    margin-top: 14px;
+}
+
+.hiddensearce {
+    position: absolute;
+    z-index: 2;
+    background-color: palegoldenrod;
+    color: black;
+    min-height: 60px;
+    max-height: 170px;
+    width: 269px;
+    left: 44%;
+    border-radius: 15px;
+    top: 193px;
+    display: block;
+    overflow: auto;
+    display: none;
+    margin-left: -45px;
+}
+
+.question {
+    background-color: #f5f5f5;
+    width: 1519px;
+    min-height: 300px;
+    max-height: 620px;
+    margin-left: 17.2%;
+    margin-top: 35px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.questionboxs {
+    background-color: white;
+    width: 1460px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+input{
+    box-shadow: 10px 5px 5px orange;
+}
+
+.problems,
+.problems1,
+.problems2 {
+    padding-left: 15px;
+    padding-top: 25px;
+    background-color: white;
+    display: flex;
+}
+
+.questiontext {
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: -4px;
+}
+
+.problems:hover,
+.problems1:hover,
+.problems2:hover {
+    background-color: #f5f5f5;
+    padding-left: 35px;
+    transition: 0.5s;
+}
+
+.answer,
+.answer1,
+.answer2 {
+    padding-left: 15px;
+    padding-top: 25px;
+    background-color: white;
+    margin-top: -15px;
+    display: none;
+}
+
+.abunemesaage {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: 500;
+    color: green;
+    display: none;
+}
+
+.ri-list-check {
+    font-size: 25px;
+    display: none;
+}
+
+.ri-user-line {
+    font-size: 25px;
+    display: none;
+}
+
+.gamename1 {
+    display: none;
+}
+
+.hiddenbalance {
+    display: none;
+}
+
+.hiddenlist {
+    display: none;
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .began {
+        display: flex;
+        gap: 10px;
+        background-color: white;
+        height: 50px;
+        padding-top: 27px;
+        width: 102.5%;
+        margin-top: -10px;
+    }
+
+    .ri-list-check {
+        font-size: 22px;
+        display: block;
+        margin-left: -50px;
+        margin-top: -10px;
+    }
+
+    .ri-user-line {
+        font-size: 22px;
+        display: block;
+        margin-left: 130px;
+        margin-top: -8px;
+    }
+
+    .news,
+    .accounts {
+        display: none;
+    }
+
+    .mood {
+        margin-left: -90px;
+        margin-top: -5px;
+    }
+
+    .backmood {
+        width: 50px;
+        height: 20px;
+        border-radius: 10px;
+        background-color: white;
+        color: black;
+        border: 3px solid orange;
+    }
+
+    .ri-moon-fill {
+        font-size: 13px;
+    }
+
+    .ri-sun-line {
+        color: orange;
+        font-size: 14px;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .header {
+        padding-left: 20%;
+        background-color: white;
+        display: flex;
+        padding-top: 40px;
+        margin-left: -10px;
+        width: 102.5%;
+    }
+
+    .gamename {
+        display: none;
+    }
+
+    .gamename1 {
+        color: orange;
+        font-size: 30px;
+        margin-left: 10%;
+        margin-top: -17px;
+        display: block;
+    }
+
+    .searce {
+        width: 110px;
+        height: 30px;
+        border: 3px solid orange;
+        border-radius: 10px;
+        color: black;
+        outline: none;
+        padding-left: 10px;
+        margin-left: 20%;
+        margin-top: -30px
+    }
+
+    .searcebtn {
+        height: 18px;
+        background-color: orange;
+        color: white;
+        border-radius: 20px;
+        border: 3px solid orange;
+        width: 18px;
+        margin-left: -22px;
+        margin-top: -24px;
+        font-size: 10px;
+    }
+
+    .player {
+        margin-left: 18%;
+        margin-top: -30px;
+    }
+
+    .playerbtn {
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        border: 3px solid orange;
+        color: black;
+        background-color: white;
+        font-size: 10px;
+        padding-left: 45px;
+        margin-left: -20px;
+    }
+
+    .ri-shopping-basket-fill {
+        font-size: 15px;
+        margin-left: -50px;
+        color: orange;
+    }
+
+    .balancebtn1 {
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        border: 3px solid orange;
+        color: black;
+        background-color: white;
+        padding-left: 40px;
+        font-size: 11px;
+        margin-left: -55%;
+        display: block;
+    }
+
+    .hiddenbalance {
+        display: block;
+        width: 120px;
+        height: 30px;
+        margin-left: 20%;
+        padding-left: 50px;
+        position: absolute;
+        z-index: 1;
+        left: -85px;
+        top: 51px;
+    }
+
+    .balancebtn {
+        display: none;
+    }
+
+    .ri-add-line {
+        font-size: 16px;
+        margin-left: -50px;
+        color: orange;
+    }
+
+    .main {
+        border: none;
+        background-color: white;
+        display: flex;
+        color: black;
+        margin-left: 1px;
+        width: 90%;
+    }
+
+    .category {
+        display: none;
+    }
+
+    .home {
+        display: none;
+    }
+
+    .game,
+    .payy,
+    .rule,
+    .aboutme,
+    .connection {
+        display: none;
+    }
+
+    .freehome {
+        position: absolute;
+        z-index: 1;
+        margin-left: 5%;
+        top: 34%;
+        width: 94%;
+        height: 190px;
+        border-radius: 25px;
+        margin-top: -20px;
+    }
+
+    .cards {
+        margin-left: 0.7%;
+        margin-top: 9%;
+        background-color: white;
+        width: 250px;
+        display: flex;
+    }
+
+    .bank {
+        height: 90px;
+        width: 180px;
+        background-color: white;
+        border-radius: 20px;
+        filter: brightness(110%);
+        margin-top: 210px;
+    }
+
+    .balans {
+        height: 90px;
+        width: 180px;
+        background-color: white;
+        border-radius: 20px;
+        filter: brightness(110%);
+        margin-top: 210px;
+    }
+
+    .div2 {
+        width: 90%;
+        background-color: white;
+    }
+
+    .gorsel1 {
+        border: 2.5px solid orange;
+        background-color: white;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        z-index: 1;
+        bottom: 148px;
+        left: 30%;
+        border-radius: 50%;
+    }
+
+    .gorsel2 {
+        border: 2.5px solid orange;
+        background-color: white;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        z-index: 1;
+        bottom: 168px;
+        left: 45%;
+        border-radius: 50%;
+    }
+
+    .gorsel3 {
+        border: 2.5px solid orange;
+        background-color: white;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        z-index: 1;
+        bottom: 188px;
+        left: 59%;
+        border-radius: 50%;
+    }
+
+    .sell {
+        background-color: white;
+        border: none;
+        height: 80px;
+        padding-top: 10px;
+        width: 102.5%;
+        margin-top: -60px;
+    }
+
+    .gamessell {
+        border: none;
+        width: 94%;
+        height: 50px;
+        background-color: orange;
+        margin-left: 17px;
+        border-radius: 10px;
+        display: flex;
+        gap: 30px;
+    }
+
+    .play {
+        margin-top: 15px;
+        color: white;
+        font-size: 15px;
+    }
+
+    .ri-shopping-cart-fill,
+    .ri-newspaper-fill {
+        color: white;
+        font-size: 25px;
+        margin-left: 22px;
+        margin-top: 12px;
+    }
+
+    .mobilefoto {
+        margin-left: 4%;
+        margin-top: 15px;
+        background-color: #f5f5f5;
+        width: 190px;
+        height: 110px;
+        padding-left: 10px;
+        padding-top: 12px;
+        border-radius: 15px;
+    }
+
+
+    .pubgfoto,
+    .freefrifoto,
+    .tiktokfoto,
+    .valorantfoto,
+    .efutbollfoto,
+    .pointblankfoto,
+    .calldutyfoto,
+    .netflixfoto,
+    .spotifyfoto {
+        width: 170px;
+        border-radius: 15px;
+    }
+
+    .pubgfoto {
+        margin-top: -5px;
+    }
+
+    .freefoto,
+    .tictocfoto,
+    .valorant,
+    .efutboll,
+    .pointblank,
+    .callduty,
+    .netflix,
+    .netflix1,
+    .spotify {
+        margin-top: 18.5px;
+        background-color: #f5f5f5;
+        width: 175px;
+        height: 107px;
+        padding-left: 10px;
+        padding-top: 12px;
+        border-radius: 15px;
+    }
+
+    .freefrifoto {
+        width: 160px;
+        margin-left: -2.5px;
+        margin-top: -3px;
+    }
+
+    .tictocfoto {
+        background-color: #f5f5f5;
+        margin-top: 150px;
+        margin-left: -440px;
+        width: 186px;
+    }
+
+    .freefoto {
+        margin-top: 16.5px;
+        height: 110px;
+        margin-left: -8%;
+    }
+
+    .tiktokfoto {
+        width: 165px;
+        margin-left: 1px;
+    }
+
+    .valorant {
+        margin-top: 150px;
+        margin-left: -8%;
+    }
+
+    .valorantfoto {
+        width: 160px;
+    }
+
+    .efutboll {
+        margin-top: 270px;
+        margin-left: -435px;
+        width: 185px;
+    }
+
+    .efutbollfoto {
+        margin-top: -6px;
+        margin-left: -3px;
+    }
+
+    .pointblank {
+        background-color: #f5f5f5;
+        width: 179px;
+        height: 110px;
+        margin-left: -51px;
+
+    }
+
+    .pointblankfoto {
+        margin-top: -6px;
+        height: 97px;
+        width: 170px;
+        margin-left: -5px;
+    }
+
+    .calldutyfoto {
+        margin-top: -6px;
+        margin-left: -5px;
+    }
+
+    .callduty {
+        background-color: #f5f5f5;
+        margin-top: -105px;
+        width: 180px;
+        margin-left: -9%;
+    }
+
+    .netflix {
+        background-color: #f5f5f5;
+        margin-left: -234px;
+        width: 178px;
+        height: 108px;
+    }
+
+    .netflixfoto {
+        margin-left: -6px;
+        margin-top: -5px;
+        height: 95px;
+    }
+
+    .netflix1 {
+        background-color: #f5f5f5;
+        margin-left: -430px;
+        margin-top: 140px;
+        width: 180px;
+    }
+
+    .spotify {
+        background-color: #f5f5f5;
+        margin-top: 140px;
+        width: 181px;
+        margin-left: -11%;
+    }
+
+    .spotifyfoto {
+        margin-left: -4px;
+        height: 95px;
+    }
+
+    .new {
+        margin-left: -10px;
+        width: 102.5%;
+        margin-top: 630px;
+        background-color: white;
+    }
+
+    .gamessell1 {
+        border: none;
+        width: 97%;
+        height: 40px;
+        background-color: orange;
+        margin-left: 11px;
+        border-radius: 10px;
+        display: flex;
+        gap: 30px;
+        margin-top: 25px;
+    }
+
+    .ri-shopping-cart-fill,
+    .ri-newspaper-fill {
+        color: white;
+        font-size: 18px;
+        margin-left: 22px;
+        margin-top: 14px;
+    }
+
+    .new {
+        display: none;
+    }
+
+    .foot {
+        background-color: #f5f5f5;
+        width: 102.5%;
+        height: 480px;
+        border: none;
+        margin-left: -10px;
+        margin-top: 610px;
+        display: block;
+    }
+
+    .elvingame p {
+        margin-left: -50px;
+        font-size: 15px;
+        width: 390px;
+    }
+
+    .elvingame .gamestore {
+        margin-left: -50px;
+        margin-top: -10px;
+    }
+
+    .footbasliq {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .elvingame ul li a {
+        font-size: 15px;
+    }
+
+    .elvingame ul {
+        margin-left: -30px;
+    }
+
+    .elvingame .footsira {
+        margin-left: 170px;
+        margin-top: -92px;
+    }
+
+    .elvingame .footabune {
+        margin-left: -50px;
+        margin-top: 20px;
+    }
+
+    .elvingame .textfoot1 {
+        width: 360x;
+        margin-top: 4px;
+    }
+
+    .elvingame input {
+        margin-left: -50px;
+        margin-top: 20px;
+    }
+
+    .ri-send-plane-fill {
+        font-size: 20px;
+    }
+
+    .footbtn {
+        color: white;
+        background-color: orange;
+        border: none;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-left: 10px;
+        margin-left: 7px;
+    }
+
+    .abunemesaage {
+        margin-top: 5px;
+        font-weight: 500;
+        color: green;
+        display: none;
+    }
+
+    .theend {
+        border: none;
+        height: 60px;
+        padding-top: 20px;
+        display: flex;
+        gap: 35px;
+        margin-left: -10px;
+        background-color: white;
+        width: 102.5%;
+    }
+
+    .endtext {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+
+    .facebook {
+        margin-left: 45%;
+        width: 20px;
+        height: 20px;
+    }
+
+    .instagram {
+        width: 20px;
+        height: 20px;
+        margin-left: -10px;
+    }
+
+    .hiddensearce {
+        position: absolute;
+        z-index: 2;
+        background-color: palegoldenrod;
+        color: black;
+        min-height: 30px;
+        max-height: 170px;
+        width: 125px;
+        left: 175px;
+        border-radius: 15px;
+        top: 85px;
+        display: block;
+        overflow: auto;
+        display: none;
+        margin-left: -45px;
+    }
+
+    .hiddenlink {
+        font-size: 13px;
+        margin-left: 8px;
+    }
+
+    .texthidden {
+        border: none;
+        width: 70px;
+        margin-top: -15px;
+        padding-left: 14px;
+        color: white;
+        background-color: orange;
+        height: 15px;
+        margin-left: 70%;
+        position: relative;
+        z-index: 1;
+        padding-top: -10px;
+        top: 31px;
+        font-weight: 900;
+        display: none;
+        font-size: 12px;
+    }
+
+    .ri-corner-right-up-fill {
+        display: none;
+    }
+
+    .hiddenlist {
+        position: absolute;
+        z-index: 2;
+        top: 110px;
+        background-color: white;
+        width: 150px;
+        height: 250px;
+        margin-top: -70px;
+        border-radius: 10px;
+        border: 3px solid orange;
+        display: none;
+    }
+
+    .hiddenhome {
+        margin-top: 10px;
+        margin-left: 6px;
+        display: flex;
+        gap: 10px;
+        font-size: 17px;
+    }
+
+    hr {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .hiddenlist {
+        position: absolute;
+        z-index: 2;
+        top: 110px;
+        background-color: white;
+        width: 150px;
+        height: 250px;
+        margin-top: -70px;
+        border-radius: 10px;
+        border: 3px solid orange;
+        display: none;
+    }
+
+    .hiddenhome {
+        margin-top: 10px;
+        margin-left: 6px;
+        display: flex;
+        gap: 10px;
+        font-size: 17px;
+    }
+
+    hr {
+        margin-top: 10px;
+    }
+
+    .began {
+        display: flex;
+        gap: 20px;
+        background-color: white;
+        height: 45px;
+        margin-left: -10px;
+        width: 100%;
+        margin-top: -10px;
+    }
+
+    .ri-list-check {
+        font-size: 22px;
+        display: block;
+        margin-left: -50px;
+        margin-top: -10px;
+    }
+
+    .gamename1 {
+        color: orange;
+        font-size: 30px;
+        margin-left: 20%;
+        margin-top: -17px;
+        display: block;
+    }
+
+    .ri-user-line {
+        font-size: 22px;
+        display: block;
+        margin-left: 180px;
+        margin-top: -8px;
+    }
+
+    .mood {
+        margin-left: -140px;
+        margin-top: -5px;
+    }
+
+    .backmood {
+        width: 50px;
+        height: 20px;
+        border-radius: 10px;
+        background-color: white;
+        color: black;
+        border: 3px solid orange;
+    }
+
+    .ri-moon-fill {
+        font-size: 13px;
+    }
+
+    .ri-sun-line {
+        color: orange;
+        font-size: 14px;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .hiddenbalance {
+        display: block;
+        width: 120px;
+        height: 30px;
+        margin-left: 20%;
+        padding-left: 50px;
+        position: absolute;
+        z-index: 1;
+        left: -85px;
+        top: 45px;
+    }
+
+    .balancebtn1 {
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        border: 3px solid orange;
+        color: black;
+        background-color: white;
+        padding-left: 40px;
+        font-size: 11px;
+        margin-left: -55%;
+        display: block;
+    }
+
+    .ri-add-line {
+        font-size: 16px;
+        margin-left: -50px;
+        color: orange;
+    }
+
+    .gamename {
+        display: none;
+    }
+
+    .header {
+        padding-left: 20%;
+        background-color: white;
+        display: flex;
+        padding-top: 40px;
+        margin-left: -10px;
+        width: 100%;
+    }
+
+    .searce {
+        width: 110px;
+        height: 30px;
+        border: 3px solid orange;
+        border-radius: 10px;
+        color: black;
+        outline: none;
+        padding-left: 10px;
+        margin-left: 20%;
+        margin-top: -30px
+    }
+
+    .searcebtn {
+        height: 18px;
+        background-color: orange;
+        color: white;
+        border-radius: 20px;
+        border: 3px solid orange;
+        width: 18px;
+        margin-left: -22px;
+        margin-top: -24px;
+        font-size: 10px;
+    }
+
+    .player {
+        margin-left: 18%;
+        margin-top: -30px;
+    }
+
+    .playerbtn {
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        border: 3px solid orange;
+        color: black;
+        background-color: white;
+        font-size: 10px;
+        padding-left: 45px;
+        margin-left: -20px;
+    }
+
+    .ri-shopping-basket-fill {
+        font-size: 15px;
+        margin-left: -50px;
+        color: orange;
+    }
+
+    .balancebtn {
+        display: none;
+    }
+
+    .news,
+    .accounts {
+        display: none;
+    }
+
+    .main {
+        border: none;
+        display: flex;
+        color: black;
+        margin-left: 1px;
+        width: 90%;
+    }
+
+    .category {
+        display: none;
+    }
+
+    .game,
+    .home,
+    .payy,
+    .rule,
+    .aboutme,
+    .connection {
+        display: none;
+    }
+
+    .freehome {
+        position: absolute;
+        z-index: 1;
+        margin-left: 5%;
+        top: 34%;
+        width: 94%;
+        height: 245px;
+        border-radius: 25px;
+        margin-top: -20px;
+    }
+
+    .div2 {
+        width: 90%;
+        background-color: white;
+    }
+
+    .cards {
+        margin-left: 4.5%;
+        margin-top: 90px;
+        background-color: white;
+        width: 250px;
+        display: flex;
+        gap: 40px;
+    }
+
+    .bank {
+        height: 120px;
+        width: 250px;
+        background-color: white;
+        border-radius: 20px;
+        filter: brightness(110%);
+        margin-top: 210px;
+    }
+
+    .balans {
+        height: 120px;
+        width: 250px;
+        background-color: white;
+        border-radius: 20px;
+        filter: brightness(110%);
+        margin-top: 210px;
+    }
+
+    .gorsel1 {
+        border: 2.5px solid orange;
+        background-color: white;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        z-index: 1;
+        bottom: 170px;
+        left: 30%;
+        border-radius: 50%;
+    }
+
+    .gorsel2 {
+        border: 2.5px solid orange;
+        background-color: white;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        z-index: 1;
+        bottom: 187px;
+        left: 48%;
+        border-radius: 50%;
+    }
+
+    .gorsel3 {
+        border: 2.5px solid orange;
+        background-color: white;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        z-index: 1;
+        bottom: 205px;
+        left: 64%;
+        border-radius: 50%;
+    }
+
+    .sell {
+        background-color: white;
+        border: none;
+        height: 80px;
+        padding-top: 10px;
+        width: 102.5%;
+        margin-top: -60px;
+    }
+
+    .gamessell {
+        border: none;
+        width: 96%;
+        height: 50px;
+        background-color: orange;
+        margin-left: 17px;
+        border-radius: 10px;
+        display: flex;
+        gap: 30px;
+    }
+
+    .ri-shopping-cart-fill,
+    .ri-newspaper-fill {
+        color: white;
+        font-size: 25px;
+        margin-left: 22px;
+        margin-top: 12px;
+    }
+
+    .play {
+        margin-top: 15px;
+        color: white;
+        font-size: 15px;
+    }
+
+    .pubgfoto,
+    .freefrifoto,
+    .tiktokfoto,
+    .valorantfoto,
+    .efutbollfoto,
+    .pointblankfoto,
+    .calldutyfoto,
+    .netflixfoto,
+    .spotifyfoto {
+        width: 170px;
+        border-radius: 15px;
+    }
+
+    .freefoto,
+    .tictocfoto,
+    .valorant,
+    .efutboll,
+    .pointblank,
+    .callduty,
+    .netflix,
+    .netflix1,
+    .spotify {
+        margin-top: 18.5px;
+        background-color: #f5f5f5;
+        width: 175px;
+        height: 107px;
+        padding-left: 10px;
+        padding-top: 12px;
+        border-radius: 15px;
+    }
+
+    .mobilefoto {
+        margin-left: 4%;
+        margin-top: 15px;
+        background-color: #f5f5f5;
+        width: 190px;
+        height: 110px;
+        padding-left: 10px;
+        padding-top: 12px;
+        border-radius: 15px;
+    }
+
+    .pubgfoto {
+        margin-top: -5px;
+    }
+
+    .freefoto {
+        margin-top: 16.5px;
+        height: 110px;
+        margin-left: -37px;
+    }
+
+    .freefrifoto {
+        width: 160px;
+        margin-left: -2.5px;
+        margin-top: -3px;
+    }
+
+    .tictocfoto {
+        background-color: #f5f5f5;
+        margin-top: 150px;
+        width: 186px;
+        margin-left: -40px;
+        margin-top: 18px;
+    }
+
+    .tiktokfoto {
+        width: 165px;
+        margin-left: 1px;
+    }
+
+    .valorant {
+        margin-top: 150px;
+        margin-left: -635px;
+    }
+
+    .valorantfoto {
+        width: 160px;
+    }
+
+    .efutboll {
+        margin-top: 150px;
+        width: 175px;
+        height: 104px;
+        margin-left: -27px;
+    }
+
+    .efutbollfoto {
+        margin-top: -6px;
+        margin-left: -3px;
+        width: 160px;
+    }
+
+    .gamesfoto1 {
+        margin-left: -10px;
+        background-color: white;
+        padding-left: 45px;
+    }
+
+    .pointblank {
+        background-color: #f5f5f5;
+        width: 175px;
+        height: 104px;
+    }
+
+    .pointblankfoto {
+        margin-top: -6px;
+        height: 94px;
+        width: 160px;
+        margin-left: -3px;
+    }
+
+    .calldutyfoto {
+        margin-top: -6px;
+        margin-left: -5px;
+    }
+
+    .callduty {
+        background-color: #f5f5f5;
+        margin-top: -110px;
+        width: 180px;
+        margin-left: 167px;
+    }
+
+    .netflix {
+        background-color: #f5f5f5;
+        margin-left: -234px;
+        width: 177px;
+        height: 100px;
+    }
+
+    .netflixfoto {
+        margin-left: -6px;
+        margin-top: -5px;
+        height: 90px;
+        width: 174px;
+    }
+
+    .netflix1 {
+        background-color: #f5f5f5;
+        margin-left: -420px;
+        margin-top: 20px;
+        width: 170px;
+        height: 100px;
+    }
+
+    .netflixfoto {
+        width: 160px;
+        height: 90px;
+    }
+
+    .spotify {
+        display: none;
+    }
+
+    .new {
+        display: none;
+    }
+
+    .foot {
+        background-color: #f5f5f5;
+        width: 102.5%;
+        height: 550px;
+        border: none;
+        margin-left: -10px;
+        margin-top: 400px;
+        display: block;
+    }
+
+    .elvingame p {
+        margin-left: -80px;
+        font-size: 15px;
+        width: 570px;
+    }
+
+    .elvingame .gamestore {
+        margin-top: -10px;
+        margin-left: -80px;
+    }
+
+    .footbasliq {
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+
+    .elvingame ul li a {
+        font-size: 18px;
+    }
+
+    .elvingame ul {
+        margin-left: -60px;
+        margin-top: 20px;
+    }
+
+    .elvingame .footsira {
+        margin-left: 170px;
+        margin-top: -92px;
+    }
+
+    .elvingame .footabune {
+        margin-left: -80px;
+        margin-top: 40px;
+    }
+
+    .elvingame .textfoot1 {
+        width: 500px;
+        margin-top: 15px;
+    }
+
+    .elvingame input {
+        margin-left: -80px;
+        margin-top: 20px;
+    }
+
+    .ri-send-plane-fill {
+        font-size: 20px;
+    }
+
+    .footbtn {
+        color: white;
+        background-color: orange;
+        border: none;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-left: 10px;
+        margin-left: 7px;
+    }
+
+    .abunemesaage {
+        margin-top: 5px;
+        font-weight: 500;
+        color: green;
+        display: none;
+    }
+
+    .theend {
+        border: none;
+        height: 60px;
+        display: flex;
+        gap: 35px;
+        margin-left: -10px;
+        background-color: white;
+        width: 102.5%;
+        margin-top: 60px;
+    }
+
+    .endtext {
+        margin-left: 20px;
+        font-size: 15px;
+    }
+
+    .facebook {
+        margin-left: 45%;
+        width: 20px;
+        height: 20px;
+    }
+
+    .instagram {
+        width: 20px;
+        height: 20px;
+        margin-left: -10px;
+    }
+
+    .texthidden {
+        border: none;
+        width: 70px;
+        margin-top: -15px;
+        padding-left: 14px;
+        color: white;
+        background-color: orange;
+        height: 15px;
+        margin-left: 63%;
+        position: relative;
+        z-index: 1;
+        padding-top: -10px;
+        top: 31px;
+        font-weight: 900;
+        display: none;
+        font-size: 12px;
+    }
+}
