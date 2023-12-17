@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 *{
@@ -19,7 +20,7 @@ body {
     height: 80px;
     padding-top: 27px;
     margin-left: -10px;
-    width: 100%;
+    width: 102.5%;
     margin-top: -10px;
 }
 
@@ -38,6 +39,7 @@ body {
     background-color: white;
     color: black;
     border: 3px solid orange;
+    box-shadow: 10px 5px 5px orange;
 }
 
 .button {
@@ -200,18 +202,16 @@ a {
 }
 
 .freehome {
-    position: absolute;
-    z-index: 1;
     margin-left: 17%;
-    top: 31%;
     width: 1060px;
     height: 400px;
     border-radius: 25px;
+    margin-top: 100px;
 }
 
 .cards {
     margin-left: 68%;
-    margin-top: 15px;
+    margin-top: -480px;
 }
 
 
@@ -266,7 +266,7 @@ a {
     height: 475px;
     padding-top: 10px;
     margin-left: -10px;
-    width: 100%;
+    width: 102.5%;
 }
 
 .gamessell {
@@ -321,6 +321,24 @@ a {
     margin-top: -6.5px;
 }
 
+.netflixfoto{
+    height: 138px;
+}
+
+.tiktokfoto{
+    height: 132px;
+    margin-top: -2.5px;
+}
+
+.valorant{
+    height: 132px;
+}
+
+.pointblankfoto{
+    height: 135px;
+}
+
+
 .mobilefoto {
     margin-left: 17%;
     margin-top: 2%;
@@ -370,6 +388,7 @@ a {
     border-radius: 15px;
 }
 
+
 .gamesfoto1 {
     margin-left: 17%;
     display: flex;
@@ -377,9 +396,9 @@ a {
 }
 
 .spotifyfoto {
-    width: 225px;
-    margin-left: 4px;
-    margin-top: -7px;
+    width: 233px;
+    margin-left: -2px;
+    margin-top: -5px;
     height: 135px;
 }
 
@@ -409,6 +428,7 @@ a {
     width: 300px;
     height: 200px;
     margin-left: 30px;
+    box-shadow: 10px 5px 5px orange;
 }
 
 .jeticon {
@@ -467,13 +487,21 @@ a {
 
 .foot {
     background-color: #eaeaea;
-    width: 100%;
+    width: 102.5%;
     height: 270px;
     border: none;
     padding-top: 25px;
     display: flex;
     gap: 65px;
     margin-left: -10px;
+    padding-left: 17%;
+}
+
+span{
+    color: orange;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 18px;
 }
 
 .textfoot {
@@ -576,8 +604,6 @@ a {
 
 a:hover {
     color: orange;
-    position: relative;
-    top: -5px;
     transition: 0.7s;
 }
 
@@ -795,6 +821,10 @@ input {
         padding: 0px;
     }
 
+    body{
+        overflow-x: hidden;
+    }
+
     .footlist{
         margin-left: 40px;
     }
@@ -809,10 +839,10 @@ input {
         margin-top: -10px;
     }
 
-    .ri-list-check {
+    .ri-menu-5-fill {
         font-size: 22px;
         display: block;
-        margin-left: -50px;
+        margin-left: 17px;
         margin-top: -10px;
     }
 
@@ -984,14 +1014,11 @@ input {
     }
 
     .freehome {
-        position: absolute;
-        z-index: 1;
         margin-left: 5%;
-        top: 34%;
-        width: 94%;
+        width: 107%;
         height: 190px;
         border-radius: 25px;
-        margin-top: -20px;
+        margin-top: 60px;
     }
 
     .cards {
@@ -1008,7 +1035,8 @@ input {
         background-color: white;
         border-radius: 20px;
         filter: brightness(110%);
-        margin-top: 210px;
+        margin-top: -15px;
+        margin-left: 20px;
     }
 
     .balans {
@@ -1017,7 +1045,8 @@ input {
         background-color: white;
         border-radius: 20px;
         filter: brightness(110%);
-        margin-top: 210px;
+        margin-top: -15px;
+        margin-left: 20px;
     }
 
     .div2 {
@@ -1099,8 +1128,8 @@ input {
         margin-left: 4%;
         margin-top: 15px;
         background-color: #f5f5f5;
-        width: 190px;
-        height: 110px;
+        width: 180px;
+        height: 107px;
         padding-left: 10px;
         padding-top: 12px;
         border-radius: 15px;
@@ -1151,28 +1180,31 @@ input {
     .tictocfoto {
         background-color: #f5f5f5;
         margin-top: 150px;
-        margin-left: -440px;
-        width: 186px;
+        margin-left: -430px;
+        width: 177px;
+        height: 95px;
     }
 
     .freefoto {
         margin-top: 16.5px;
-        height: 110px;
+        height: 104px;
         margin-left: -8%;
+        width: 175px;
     }
 
     .tiktokfoto {
         width: 165px;
-        margin-left: 1px;
+        margin-left: -4px;
     }
 
     .valorant {
         margin-top: 150px;
-        margin-left: -8%;
+        margin-left: -7%;
+        height: 97px;
     }
 
     .valorantfoto {
-        width: 160px;
+        width: 167px;
     }
 
     .efutboll {
@@ -1188,8 +1220,8 @@ input {
 
     .pointblank {
         background-color: #f5f5f5;
-        width: 179px;
-        height: 110px;
+        width: 182px;
+        height: 108px;
         margin-left: -51px;
 
     }
@@ -1228,7 +1260,7 @@ input {
 
     .netflix1 {
         background-color: #f5f5f5;
-        margin-left: -430px;
+        margin-left: -438px;
         margin-top: 140px;
         width: 180px;
     }
@@ -1237,7 +1269,8 @@ input {
         background-color: #f5f5f5;
         margin-top: 140px;
         width: 181px;
-        margin-left: -11%;
+        margin-left: -9.5%;
+        height: 105px;
     }
 
     .spotifyfoto {
@@ -1278,8 +1311,8 @@ input {
 
     .foot {
         background-color: #f5f5f5;
-        width: 102.5%;
-        height: 480px;
+        width: 101%;
+        height: 500px;
         border: none;
         margin-left: -10px;
         margin-top: 610px;
@@ -1360,7 +1393,7 @@ input {
         gap: 35px;
         margin-left: -10px;
         background-color: white;
-        width: 102.5%;
+        width: 101%;
     }
 
     .endtext {
@@ -1493,10 +1526,10 @@ input {
         margin-top: -10px;
     }
 
-    .ri-list-check {
+    .ri-menu-5-fill {
         font-size: 22px;
         display: block;
-        margin-left: -50px;
+        margin-left: 30px;
         margin-top: -10px;
     }
 

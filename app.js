@@ -47,7 +47,7 @@ let gorsel3 = document.querySelector(".gorsel3")
 let inputfoot = document.querySelector(".inputfoot")
 let abunemesaage = document.querySelector(".abunemesaage");
 let footbtn = document.querySelector(".footbtn")
-let list = document.querySelector (".ri-list-check")
+let list = document.querySelector (".ri-menu-5-fill")
 let user = document.querySelector(".ri-user-line")
 let balancebtn1 = document.querySelector (".balancebtn1")
 let cards = document.querySelector(".cards")
@@ -197,14 +197,10 @@ playerbtnn.addEventListener("click", () => {
     if (flag2 == true) {
         texthidden.style.display = "block"
         oxs.style.display = "block"
-        freehome.style.marginTop = "53px"
-        hiddenbalance.style.marginTop = "30px"
         flag2 = false
     } else {
         texthidden.style.display = "none"
         oxs.style.display = "none"
-        freehome.style.marginTop = "-3px"
-        hiddenbalance.style.marginTop = "-1px"
         flag2 = true
     }
 })

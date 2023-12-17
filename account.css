@@ -2,18 +2,27 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+*{
+    box-sizing: border-box;
 }
 
 .began {
     display: flex;
     gap: 20px;
     background-color: #f5f5f5;
-    height: 60px;
+    height: 85px;
     padding-top: 27px;
     padding-left: 18%;
     margin-left: -10px;
-    width: 1894px;
+    width: 100%;
     margin-top: -10px;
+}
+
+.news, .accounts, .help, .about, .connectionlink{
+    font-size: 17px;
 }
 
 .mood {
@@ -27,6 +36,7 @@ body {
     background-color: white;
     color: black;
     border: 3px solid orange;
+    box-shadow: 10px 5px 5px orange;
 }
 
 .ri-sun-line{
@@ -61,11 +71,11 @@ body {
     border: none;
     width: 100px;
     margin-top: -15px;
-    padding-left: 40px;
+    padding-left: 23px;
     color: white;
     background-color: orange;
     height: 20px;
-    margin-left: 70%;
+    margin-left: 62.2%;
     position: relative;
     z-index: 1;
     padding-top: -10px;
@@ -75,7 +85,7 @@ body {
 }
 
 .ri-corner-right-up-fill {
-    margin-left: 72.5%;
+    margin-left: 64%;
     position: relative;
     top: 38px;
     font-size: 26px;
@@ -92,9 +102,9 @@ body {
     min-height: 60px;
     max-height: 170px;
     width: 269px;
-    left: 43.2%;
+    left: 39.2%;
     border-radius: 15px;
-    top: 193px;
+    top: 182px;
     display: block;
     overflow: auto;
     display: none;
@@ -338,6 +348,7 @@ a:hover{
     margin-top: 30px;
     border-radius: 15px;
     height: 240px;
+    box-shadow: 10px 5px 5px orange;
 }
 
 .headertext{
@@ -385,7 +396,7 @@ a:hover{
     border-radius: 15px;
 }
 
-.accountbtn{
+.accountbtn, .accountbtn1{
     width: 150px;
     height: 40px;
     margin-top: 10px;
@@ -395,4 +406,340 @@ a:hover{
     border: none;
     font-size: 21px;
     font-weight: 700;
+    border: 3px solid blue;
+}
+
+.new {
+    margin-left: -10px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.servicesboxs {
+    display: flex;
+    gap: 55px;
+    margin-left: 17%;
+    height: 300px;
+}
+
+.searcebtn:hover,
+.facebook:hover,
+.instagram:hover,
+.services1:hover {
+    transform: rotate(360deg);
+}
+
+.services1:hover {
+    position: relative;
+    top: -15px;
+}
+
+.searcebtn,
+.facebook,
+.instagram,
+.services1 {
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.services1 {
+    margin-top: 40px;
+    border-radius: 10px;
+    padding-top: 30px;
+    border: none;
+    background-color: #eaeaea;
+    width: 300px;
+    height: 200px;
+    margin-left: 30px;
+    box-shadow: 10px 5px 5px orange;
+}
+
+.basliqxidmet {
+    margin-left: -40px;
+    width: 140px;
+    margin-top: 28px;
+}
+
+.textxidmet {
+    width: 270px;
+    margin-left: -110px;
+}
+
+.basliqmusteri {
+    margin-left: -75px;
+    width: 200px;
+    margin-top: 30px;
+}
+
+.ri-shield-fill,
+.ri-vip-fill,
+.ri-money-dollar-circle-fill {
+    font-size: 35px;
+}
+
+.jeticon {
+    border: 3px solid orange;
+    width: 50px;
+    height: 50px;
+    padding-left: 1%;
+    padding-top: 7.5px;
+    border-radius: 100%;
+    color: orange;
+    margin-left: 38%;
+}
+
+.ri-arrow-right-up-line{
+    font-size: 34px;
+    margin-left: 3px;
+    margin-top: -2px;
+}
+
+.foot {
+    background-color: #eaeaea;
+    width: 100%;
+    height: 270px;
+    border: none;
+    padding-top: 25px;
+    display: flex;
+    gap: 65px;
+    margin-left: -10px;
+    padding-left: 17%;
+}
+
+.elvingame {
+    margin-left: 2%;
+}
+
+.textfoot {
+    width: 440px;
+}
+
+.footbasliq {
+    margin-left: 76%;
+}
+
+.footsira {
+    margin-top: 66px;
+    margin-left: -35px;
+}
+
+.textfoot1 {
+    width: 270px;
+    margin-top: 23px;
+    font-size: 19px;
+}
+
+.inputfoot {
+    height: 40px;
+    width: 260px;
+    border: 4px solid orange;
+    border-radius: 15px;
+    outline: none;
+    color: black;
+    padding-left: 15px;
+}
+
+.footbtn {
+    color: white;
+    background-color: orange;
+    border: none;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.ri-send-plane-fill{
+    font-size: 25px;
+}
+
+.abunemesaage {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: 500;
+    color: green;
+    display: none;
+}
+
+.theend {
+    border: none;
+    width: 100%;
+    height: 108px;
+    padding-top: 20px;
+    display: flex;
+    gap: 35px;
+    margin-left: -10px;
+}
+
+.endtext {
+    margin-left: 17%;
+}
+
+.facebook {
+    margin-left: 45%;
+    width: 40px;
+    height: 40px;
+}
+
+.instagram {
+    width: 40px;
+    height: 40px;
+}
+
+.hiddenlink{
+    font-size: 22px;
+}
+
+.elvingame ul li a{
+    font-size: 21px;
+}
+
+.hiddenbirbank, .hiddenbirbank1{
+    background-color: #f5f5f5;
+    width: 1510px;
+    height: 250px;
+    margin-left: 385px;
+    border-radius: 10px;
+    margin-top: 35px;
+    color: black;
+    display: flex;
+    gap: 50px;
+    box-shadow: 10px 5px 5px orange;
+    display: none;
+}
+
+.formfile, .formfile1{
+    width: 300px;
+    box-shadow: none;
+    background-color: green;
+    font-size: 22px;
+    border: none;
+    color: white;
+}
+label{
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 900;
+    color: orange;
+}
+
+.hiddenfile{
+    margin-left: 70px;
+    margin-top: 20px;
+    padding-top:25px;
+}
+
+
+.hiddencard, .hiddencard1{
+    margin-left: 850px;
+    padding-top: 30px;
+    margin-top: -185px;
+    /* margin-top: -250px; */
+}
+
+.cardnumber, .cardnumber1, .cardnumber2, .cardnumber3{
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    border: 3px solid blue;
+    border-radius: 15px;
+    font-size: 18px;
+    outline: none;
+    box-shadow: 10px 5px 5px blue;
+}
+
+.cardinputs{
+    display: flex;
+    gap: 40px;
+}
+
+.cardbutton, .filebutton, .filebutton1, .cardbutton1{
+    width: 100px;
+    height: 40px;
+    border: 3px solid blue;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+}
+
+span{
+    color: orange;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.filetext, .filetext1, .filetext2, .filetext3{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 900;
+    color: green;
+    display: none;
+}
+
+.bankaccount:hover{
+    margin-left: 500px;
+    background-color: grey;
+    color: white;
+    transition: 1.5s;
+}
+
+.bankaccount:hover .text1{
+    color: white;
+    transition: 1.5s;
+}
+
+.bankaccount:hover .text2{
+    color: white;
+    transition: 1.5s;
+}
+
+.bankaccount:hover .number1{
+    color: white;
+    transition: 1.5s;
+}
+
+.hiddenbirbank:hover{
+    margin-left: 500px;
+    background-color: grey;
+    color: white;
+    transition: 1.5s;
+}
+
+.hiddenbirbank1:hover{
+    margin-left: 500px;
+    background-color: grey;
+    color: white;
+    transition: 1.5s;
+}
+
+.hiddenbirbank:hover .filetext{
+    color: white;
+    transition: 1.5s;
+}
+
+.hiddenbirbank1:hover .filetext{
+    color: white;
+    transition: 1.5s;
+}
+
+.hiddenbirbank:hover .filetext1{
+    color: white;
+    transition: 1.5s;
+}
+
+.hiddenbirbank1:hover .filetext1{
+    color: white;
+    transition: 1.5s;
+}
+
+.hiddenbirbank1:hover .filetext2{
+    color: white;
+    transition: 1.5s;
+}
+
+.hiddenbirbank1:hover .filetext3{
+    color: white;
+    transition: 1.5s;
 }

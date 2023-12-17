@@ -3,7 +3,36 @@
 body {
     font-family: 'Roboto', sans-serif;
     transition: background-color 0.5s;
+    overflow-x: hidden;
 }
+
+.ri-eye-off-fill, .ri-eye-fill{
+    font-size: 23px;
+    margin-left: -50px;
+    font-weight: 900;
+    color: blue;
+}
+
+.ri-lock-fill, .ri-lock-unlock-fill{
+    margin-left: 447px;
+    color: blue;
+    font-size: 28px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 555px;
+}
+
+.ri-eye-off-line, .ri-eye-line{
+    display: block;
+    font-size: 23px;
+    font-weight: 900;
+    color: blue;
+    margin-left: 456px;
+    margin-top: -40px;
+    display: none;
+}
+
 
 .back-auto{
     display: flex;
