@@ -576,7 +576,7 @@ a{
 .foot{
     background-color: #eaeaea;
     width: 100%;
-    height: 270px;
+    height: 320px;
     border: none;
     padding-left: 17%;
     padding-top: 25px;
@@ -585,12 +585,19 @@ a{
     margin-left: -10px;
 }
 
+.footlist{
+    font-weight: 800;
+    font-size: 29px;
+}
+
 .textfoot{
     width: 440px;
+    font-size: 20px;
 }
 
 .footbasliq{
     margin-left: 65%;
+    font-size: 25px;
 }
 
 .footsira{
@@ -605,7 +612,7 @@ input{
 .textfoot1{
     width: 270px;
     margin-top: 23px;
-    font-size: 19px;
+    font-size: 23px;
 }
 
 .inputfoot{
@@ -634,6 +641,7 @@ input{
     font-weight: 500;
     color: green;
     display: none;
+    font-size: 20px;
 }
 
 .theend{
@@ -648,12 +656,14 @@ input{
 
 .endtext{
     margin-left: 17%;
+    font-size: 23px;
 }
 
 .facebook{
     margin-left: 45%;
     width: 40px;
     height: 40px;
+    margin-top: 15px;
 }
 
 .searcebtn, .facebook, .instagram, .services1{
@@ -668,6 +678,8 @@ input{
 .instagram{
     width: 40px;
     height: 40px;
+    margin-top: 15px;
+    margin-left: 15px;
 }
 
 ::-webkit-scrollbar {
