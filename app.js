@@ -54,6 +54,7 @@ let cards = document.querySelector(".cards")
 let hiddenlist = document.querySelector(".hiddenlist")
 let gamesfoto1 = document.querySelector(".gamesfoto1")
 let hiddenbalance = document.querySelector(".hiddenbalance")
+let hiddenhome = document.querySelectorAll(".hiddenclick")
 let flag = true
 let flag1 = true
 let flag2 = true
@@ -123,6 +124,9 @@ mood.addEventListener("click", () => {
             item.style.color = "white"
         })
         note.style.backgroundColor = "White"
+        hiddenhome.forEach(item=>{
+            item.style.color = "black"
+        })
         note.style.color = "#232323"
         header.style.backgroundColor = "#232323"
         searce.style.backgroundColor = "#232323"
@@ -156,6 +160,9 @@ mood.addEventListener("click", () => {
     } else {
         list.style.color = "black"
         balancebtn1.style.backgroundColor = "white"
+        hiddenhome.forEach(item=>{
+            item.style.color = "black"
+        })
         balancebtn1.style.color = "black"
         cards.style.backgroundColor = "white"
         gamesfoto1.style.backgroundColor = "white"

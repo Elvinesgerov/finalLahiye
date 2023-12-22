@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -24,15 +24,15 @@ body {
     margin-left: 18%;
 }
 
-.ri-list-check{
+.ri-list-check {
     display: none;
 }
 
-.gamename1{
+.gamename1 {
     display: none;
 }
 
-.ri-user-line{
+.ri-user-line {
     display: none;
 }
 
@@ -243,7 +243,7 @@ body {
     margin-top: 12px;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -426,7 +426,16 @@ a:hover {
     border-radius: 15px;
 }
 
-.pubgfoto, .freefrifoto, .tiktokfoto, .valorantfoto, .efutbollfoto, .pointblankfoto, .calldutyfoto, .netflixfoto, .netflixfoto, .spotifyfoto{
+.pubgfoto,
+.freefrifoto,
+.tiktokfoto,
+.valorantfoto,
+.efutbollfoto,
+.pointblankfoto,
+.calldutyfoto,
+.netflixfoto,
+.netflixfoto,
+.spotifyfoto {
     width: 235px;
     margin-top: 0.5px;
     height: 125px;
@@ -478,7 +487,7 @@ a:hover {
     box-shadow: 10px 5px 5px orange;
 }
 
-input{
+input {
     box-shadow: 10px 5px 5px orange;
 }
 
@@ -493,7 +502,7 @@ input{
     margin-left: 38%;
 }
 
-.ri-arrow-right-up-line{
+.ri-arrow-right-up-line {
     font-size: 34px;
     margin-left: 3px;
     margin-top: -2px;
@@ -510,12 +519,12 @@ input{
     margin-left: -110px;
 }
 
-.ri-shield-fill{
+.ri-shield-fill {
     margin-top: -10px;
     margin-left: 2.5px;
 }
 
-.ri-money-dollar-circle-fill{
+.ri-money-dollar-circle-fill {
     margin-left: 2.3px;
 }
 
@@ -531,7 +540,7 @@ input{
     margin-top: 30px;
 }
 
-.footlist{
+.footlist {
     font-weight: 800;
     font-size: 29px;
 }
@@ -592,7 +601,7 @@ input{
     margin-left: 10px;
 }
 
-.ri-send-plane-fill{
+.ri-send-plane-fill {
     font-size: 25px;
 }
 
@@ -634,15 +643,15 @@ input{
     margin-left: 15px;
 }
 
-.hiddenlink{
+.hiddenlink {
     font-size: 22px;
 }
 
-.elvingame ul li a{
+.elvingame ul li a {
     font-size: 21px;
 }
 
-.backrules{
+.backrules {
     background-color: #f5f5f5;
     width: 100%;
     min-height: 960px;
@@ -652,7 +661,7 @@ input{
     margin-top: 15px;
 }
 
-.rules{
+.rules {
     margin-left: 16.4%;
     margin-top: 40px;
     background-color: white;
@@ -664,7 +673,7 @@ input{
     box-shadow: 10px 5px 5px orange;
 }
 
-span{
+span {
     color: orange;
     font-weight: 900;
     font-style: italic;
@@ -676,11 +685,11 @@ span{
     margin-top: 20px;
 }
 
-.rules h2{
+.rules h2 {
     margin-left: 20px;
 }
 
-.uc60{
+.uc60 {
     display: flex;
     background-color: white;
     width: 1600px;
@@ -693,7 +702,7 @@ span{
     box-shadow: 10px 5px 5px orange;
 }
 
-.pubguc{
+.pubguc {
     margin-left: 25px;
     height: 150px;
     margin-top: 20px;
@@ -701,27 +710,32 @@ span{
 }
 
 .uc60 .uctext {
-    margin-left:20px;
+    margin-left: 20px;
     font-size: 25px;
     font-weight: 900;
     font-style: italic;
     margin-top: 70px;
 }
 
-.ucprice{
+.ucprice {
     font-size: 26px;
     margin-left: 50px;
     margin-top: 70px;
 }
 
-.ucspan{
+.ucspan {
     color: orange;
     font-weight: 900;
     font-style: italic;
     font-size: 25px;
 }
 
-.ucinput, .ucinput1,.ucinput2, .ucinput3, .ucinput4, .ucinput5{
+.ucinput,
+.ucinput1,
+.ucinput2,
+.ucinput3,
+.ucinput4,
+.ucinput5 {
     height: 40px;
     width: 70px;
     border-radius: 10px;
@@ -733,7 +747,12 @@ span{
     font-size: 25px;
 }
 
-.ucbtn, .ucbtn1, .ucbtn2, .ucbtn3, .ucbtn4, .ucbtn5{
+.ucbtn,
+.ucbtn1,
+.ucbtn2,
+.ucbtn3,
+.ucbtn4,
+.ucbtn5 {
     width: 100px;
     height: 60px;
     color: white;
@@ -744,7 +763,12 @@ span{
     margin-top: 57px;
 }
 
-.ucselect, .ucselect1, .ucselect2, .ucselect3, .ucselect4, .ucselect5{
+.ucselect,
+.ucselect1,
+.ucselect2,
+.ucselect3,
+.ucselect4,
+.ucselect5 {
     height: 40px;
     width: 80px;
     border-radius: 10px;
@@ -756,13 +780,24 @@ span{
     box-shadow: 10px 5px 5px orange;
 }
 
-.uc60:hover, .hiddenuc:hover, .hiddenuc1:hover, .hiddenuc2:hover, .hiddenuc3:hover, .hiddenuc4:hover, .hiddenuc5:hover{
+.uc60:hover,
+.hiddenuc:hover,
+.hiddenuc1:hover,
+.hiddenuc2:hover,
+.hiddenuc3:hover,
+.hiddenuc4:hover,
+.hiddenuc5:hover {
     background-color: grey;
     margin-left: 450px;
     transition: 1.5s;
 }
 
-.hiddenuc, .hiddenuc1, .hiddenuc2, .hiddenuc3, .hiddenuc4, .hiddenuc5{
+.hiddenuc,
+.hiddenuc1,
+.hiddenuc2,
+.hiddenuc3,
+.hiddenuc4,
+.hiddenuc5 {
     background-color: white;
     margin-left: 375px;
     margin-top: 30px;
@@ -773,12 +808,12 @@ span{
     box-shadow: 10px 5px 5px orange;
 }
 
-tr{
+tr {
     display: flex;
     gap: 115px;
 }
 
-th{
+th {
     margin-left: 30px;
     margin-top: 25px;
     font-size: 17px;
@@ -787,7 +822,7 @@ th{
     color: orange;
 }
 
-td{
+td {
     margin-top: 15px;
     font-size: 20px;
     font-weight: 750;
@@ -795,75 +830,83 @@ td{
     margin-left: 10px;
 }
 
-.uctd{
+.uctd {
     margin-left: -15px;
 }
 
-.ucvalyuta{
+.ucvalyuta {
     margin-left: 45px;
 }
 
-.ucvalyuta1, .ucvalyuta2{
+.ucvalyuta1,
+.ucvalyuta2 {
     margin-left: 38px;
 }
 
-.ucvalyuta3{
+.ucvalyuta3 {
     margin-left: 39px;
 }
 
-.ucvalyuta4{
+.ucvalyuta4 {
     margin-left: 35px;
 }
 
-.ucvalyuta5{
+.ucvalyuta5 {
     margin-left: 38px;
 }
 
-.ucprize, .ucprize2, .ucprize3{
+.ucprize,
+.ucprize2,
+.ucprize3 {
     margin-left: 52px;
 }
 
-.ucprize5{
+.ucprize5 {
     margin-left: 40px;
 }
 
-.ucprize1{
+.ucprize1 {
     margin-left: 47px;
 }
 
-.ucprize4{
+.ucprize4 {
     margin-left: 41px;
 }
 
-.ucnumber{
+.ucnumber {
     margin-left: 60px;
 }
 
-.ucnumber5{
+.ucnumber5 {
     margin-left: 45px;
 }
 
-.ucnumber4{
+.ucnumber4 {
     margin-left: 47px;
 }
 
-.ucnumber2{
+.ucnumber2 {
     margin-left: 48px;
 }
 
-.ucnumber1{
+.ucnumber1 {
     margin-left: 52px;
 }
 
-.ucnumber3{
+.ucnumber3 {
     margin-left: 50px;
 }
 
-.amount, .amount1, .amount2, .amount3, .amount4, .amount5{
+.amount,
+.amount1,
+.amount2,
+.amount3,
+.amount4,
+.amount5 {
     margin-left: 80px;
 }
 
-.ucenterbtn{
+.ucenterbtn {
     width: 100px;
     height: 30px;
     border-radius: 10px;
@@ -873,26 +916,474 @@ td{
     font-size: 16px;
 }
 
-.ucentertd{
+.ucentertd {
     margin-left: 170px;
 }
 
-.hiddenuc, .hiddenuc1, .hiddenuc2, .hiddenuc3, .hiddenuc4, .hiddenuc5{
+.hiddenuc,
+.hiddenuc1,
+.hiddenuc2,
+.hiddenuc3,
+.hiddenuc4,
+.hiddenuc5 {
     display: none;
 }
 
-.uctd1, .uctd2{
+.uctd1,
+.uctd2 {
     margin-left: -17px;
 }
 
-.uctd3{
+.uctd3 {
     margin-left: -19px;
 }
 
-.uctd4{
+.uctd4 {
     margin-left: -22.5px;
 }
 
-.uctd5{
+.uctd5 {
     margin-left: -25.5px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+
+    /* header hisesi */
+
+    * {
+        box-sizing: border-box;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
+    }
+
+    .began {
+        display: flex;
+        gap: 20px;
+        background-color: #f5f5f5;
+        height: 35px;
+        padding-top: 27px;
+        width: 106%;
+        margin-top: -10px;
+    }
+
+    .ri-menu-5-fill {
+        margin-top: -23px;
+        margin-left: 10px;
+        font-size: 20px;
+        display: block;
+    }
+
+    .userline {
+        margin-left: 70px;
+    }
+
+    .hiddenlist {
+        background-color: bisque;
+        position: absolute;
+        z-index: 2;
+        margin-top: -85px;
+        margin-left: -7px;
+    }
+
+    .gamename1 {
+        display: block;
+        color: orange;
+        font-size: 21px;
+        margin-left: 3%;
+        margin-top: -25px;
+        width: 120px;
+    }
+
+    .ri-user-line {
+        display: block;
+        margin-left: 25%;
+        font-size: 20px;
+        margin-top: -22px;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .news,
+    .accounts {
+        display: none;
+    }
+
+    .mood {
+        margin-left: -95px;
+        margin-top: -21px;
+    }
+
+    .backmood {
+        width: 40px;
+        height: 20px;
+        padding-top: -5px;
+    }
+
+    .ri-moon-fill {
+        font-size: 10px;
+        margin-left: -4px;
+    }
+
+    .ri-sun-line {
+        font-size: 13px;
+        font-weight: 900;
+    }
+
+    .hiddenbalance {
+        display: block;
+        margin-left: -3px;
+        margin-top: 15px;
+    }
+
+    .balancebtn1 {
+        display: block;
+        width: 70px;
+        font-size: 11px;
+        height: 30px;
+        margin-top: 10px;
+        padding-left: 5px;
+        border-radius: 10px;
+        background-color: orange;
+        color: white;
+        border: 3px solid orange;
+        box-shadow: none;
+    }
+
+    .playerbtn {
+        box-shadow: none;
+        width: 70px;
+        height: 30px;
+        background-color: orange;
+        color: white;
+        border: 3px solid orange;
+        font-size: 11px;
+        padding-top: -20px;
+        margin-top: 1px;
+    }
+
+    .ri-shopping-basket-fill {
+        display: none;
+    }
+
+    .ri-add-line {
+        display: none;
+    }
+
+    .gamename {
+        display: none;
+    }
+
+    .searce {
+        width: 100px;
+        height: 30px;
+        margin-top: -70px;
+        margin-left: 100px;
+    }
+
+    .searcebtn {
+        display: none;
+    }
+
+    .ri-search-line {
+        font-size: 10px;
+        margin-left: -5px;
+    }
+
+    .playerbtn {
+        display: block;
+    }
+
+    .player {
+        margin-left: 10%;
+        margin-top: -70px;
+    }
+
+    .balancebtn {
+        display: none;
+    }
+
+    .main {
+        display: none;
+    }
+
+    .hiddensearce {
+        width: 115px;
+        margin-top: -93px;
+        margin-left: -50px;
+    }
+
+    .ri-corner-right-up-fill {
+        margin-left: 3px;
+    }
+
+    .texthidden {
+        font-size: 12px;
+        margin-left: 225px;
+        width: 60px;
+    }
+
+    .texthidden p {
+        margin-left: -18px;
+    }
+
+    .hiddenlist {
+        width: 150px;
+    }
+
+    .hiddensearce ul li {
+        font-size: 13px;
+        margin-left: -12px;
+    }
+
+    .hiddensearce ul {
+        margin-top: 3px;
+    }
+
+    /* mainhisesi */
+
+    .backrules {
+        width: 106%;
+    }
+
+    .gamessell1 {
+        margin-left: -5px;
+        width: 100%;
+        margin-top: 2px;
+        padding-left: 30px;
+    }
+
+    .ri-discord-fill {
+        font-size: 27px;
+    }
+
+    .play {
+        font-size: 20px;
+    }
+
+    /* mainhisesi */
+
+    .uc60 {
+        margin-left: 0px;
+        width: 98%;
+        display: block;
+        margin-top: 20px;
+        height: 250px;
+        box-shadow: none;
+    }
+
+    .pubguc {
+        width: 100px;
+        height: 160px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    #pubguc {
+        font-size: 16px;
+        margin-left: 110px;
+        margin-top: -160px;
+    }
+
+    .ucprice{
+        font-size: 20px;
+        margin-left: 140px;
+        margin-top: -5px;
+    }
+
+    .ucspan{
+        font-size: 19px;
+    }
+
+    .ucinput, .ucinput1, .ucinput2, .ucinput3{
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .ucselect, .ucselect1, .ucselect2, .ucselect3{
+        margin-top: -70px;
+        margin-left: 30px;
+        font-size: 15px;
+        height: 40px;
+    }
+
+    .ucbtn, .ucbtn1, .ucbtn2,.ucbtn3{
+        width: 60px;
+        height: 40px;
+        margin-top: -70px;
+    }
+
+    .uc60:hover{
+        margin-left: 1px;
+    }
+
+    .hiddenuc, .hiddenuc1, .hiddenuc2, .hiddenuc3{
+        display: block;
+        margin-left: 3px;
+        height: 400px;
+        background-color: red;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    /* *{
+        outline: 1px solid blue;
+    } */
+
+    .ucvalyuta, .ucvalyuta1, .ucvalyuta2{
+        margin-top: -120px;
+        margin-left: -335px;
+    }
+
+    .uctd, .uctd1, .uctd2{
+        margin-left: 23.5px;
+    }
+
+    .pubgvalyuta{
+        margin-top: 130px;
+        margin-left: -350px;
+    }
+
+    .pubgname, .uctd, .uctd1, .uctd2{
+        margin-top: -220px;
+    }
+
+    .pubgmebleg{
+        margin-left: -5px;
+        margin-top: 130px;
+    }
+
+    .ucprize, .ucprize1, .ucprize2{
+        margin-left: 23px;
+        margin-top: -120px;
+    }
+
+    .pubgname{
+        margin-left: 27px;
+    }
+
+    .pubgsayi{
+        margin-top: 230px;
+        margin-left: -360px;
+    }
+
+    .ucnumber, .ucnumber1, .ucnumber2{
+        margin-left: -338px;
+        margin-top: -20px;
+    }
+
+    .pubgyekunmebleg{
+        margin-top: 230px;
+        margin-left: 20px;
+    }
+
+    .amount, .amount1, .amount2{
+        margin-left: 40px;
+    }
+
+    .ucenterbtn, .ucenterbtn1{
+        margin-top: 50px;
+        margin-left: -460px;
+    }
+
+    tr{
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 600px) {
+
+    /* .headerhisesi */
+
+    .gamename1 {
+        margin-left: 20%;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
+    }
+
+    .began {
+        width: 106%;
+    }
+
+    .ri-user-line {
+        margin-left: 230px;
+    }
+
+    .userline {
+        margin-left: -20%;
+    }
+
+    .hiddenbalance {
+        display: block;
+        margin-left: -3px;
+        margin-top: 15px;
+    }
+
+    .balancebtn1 {
+        display: block;
+        width: 65px;
+        font-size: 12px;
+        padding-left: 5px;
+        border-radius: 10px;
+        background-color: orange;
+        color: white;
+        border: 3px solid orange;
+    }
+
+    .ri-add-line {
+        display: none;
+    }
+
+    .searce {
+        margin-left: 160px;
+    }
+
+    .player {
+        margin-left: 110px;
+    }
+
+    .hiddensearce {
+        margin-left: -62px;
+    }
+
+    .texthidden {
+        margin-left: 365px;
+    }
+
+    /* mainhisesi */
+
+    #pubguc{
+        margin-left: 130px;
+        font-size: 21px;
+    }
+
+    #pubgprize{
+        margin-left: 290px;
+        margin-top: -47px;
+    }
+
+    .ucinput{
+        margin-left: 130px;
+        margin-top: -10px;
+    }
+
+    .gamessell1{
+        width: 99%;
+    }
+    
 }

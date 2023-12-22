@@ -228,9 +228,9 @@ ucbtn.addEventListener("click", ()=>{
     if (ucselect.value == "Rubl" && input.value >0){
         uctd.innerHTML = "100"
         ucvalyuta.innerHTML = "Rubl"
-        ucprize.innerHTML = "319.1"
+        ucprize.innerHTML = "204.25"
         ucnumber.innerHTML = input.value
-        amount.innerHTML = Math.floor(input.value * 319.14)
+        amount.innerHTML = Math.floor(input.value * 204.15)
         hiddenuc1.style.display = "none"
         hiddenuc2.style.display = "none"
         hiddenuc3.style.display = "none"
@@ -239,9 +239,9 @@ ucbtn.addEventListener("click", ()=>{
         hiddenuc.style.display = "block"
 
         nametd.style.marginLeft = "25px"
-        uctd.style.marginLeft = "33px"
+        uctd.style.marginLeft = "30px"
         ucnumber.style.marginLeft = "50px"
-        ucvalyuta.style.marginLeft = "50px"
+        ucvalyuta.style.marginLeft = "60px"
         ucprize.style.marginLeft = "47px"
 
         let enter = document.querySelector(".ucentertd")
@@ -251,11 +251,11 @@ ucbtn.addEventListener("click", ()=>{
         })
 
     } else if (ucselect.value == "Usd"  && input.value >0){
-        uctd.innerHTML = "1"
+        uctd.innerHTML = "100"
         ucvalyuta.innerHTML = "Usd"
-        ucprize.innerHTML = "3.52"
+        ucprize.innerHTML = "2.25"
         ucnumber.innerHTML = input.value
-        amount.innerHTML = Math.floor(input.value * 3.52)
+        amount.innerHTML = Math.floor(input.value * 2.25)
         hiddenuc1.style.display = "none"
         hiddenuc2.style.display = "none"
         hiddenuc3.style.display = "none"
@@ -264,10 +264,10 @@ ucbtn.addEventListener("click", ()=>{
         hiddenuc.style.display = "block"
 
         nametd.style.marginLeft = "25px"
-        uctd.style.marginLeft = "33px"
+        uctd.style.marginLeft = "30px"
         ucnumber.style.marginLeft = "63px"
-        ucvalyuta.style.marginLeft = "65px"
-        ucprize.style.marginLeft = "47px"
+        ucvalyuta.style.marginLeft = "60px"
+        ucprize.style.marginLeft = "60px"
 
 
         let enter = document.querySelector(".ucentertd")
@@ -276,11 +276,11 @@ ucbtn.addEventListener("click", ()=>{
             alert("Lutfen Qeydiydan kecin")
         })
     } else if (ucselect.value == "Azn" && input.value >0){
-        uctd.innerHTML = "1"
+        uctd.innerHTML = "100"
         ucvalyuta.innerHTML = "Azn"
-        ucprize.innerHTML = "2.41"
+        ucprize.innerHTML = "3.84"
         ucnumber.innerHTML = input.value
-        amount.innerHTML = Math.floor(input.value * 6)
+        amount.innerHTML = Math.floor(input.value * 3.84)
         hiddenuc1.style.display = "none"
         hiddenuc2.style.display = "none"
         hiddenuc3.style.display = "none"
@@ -304,11 +304,11 @@ ucbtn.addEventListener("click", ()=>{
 
 ucbtn1.addEventListener("click", ()=>{
     if (ucselect1.value == "Rubl" && input1.value >0){
-        uctd1.innerHTML = "3"
+        uctd1.innerHTML = "400"
         ucvalyuta1.innerHTML = "Rubl"
-        ucprize1.innerHTML = "797.87"
+        ucprize1.innerHTML = "668.61"
         ucnumber1.innerHTML = input1.value
-        amount1.innerHTML = Math.floor(input1.value * 797.87)
+        amount1.innerHTML = Math.floor(input1.value * 668.61)
         hiddenuc1.style.display = "block"
         hiddenuc2.style.display = "none"
         hiddenuc3.style.display = "none"
@@ -317,10 +317,10 @@ ucbtn1.addEventListener("click", ()=>{
         hiddenuc.style.display = "none"
 
         nametd1.style.marginLeft = "25px"
-        uctd1.style.marginLeft = "43px"
+        uctd1.style.marginLeft = "30px"
         ucnumber1.style.marginLeft = "50px"
-        ucvalyuta1.style.marginLeft = "65px"
-        ucprize1.style.marginLeft = "45px"
+        ucvalyuta1.style.marginLeft = "55px"
+        ucprize1.style.marginLeft = "49px"
 
         let enter = document.querySelectorAll(".ucentertd")
 
@@ -330,11 +330,11 @@ ucbtn1.addEventListener("click", ()=>{
             })
         })
     } else if (ucselect1.value == "Usd" && input1.value >0){
-        uctd1.innerHTML = "3"
+        uctd1.innerHTML = "400"
         ucvalyuta1.innerHTML = "Usd"
-        ucprize1.innerHTML = "8.82"
+        ucprize1.innerHTML = "7.39"
         ucnumber1.innerHTML = input1.value
-        amount1.innerHTML = Math.floor(input1.value * 8.82)
+        amount1.innerHTML = Math.floor(input1.value * 7.39)
         hiddenuc1.style.display = "block"
         hiddenuc2.style.display = "none"
         hiddenuc3.style.display = "none"
@@ -343,10 +343,10 @@ ucbtn1.addEventListener("click", ()=>{
         hiddenuc.style.display = "none"
 
         nametd1.style.marginLeft = "25px"
-        uctd1.style.marginLeft = "43px"
+        uctd1.style.marginLeft = "30px"
         ucnumber1.style.marginLeft = "58px"
-        ucvalyuta1.style.marginLeft = "65px"
-        ucprize1.style.marginLeft = "65px"
+        ucvalyuta1.style.marginLeft = "60px"
+        ucprize1.style.marginLeft = "63px"
 
         let enter = document.querySelectorAll(".ucentertd")
 
@@ -356,11 +356,11 @@ ucbtn1.addEventListener("click", ()=>{
             })
         })
     } else if (ucselect1.value == "Azn" && input1.value >0){
-        uctd1.innerHTML = "3"
+        uctd1.innerHTML = "400"
         ucvalyuta1.innerHTML = "Azn"
-        ucprize1.innerHTML = "15"
+        ucprize1.innerHTML = "12.57"
         ucnumber1.innerHTML = input1.value
-        amount1.innerHTML = Math.floor(input1.value * 15)
+        amount1.innerHTML = Math.floor(input1.value * 12.57)
         hiddenuc1.style.display = "block"
         hiddenuc2.style.display = "none"
         hiddenuc3.style.display = "none"
@@ -369,10 +369,10 @@ ucbtn1.addEventListener("click", ()=>{
         hiddenuc.style.display = "none"
 
         nametd1.style.marginLeft = "25px"
-        uctd1.style.marginLeft = "43px"
-        ucnumber1.style.marginLeft = "75px"
-        ucvalyuta1.style.marginLeft = "65px"
-        ucprize1.style.marginLeft = "65px"
+        uctd1.style.marginLeft = "33px"
+        ucnumber1.style.marginLeft = "52px"
+        ucvalyuta1.style.marginLeft = "57px"
+        ucprize1.style.marginLeft = "57px"
 
         let enter = document.querySelectorAll(".ucentertd")
 
@@ -387,11 +387,11 @@ ucbtn1.addEventListener("click", ()=>{
 
 ucbtn2.addEventListener("click", ()=>{
     if (ucselect2.value == "Rubl" && input2.value >0){
-        uctd2.innerHTML = "6"
+        uctd2.innerHTML = "1200"
         ucvalyuta2.innerHTML = "Rubl"
-        ucprize2.innerHTML = "1329"
+        ucprize2.innerHTML = "2.328"
         ucnumber2.innerHTML = input2.value
-        amount2.innerHTML = Math.floor(input2.value * 1329)
+        amount2.innerHTML = Math.floor(input2.value * 2.328)
         hiddenuc1.style.display = "none"
         hiddenuc2.style.display = "block"
         hiddenuc3.style.display = "none"
@@ -399,11 +399,11 @@ ucbtn2.addEventListener("click", ()=>{
         hiddenuc5.style.display = "none"
         hiddenuc.style.display = "none"
 
-        nametd2.style.marginLeft = "25px"
-        uctd2.style.marginLeft = "43px"
-        ucnumber2.style.marginLeft = "62px"
-        ucvalyuta2.style.marginLeft = "65px"
-        ucprize2.style.marginLeft = "50px"
+        nametd2.style.marginLeft = "22px"
+        uctd2.style.marginLeft = "25px"
+        ucnumber2.style.marginLeft = "55px"
+        ucvalyuta2.style.marginLeft = "52px"
+        ucprize2.style.marginLeft = "53px"
 
         let enter = document.querySelectorAll(".ucentertd")
 
@@ -413,11 +413,11 @@ ucbtn2.addEventListener("click", ()=>{
             })
         })
     } else if (ucselect2.value == "Usd" && input2.value >0){
-        uctd2.innerHTML = "6"
+        uctd2.innerHTML = "800"
         ucvalyuta2.innerHTML = "Usd"
-        ucprize2.innerHTML = "14.70"
+        ucprize2.innerHTML = "9.02"
         ucnumber2.innerHTML = input2.value
-        amount2.innerHTML = Math.floor(input2.value * 14.70)
+        amount2.innerHTML = Math.floor(input2.value * 9.02)
         hiddenuc1.style.display = "none"
         hiddenuc2.style.display = "block"
         hiddenuc3.style.display = "none"
@@ -425,11 +425,11 @@ ucbtn2.addEventListener("click", ()=>{
         hiddenuc5.style.display = "none"
         hiddenuc.style.display = "none"
 
-        nametd2.style.marginLeft = "25px"
-        uctd2.style.marginLeft = "43px"
-        ucnumber2.style.marginLeft = "62px"
-        ucvalyuta2.style.marginLeft = "65px"
-        ucprize2.style.marginLeft = "50px"
+        nametd2.style.marginLeft = "22px"
+        uctd2.style.marginLeft = "30px"
+        ucnumber2.style.marginLeft = "65px"
+        ucvalyuta2.style.marginLeft = "60px"
+        ucprize2.style.marginLeft = "60px"
 
         let enter = document.querySelectorAll(".ucentertd")
 
@@ -439,11 +439,11 @@ ucbtn2.addEventListener("click", ()=>{
             })
         })
     } else if (ucselect2.value == "Azn" && input2.value >0){
-        uctd2.innerHTML = "6"
+        uctd2.innerHTML = "800"
         ucvalyuta2.innerHTML = "Azn"
-        ucprize2.innerHTML = "25"
+        ucprize2.innerHTML = "15.35"
         ucnumber2.innerHTML = input2.value
-        amount2.innerHTML = Math.floor(input2.value * 25)
+        amount2.innerHTML = Math.floor(input2.value * 15.35)
         hiddenuc1.style.display = "none"
         hiddenuc2.style.display = "block"
         hiddenuc3.style.display = "none"
@@ -451,11 +451,11 @@ ucbtn2.addEventListener("click", ()=>{
         hiddenuc5.style.display = "none"
         hiddenuc.style.display = "none"
 
-        nametd2.style.marginLeft = "25px"
-        uctd2.style.marginLeft = "43px"
-        ucnumber2.style.marginLeft = "70px"
-        ucvalyuta2.style.marginLeft = "65px"
-        ucprize2.style.marginLeft = "68px"
+        nametd2.style.marginLeft = "22px"
+        uctd2.style.marginLeft = "30px"
+        ucnumber2.style.marginLeft = "55px"
+        ucvalyuta2.style.marginLeft = "60px"
+        ucprize2.style.marginLeft = "60px"
 
         let enter = document.querySelectorAll(".ucentertd")
 
@@ -470,11 +470,11 @@ ucbtn2.addEventListener("click", ()=>{
 
 ucbtn3.addEventListener("click", ()=>{
     if (ucselect3.value == "Rubl" && input3.value >0){
-        uctd3.innerHTML = "12"
+        uctd3.innerHTML = "1200"
         ucvalyuta3.innerHTML = "Rubl"
-        ucprize3.innerHTML = "2.127"
+        ucprize3.innerHTML = "2.328"
         ucnumber3.innerHTML = input3.value
-        amount3.innerHTML = Math.floor(input3.value * 2127)
+        amount3.innerHTML = Math.floor(input3.value * 2328)
         hiddenuc1.style.display = "none"
         hiddenuc2.style.display = "none"
         hiddenuc3.style.display = "block"
@@ -482,11 +482,11 @@ ucbtn3.addEventListener("click", ()=>{
         hiddenuc5.style.display = "none"
         hiddenuc.style.display = "none"
 
-        nametd3.style.marginLeft = "25px"
-        uctd3.style.marginLeft = "38px"
+        nametd3.style.marginLeft = "22px"
+        uctd3.style.marginLeft = "30px"
         ucnumber3.style.marginLeft = "55px"
-        ucvalyuta3.style.marginLeft = "60px"
-        ucprize3.style.marginLeft = "50px"
+        ucvalyuta3.style.marginLeft = "48px"
+        ucprize3.style.marginLeft = "55px"
 
         let enter = document.querySelectorAll(".ucentertd")
 
@@ -496,11 +496,11 @@ ucbtn3.addEventListener("click", ()=>{
             })
         })
     } else if (ucselect3.value == "Usd" && input3.value >0){
-        uctd3.innerHTML = "12"
+        uctd3.innerHTML = "1200"
         ucvalyuta2.innerHTML = "Usd"
-        ucprize2.innerHTML = "23.52"
+        ucprize2.innerHTML = "25.74"
         ucnumber2.innerHTML = input3.value
-        amount2.innerHTML = Math.floor(input3.value * 23.52)
+        amount2.innerHTML = Math.floor(input3.value * 25.74)
         hiddenuc1.style.display = "none"
         hiddenuc2.style.display = "none"
         hiddenuc3.style.display = "block"
@@ -508,11 +508,11 @@ ucbtn3.addEventListener("click", ()=>{
         hiddenuc5.style.display = "none"
         hiddenuc.style.display = "none"
 
-        nametd3.style.marginLeft = "25px"
-        uctd3.style.marginLeft = "38px"
+        nametd3.style.marginLeft = "22px"
+        uctd3.style.marginLeft = "30px"
         ucnumber3.style.marginLeft = "55px"
-        ucvalyuta3.style.marginLeft = "60px"
-        ucprize3.style.marginLeft = "50px"
+        ucvalyuta3.style.marginLeft = "48px"
+        ucprize3.style.marginLeft = "55px"
 
         let enter = document.querySelectorAll(".ucentertd")
 
@@ -522,11 +522,11 @@ ucbtn3.addEventListener("click", ()=>{
             })
         })
     } else if (ucselect3.value == "Azn" && input3.value >0){
-        uctd3.innerHTML = "12"
+        uctd3.innerHTML = "1200"
         ucvalyuta3.innerHTML = "Azn"
-        ucprize3.innerHTML = "40"
+        ucprize3.innerHTML = "43.77"
         ucnumber3.innerHTML = input3.value
-        amount3.innerHTML = Math.floor(input3.value * 40)
+        amount3.innerHTML = Math.floor(input3.value * 43.77)
         hiddenuc1.style.display = "none"
         hiddenuc2.style.display = "none"
         hiddenuc3.style.display = "block"
@@ -534,11 +534,11 @@ ucbtn3.addEventListener("click", ()=>{
         hiddenuc5.style.display = "none"
         hiddenuc.style.display = "none"
 
-        nametd3.style.marginLeft = "25px"
-        uctd3.style.marginLeft = "38px"
-        ucnumber3.style.marginLeft = "68px"
-        ucvalyuta3.style.marginLeft = "60px"
-        ucprize3.style.marginLeft = "70px"
+        nametd3.style.marginLeft = "17px"
+        uctd3.style.marginLeft = "32px"
+        ucnumber3.style.marginLeft = "55px"
+        ucvalyuta3.style.marginLeft = "53px"
+        ucprize3.style.marginLeft = "58px"
 
         let enter = document.querySelectorAll(".ucentertd")
 
@@ -553,11 +553,11 @@ ucbtn3.addEventListener("click", ()=>{
 
 ucbtn4.addEventListener("click", ()=>{
     if (ucselect4.value == "Rubl" && input4.value >0){
-        uctd4.innerHTML = "18"
+        uctd4.innerHTML = "2700"
         ucvalyuta4.innerHTML = "Rubl"
-        ucprize4.innerHTML = "2.925"
+        ucprize4.innerHTML = "3.089"
         ucnumber4.innerHTML = input4.value
-        amount4.innerHTML = Math.floor(input4.value * 2925)
+        amount4.innerHTML = Math.floor(input4.value * 3089)
         hiddenuc1.style.display = "none"
         hiddenuc2.style.display = "none"
         hiddenuc3.style.display = "none"
@@ -565,11 +565,11 @@ ucbtn4.addEventListener("click", ()=>{
         hiddenuc5.style.display = "none"
         hiddenuc.style.display = "none"
 
-        nametd4.style.marginLeft = "25px"
-        uctd4.style.marginLeft = "38px"
-        ucnumber4.style.marginLeft = "55px"
-        ucvalyuta4.style.marginLeft = "60px"
-        ucprize4.style.marginLeft = "50px"
+        nametd4.style.marginLeft = "22px"
+        uctd4.style.marginLeft = "30px"
+        ucnumber4.style.marginLeft = "53px"
+        ucvalyuta4.style.marginLeft = "48px"
+        ucprize4.style.marginLeft = "55px"
 
         let enter = document.querySelectorAll(".ucentertd")
 
@@ -579,11 +579,11 @@ ucbtn4.addEventListener("click", ()=>{
             })
         })
     } else if (ucselect4.value == "Usd" && input4.value >0){
-        uctd4.innerHTML = "18"
+        uctd4.innerHTML = "2700"
         ucvalyuta4.innerHTML = "Usd"
-        ucprize4.innerHTML = "32.35"
+        ucprize4.innerHTML = "34.17"
         ucnumber4.innerHTML = input4.value
-        amount4.innerHTML = Math.floor(input4.value * 32.35)
+        amount4.innerHTML = Math.floor(input4.value * 34.17)
         hiddenuc1.style.display = "none"
         hiddenuc2.style.display = "none"
         hiddenuc3.style.display = "none"
@@ -591,11 +591,11 @@ ucbtn4.addEventListener("click", ()=>{
         hiddenuc5.style.display = "none"
         hiddenuc.style.display = "none"
 
-        nametd4.style.marginLeft = "25px"
-        uctd4.style.marginLeft = "38px"
-        ucnumber4.style.marginLeft = "62px"
-        ucvalyuta4.style.marginLeft = "60px"
-        ucprize4.style.marginLeft = "50px"
+        nametd4.style.marginLeft = "22px"
+        uctd4.style.marginLeft = "30px"
+        ucnumber4.style.marginLeft = "60px"
+        ucvalyuta4.style.marginLeft = "48px"
+        ucprize4.style.marginLeft = "55px"
 
         let enter = document.querySelectorAll(".ucentertd")
 
@@ -605,11 +605,11 @@ ucbtn4.addEventListener("click", ()=>{
             })
         })
     } else if (ucselect4.value == "Azn" && input4.value >0){
-        uctd4.innerHTML = "18"
+        uctd4.innerHTML = "2700"
         ucvalyuta4.innerHTML = "Azn"
-        ucprize4.innerHTML = "55"
+        ucprize4.innerHTML = "58.09"
         ucnumber4.innerHTML = input4.value
-        amount4.innerHTML = Math.floor(input4.value * 55)
+        amount4.innerHTML = Math.floor(input4.value * 58.09)
         hiddenuc1.style.display = "none"
         hiddenuc2.style.display = "none"
         hiddenuc3.style.display = "none"
@@ -617,11 +617,11 @@ ucbtn4.addEventListener("click", ()=>{
         hiddenuc5.style.display = "none"
         hiddenuc.style.display = "none"
 
-        nametd4.style.marginLeft = "25px"
-        uctd4.style.marginLeft = "38px"
-        ucnumber4.style.marginLeft = "68px"
-        ucvalyuta4.style.marginLeft = "60px"
-        ucprize4.style.marginLeft = "70px"
+        nametd4.style.marginLeft = "17px"
+        uctd4.style.marginLeft = "32px"
+        ucnumber4.style.marginLeft = "53px"
+        ucvalyuta4.style.marginLeft = "53px"
+        ucprize4.style.marginLeft = "58px"
 
         let enter = document.querySelectorAll(".ucentertd")
 
@@ -636,11 +636,11 @@ ucbtn4.addEventListener("click", ()=>{
 
 ucbtn5.addEventListener("click", ()=>{
     if (ucselect5.value == "Rubl" && input5.value >0){
-        uctd5.innerHTML = "24"
+        uctd5.innerHTML = "4500"
         ucvalyuta5.innerHTML = "Rubl"
-        ucprize5.innerHTML = "3989"
+        ucprize5.innerHTML = "3.849"
         ucnumber5.innerHTML = input5.value
-        amount5.innerHTML = Math.floor(input5.value * 3989)
+        amount5.innerHTML = Math.floor(input5.value * 3849)
         hiddenuc1.style.display = "none"
         hiddenuc2.style.display = "none"
         hiddenuc3.style.display = "none"
@@ -648,10 +648,10 @@ ucbtn5.addEventListener("click", ()=>{
         hiddenuc5.style.display = "block"
         hiddenuc.style.display = "none"
 
-        nametd5.style.marginLeft = "25px"
-        uctd5.style.marginLeft = "38px"
-        ucnumber5.style.marginLeft = "60px"
-        ucvalyuta5.style.marginLeft = "60px"
+        nametd5.style.marginLeft = "20px"
+        uctd5.style.marginLeft = "30px"
+        ucnumber5.style.marginLeft = "56px"
+        ucvalyuta5.style.marginLeft = "51px"
         ucprize5.style.marginLeft = "50px"
 
         let enter = document.querySelectorAll(".ucentertd")
@@ -662,11 +662,11 @@ ucbtn5.addEventListener("click", ()=>{
             })
         })
     } else if (ucselect5.value == "Usd" && input5.value >0){
-        uctd5.innerHTML = "24"
+        uctd5.innerHTML = "4500"
         ucvalyuta5.innerHTML = "Usd"
-        ucprize5.innerHTML = "44.11"
+        ucprize5.innerHTML = "42.57"
         ucnumber5.innerHTML = input5.value
-        amount5.innerHTML = Math.floor(input5.value * 44.11)
+        amount5.innerHTML = Math.floor(input5.value * 42.57)
         hiddenuc1.style.display = "none"
         hiddenuc2.style.display = "none"
         hiddenuc3.style.display = "none"
@@ -674,11 +674,11 @@ ucbtn5.addEventListener("click", ()=>{
         hiddenuc5.style.display = "block"
         hiddenuc.style.display = "none"
 
-        nametd5.style.marginLeft = "25px"
-        uctd5.style.marginLeft = "38px"
-        ucnumber5.style.marginLeft = "62px"
-        ucvalyuta5.style.marginLeft = "60px"
-        ucprize5.style.marginLeft = "50px"
+        nametd5.style.marginLeft = "20px"
+        uctd5.style.marginLeft = "30px"
+        ucnumber5.style.marginLeft = "56px"
+        ucvalyuta5.style.marginLeft = "51px"
+        ucprize5.style.marginLeft = "60px"
 
         let enter = document.querySelectorAll(".ucentertd")
 
@@ -688,11 +688,11 @@ ucbtn5.addEventListener("click", ()=>{
             })
         })
     } else if (ucselect5.value == "Azn" && input5.value >0){
-        uctd5.innerHTML = "24"
+        uctd5.innerHTML = "4500"
         ucvalyuta5.innerHTML = "Azn"
-        ucprize5.innerHTML = "75"
+        ucprize5.innerHTML = "72.37"
         ucnumber5.innerHTML = input4.value
-        amount5.innerHTML = Math.floor(input5.value * 75)
+        amount5.innerHTML = Math.floor(input5.value * 72.37)
         hiddenuc1.style.display = "none"
         hiddenuc2.style.display = "none"
         hiddenuc3.style.display = "none"
@@ -700,11 +700,11 @@ ucbtn5.addEventListener("click", ()=>{
         hiddenuc5.style.display = "block"
         hiddenuc.style.display = "none"
 
-        nametd5.style.marginLeft = "25px"
-        uctd5.style.marginLeft = "38px"
-        ucnumber5.style.marginLeft = "68px"
-        ucvalyuta5.style.marginLeft = "60px"
-        ucprize5.style.marginLeft = "70px"
+        nametd5.style.marginLeft = "20px"
+        uctd5.style.marginLeft = "30px"
+        ucnumber5.style.marginLeft = "56px"
+        ucvalyuta5.style.marginLeft = "51px"
+        ucprize5.style.marginLeft = "57px"
 
         let enter = document.querySelectorAll(".ucentertd")
 
