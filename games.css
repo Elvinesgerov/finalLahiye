@@ -946,6 +946,10 @@ td {
     margin-left: -25.5px;
 }
 
+.hiddenlist {
+    display: none;
+}
+
 @media screen and (min-width: 300px) and (max-width: 600px) {
 
     /* header hisesi */
@@ -967,7 +971,7 @@ td {
         background-color: #f5f5f5;
         height: 35px;
         padding-top: 27px;
-        width: 106%;
+        width: 104%;
         margin-top: -10px;
     }
 
@@ -1066,6 +1070,7 @@ td {
         font-size: 11px;
         padding-top: -20px;
         margin-top: 1px;
+        margin-left: -5px;
     }
 
     .ri-shopping-basket-fill {
@@ -1119,6 +1124,10 @@ td {
         margin-left: -50px;
     }
 
+    .games ul li a, .hiddensearce ul li a{
+        font-size: 15px;
+    }
+
     .ri-corner-right-up-fill {
         margin-left: 3px;
     }
@@ -1154,7 +1163,7 @@ td {
 
     .gamessell1 {
         margin-left: -5px;
-        width: 100%;
+        width: 99%;
         margin-top: 2px;
         padding-left: 30px;
     }
@@ -1191,109 +1200,348 @@ td {
         margin-top: -160px;
     }
 
-    .ucprice{
+    .ucprice {
         font-size: 20px;
         margin-left: 140px;
         margin-top: -5px;
     }
 
-    .ucspan{
+    .ucspan {
         font-size: 19px;
     }
 
-    .ucinput, .ucinput1, .ucinput2, .ucinput3{
+    .ucinput,
+    .ucinput1,
+    .ucinput2,
+    .ucinput3,
+    .ucinput4,
+    .ucinput5 {
         margin-left: 5px;
         margin-top: 10px;
     }
 
-    .ucselect, .ucselect1, .ucselect2, .ucselect3{
+    .ucselect,
+    .ucselect1,
+    .ucselect2,
+    .ucselect3,
+    .ucselect4,
+    .ucselect5 {
         margin-top: -70px;
         margin-left: 30px;
         font-size: 15px;
         height: 40px;
     }
 
-    .ucbtn, .ucbtn1, .ucbtn2,.ucbtn3{
+    .ucbtn,
+    .ucbtn1,
+    .ucbtn2,
+    .ucbtn3,
+    .ucbtn4,
+    .ucbtn5 {
         width: 60px;
         height: 40px;
         margin-top: -70px;
     }
 
-    .uc60:hover{
+    .uc60:hover {
         margin-left: 1px;
     }
 
-    .hiddenuc, .hiddenuc1, .hiddenuc2, .hiddenuc3{
-        display: block;
+    .hiddenuc:hover,
+    .hiddenuc1:hover,
+    .hiddenuc2:hover,
+    .hiddenuc3:hover,
+    .hiddenuc4:hover,
+    .hiddenuc5:hover {
+        margin-left: 1px;
+    }
+
+    .hiddenuc,
+    .hiddenuc1,
+    .hiddenuc2,
+    .hiddenuc3,
+    .hiddenuc4,
+    .hiddenuc5 {
+        display: none;
         margin-left: 3px;
         height: 400px;
-        background-color: red;
+        background-color: #f5f5f5;
         width: 100%;
         box-shadow: none;
     }
 
-    /* *{
-        outline: 1px solid blue;
-    } */
-
-    .ucvalyuta, .ucvalyuta1, .ucvalyuta2{
+    .ucvalyuta,
+    .ucvalyuta1,
+    .ucvalyuta2,
+    .ucvalyuta3,
+    .ucvalyuta4,
+    .ucvalyuta5 {
         margin-top: -120px;
         margin-left: -335px;
     }
 
-    .uctd, .uctd1, .uctd2{
+    .uctd,
+    .uctd1,
+    .uctd2,
+    .uctd3,
+    .uctd4,
+    .uctd5 {
         margin-left: 23.5px;
     }
 
-    .pubgvalyuta{
+    .pubgvalyuta {
         margin-top: 130px;
         margin-left: -350px;
     }
 
-    .pubgname, .uctd, .uctd1, .uctd2{
+    .pubgname,
+    .uctd,
+    .uctd1,
+    .uctd2,
+    .uctd3,
+    .uctd4,
+    .uctd5 {
         margin-top: -220px;
     }
 
-    .pubgmebleg{
+    .pubgmebleg {
         margin-left: -5px;
         margin-top: 130px;
     }
 
-    .ucprize, .ucprize1, .ucprize2{
+    .ucprize,
+    .ucprize1,
+    .ucprize2,
+    .ucprize3,
+    .ucprize4,
+    .ucprize5 {
         margin-left: 23px;
         margin-top: -120px;
     }
 
-    .pubgname{
+    .pubgname {
         margin-left: 27px;
     }
 
-    .pubgsayi{
+    .pubgsayi {
         margin-top: 230px;
         margin-left: -360px;
     }
 
-    .ucnumber, .ucnumber1, .ucnumber2{
+    .ucnumber,
+    .ucnumber1,
+    .ucnumber2,
+    .ucnumber3,
+    .ucnumber4,
+    .ucnumber5 {
         margin-left: -338px;
         margin-top: -20px;
     }
 
-    .pubgyekunmebleg{
+    .pubgyekunmebleg {
         margin-top: 230px;
         margin-left: 20px;
     }
 
-    .amount, .amount1, .amount2{
+    .amount,
+    .amount1,
+    .amount2,
+    .amount3,
+    .amount4,
+    .amount5 {
         margin-left: 40px;
     }
 
-    .ucenterbtn, .ucenterbtn1{
+    .ucenterbtn,
+    .ucenterbtn1 {
         margin-top: 50px;
         margin-left: -460px;
     }
 
-    tr{
+    .ucentertd4 {
+        margin-left: 170px;
+    }
+
+    tr {
         width: 200px;
+    }
+
+    /* xeberlerhisesi */
+
+    #services2,
+    #services3,
+    #services4,
+    #services5 {
+        width: 130px;
+        height: 140px;
+    }
+
+    .servicesboxs {
+        margin-top: -40px;
+    }
+
+    #services2 {
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    #services3 {
+        margin-left: -35px;
+        margin-top: 10px;
+    }
+
+    #services4 {
+        margin-left: -333px;
+        margin-top: 170px;
+    }
+
+    #services5 {
+        margin-top: 173px;
+        margin-left: -35px;
+    }
+
+    #jeticon1 {
+        width: 40px;
+        height: 40px;
+        margin-top: -20px;
+    }
+
+    .ri-arrow-right-up-line,
+    .ri-vip-fill,
+    .ri-shield-fill,
+    .ri-money-dollar-circle-fill {
+        font-size: 26px;
+    }
+
+    .ri-money-dollar-circle-fill {
+        margin-top: -20px;
+    }
+
+    #basliqxitmet1 {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: -40px;
+        width: 112px;
+    }
+
+    #basliqxitmet2 {
+        font-size: 12px;
+        margin-left: -50px;
+        margin-top: 15px;
+        width: 130px;
+    }
+
+    #textxidmet1 {
+        font-size: 13px;
+        margin-left: -51px;
+        margin-top: -7px;
+        width: 130px;
+    }
+
+    #textxidmet2 {
+        font-size: 12px;
+        margin-left: -51px;
+        margin-top: -7px;
+        width: 145px;
+    }
+
+    .servicesboxs {
+        margin-left: -10px;
+        width: 106%;
+    }
+
+    /* foots */
+
+    .elvingame {
+        margin-left: -35px;
+    }
+
+    .foot {
+        margin-top: 40px;
+        width: 105%;
+        height: 1150px;
+        display: block;
+    }
+
+    .textfoot {
+        width: 280px;
+        font-size: 21px;
+    }
+
+    .footbasliq {
+        margin-left: 40px;
+        font-size: 29px;
+        width: 200px;
+    }
+
+    .footlist {
+        font-size: 20px;
+        margin-left: -10px;
+        width: 200px;
+    }
+
+    .footsira {
+        font-size: 20px;
+        margin-left: -7px;
+        font-weight: 900;
+    }
+
+    #footbolmeler {
+        margin-top: -40px;
+    }
+
+    #foots {
+        font-size: 20px;
+    }
+
+    .footabune {
+        font-size: 30px;
+        margin-left: 55px;
+        width: 200px;
+
+    }
+
+    .textfoot1 {
+        font-size: 25px;
+    }
+
+    .inputfoot {
+        height: 40px;
+        width: 270px;
+        font-size: 17px;
+    }
+
+    .footbtn {
+        margin-top: 20px;
+    }
+
+    .abunemesaage {
+        margin-top: 20px;
+        font-size: 17px;
+    }
+
+    .theend {
+        width: 106%;
+        display: block;
+    }
+
+    .facebook,
+    .instagram {
+        width: 30px;
+        height: 30px;
+    }
+
+    .facebook {
+        margin-left: 10px;
+    }
+
+    .instagram {
+        margin-left: 20px;
+    }
+
+    .endtext {
+        font-size: 17px;
+        margin-left: 10px;
     }
 }
 
@@ -1365,25 +1613,1267 @@ td {
         margin-left: 365px;
     }
 
-    /* mainhisesi */
-
-    #pubguc{
-        margin-left: 130px;
-        font-size: 21px;
+    .gamessell1 {
+        width: 99%;
     }
 
-    #pubgprize{
-        margin-left: 290px;
-        margin-top: -47px;
+    /* .servicesboxs{
+        margin-top: 300px;
+    } */
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+
+    /* .headerhisesi */
+
+    * {
+        box-sizing: border-box;
     }
 
-    .ucinput{
-        margin-left: 130px;
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
+    }
+
+    .began {
+        display: flex;
+        gap: 20px;
+        background-color: #f5f5f5;
+        height: 45px;
+        padding-top: 27px;
+        width: 103%;
         margin-top: -10px;
     }
 
-    .gamessell1{
-        width: 99%;
+    .ri-menu-5-fill {
+        margin-top: -23px;
+        margin-left: 13px;
+        font-size: 26px;
+        display: block;
     }
-    
+
+    .userline {
+        margin-left: 187px;
+    }
+
+    .gamename1 {
+        display: block;
+        color: orange;
+        font-size: 30px;
+        margin-left: 17%;
+        margin-top: -25px;
+        width: 200px;
+    }
+
+    .ri-user-line {
+        display: block;
+        margin-left: 25%;
+        font-size: 25px;
+        margin-top: -22px;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .news,
+    .accounts {
+        display: none;
+    }
+
+    .mood {
+        margin-left: -95px;
+        margin-top: -21px;
+    }
+
+    .backmood {
+        width: 45px;
+        height: 30px;
+        padding-top: -5px;
+        margin-left: -70px;
+    }
+
+    .ri-moon-fill {
+        font-size: 13px;
+        margin-left: -4px;
+    }
+
+    .ri-sun-line {
+        font-size: 15px;
+        font-weight: 900;
+    }
+
+    .hiddenbalance {
+        display: block;
+        margin-left: -3px;
+        margin-top: 15px;
+    }
+
+    .balancebtn1 {
+        display: block;
+        width: 130px;
+        font-size: 15px;
+        height: 40px;
+        margin-top: 10px;
+        padding-left: 5px;
+        border-radius: 10px;
+        background-color: orange;
+        color: white;
+        border: 3px solid orange;
+        box-shadow: none;
+    }
+
+    .playerbtn {
+        box-shadow: none;
+        width: 130px;
+        height: 40px;
+        background-color: orange;
+        color: white;
+        border: 3px solid orange;
+        font-size: 15px;
+        padding-top: -20px;
+        margin-top: -10px;
+        margin-left: 20px;
+    }
+
+    .ri-shopping-basket-fill {
+        display: none;
+    }
+
+    .ri-add-line {
+        display: none;
+    }
+
+    .gamename {
+        display: none;
+    }
+
+    .searce {
+        width: 173px;
+        height: 40px;
+        margin-top: -80px;
+        margin-left: 220px;
+    }
+
+    .searcebtn {
+        display: none;
+    }
+
+    .ri-search-line {
+        font-size: 10px;
+        margin-left: -5px;
+    }
+
+    .playerbtn {
+        display: block;
+    }
+
+    .player {
+        margin-left: 10%;
+        margin-top: -70px;
+    }
+
+    .balancebtn {
+        display: none;
+    }
+
+    .main {
+        display: none;
+    }
+
+    .hiddensearce {
+        width: 165px;
+        margin-top: -75px;
+        margin-left: -75px;
+    }
+
+    .games ul li a, .hiddensearce ul li a{
+        font-size: 15px;
+    }
+
+    .ri-corner-right-up-fill {
+        margin-left: 3px;
+    }
+
+    .texthidden {
+        font-size: 12px;
+        margin-left: 480px;
+        width: 60px;
+    }
+
+    .texthidden p {
+        margin-left: -18px;
+    }
+
+    .hiddenlist {
+        width: 150px;
+        position: absolute;
+        z-index: 1;
+        background-color: bisque;
+        margin-top: -95px;
+        margin-left: -7px;
+    }
+
+    .hiddensearce ul li {
+        font-size: 13px;
+        margin-left: -12px;
+    }
+
+    .hiddensearce ul {
+        margin-top: 3px;
+    }
+
+    .gamessell1 {
+        margin-left: 3px;
+        width: 99%;
+        margin-top: 2px;
+        padding-left: 30px;
+    }
+
+    .backrules {
+        width: 102%;
+    }
+
+    /* mainhisesi */
+
+    .uc60 {
+        margin-left: 0px;
+        width: 98%;
+        display: block;
+        margin-top: 20px;
+        height: 250px;
+        box-shadow: none;
+    }
+
+    .pubguc {
+        width: 100px;
+        height: 160px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    #pubguc {
+        font-size: 19px;
+        margin-left: 230px;
+        margin-top: -160px;
+    }
+
+    .ucprice {
+        font-size: 20px;
+        margin-left: 140px;
+        margin-top: -5px;
+    }
+
+    .ucspan {
+        font-size: 19px;
+    }
+
+    .ucinput,
+    .ucinput1,
+    .ucinput2,
+    .ucinput3,
+    .ucinput4,
+    .ucinput5 {
+        margin-left: 130px;
+        margin-top: 10px;
+    }
+
+    .ucselect,
+    .ucselect1,
+    .ucselect2,
+    .ucselect3,
+    .ucselect4,
+    .ucselect5 {
+        margin-top: -70px;
+        margin-left: 110px;
+        font-size: 15px;
+        height: 40px;
+    }
+
+    .ucbtn,
+    .ucbtn1,
+    .ucbtn2,
+    .ucbtn3,
+    .ucbtn4,
+    .ucbtn5 {
+        width: 60px;
+        height: 40px;
+        margin-top: -70px;
+        margin-left: 100px;
+    }
+
+    .uc60:hover {
+        margin-left: 1px;
+    }
+
+    .hiddenuc:hover,
+    .hiddenuc1:hover,
+    .hiddenuc2:hover,
+    .hiddenuc3:hover,
+    .hiddenuc4:hover,
+    .hiddenuc5:hover {
+        margin-left: 1px;
+    }
+
+    .hiddenuc,
+    .hiddenuc1,
+    .hiddenuc2,
+    .hiddenuc3,
+    .hiddenuc4,
+    .hiddenuc5 {
+        display: none;
+        margin-left: 3px;
+        height: 280px;
+        background-color: white;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .ucvalyuta,
+    .ucvalyuta1,
+    .ucvalyuta2,
+    .ucvalyuta3,
+    .ucvalyuta4,
+    .ucvalyuta5 {
+        margin-top: -130px;
+        margin-left: 175px;
+    }
+
+    .uctd,
+    .uctd1,
+    .uctd2,
+    .uctd3,
+    .uctd4,
+    .uctd5 {
+        margin-left: -20px;
+    }
+
+    .pubgvalyuta {
+        margin-top: 27px;
+        margin-left: 160px;
+    }
+
+    #pubgprize {
+        margin-left: 300px;
+        margin-top: -47px;
+    }
+
+    #pubgazn {
+        margin-left: 480px;
+        margin-top: -45px;
+    }
+
+    .pubgname,
+    .uctd,
+    .uctd1,
+    .uctd2,
+    .uctd3,
+    .uctd4,
+    .uctd5 {
+        margin-top: -130px;
+    }
+
+    .pubgmebleg {
+        margin-left: -360px;
+        margin-top: 27px;
+    }
+
+    .ucprize,
+    .ucprize1,
+    .ucprize2,
+    .ucprize3,
+    .ucprize4,
+    .ucprize5 {
+        margin-left: -335px;
+        margin-top: -130px;
+    }
+
+    .pubgname {
+        margin-left: 27px;
+    }
+
+    .pubgsayi {
+        margin-top: 150px;
+        margin-left: -475px;
+    }
+
+    .ucnumber,
+    .ucnumber1,
+    .ucnumber2,
+    .ucnumber3,
+    .ucnumber4,
+    .ucnumber5 {
+        margin-left: -450px;
+        margin-top: -7px;
+    }
+
+    .mobileuc {
+        margin-left: -15px;
+    }
+
+    .pubgyekunmebleg {
+        margin-top: 140px;
+        margin-left: 20px;
+    }
+
+    .amount,
+    .amount1,
+    .amount2,
+    .amount3,
+    .amount4,
+    .amount5 {
+        margin-left: 40px;
+    }
+
+    .ucenterbtn,
+    .ucenterbtn1 {
+        margin-top: -10px;
+        margin-left: -150px;
+    }
+
+    .ucentertd4 {
+        margin-left: 170px;
+    }
+
+    tr {
+        width: 200px;
+    }
+
+    /* xeberler */
+
+    #services2,
+    #services3,
+    #services4,
+    #services5 {
+        width: 150px;
+        height: 140px;
+    }
+
+    #services2 {
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    #services3 {
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+
+    #services4 {
+        margin-left: -415px;
+        margin-top: 180px;
+    }
+
+    #services5 {
+        margin-top: 15px;
+        margin-left: 220px;
+    }
+
+    #jeticon1 {
+        width: 40px;
+        height: 40px;
+        margin-top: -20px;
+    }
+
+    .ri-arrow-right-up-line,
+    .ri-vip-fill,
+    .ri-shield-fill,
+    .ri-money-dollar-circle-fill {
+        font-size: 26px;
+    }
+
+    .ri-money-dollar-circle-fill {
+        margin-top: -20px;
+    }
+
+    #basliqxitmet1 {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: -30px;
+        width: 112px;
+    }
+
+    #basliqxitmet2 {
+        font-size: 12px;
+        margin-left: -50px;
+        margin-top: 15px;
+        width: 121px;
+    }
+
+    #textxidmet1 {
+        font-size: 13px;
+        margin-left: -51px;
+        margin-top: -7px;
+        width: 132px;
+    }
+
+    #textxidmet2 {
+        font-size: 12px;
+        margin-left: -51px;
+        margin-top: -7px;
+        width: 139px;
+    }
+
+    .servicesboxs {
+        margin-left: -10px;
+        width: 102.5%;
+    }
+
+    .new {
+        margin-top: 300px;
+    }
+
+    /* foothisesi */
+
+
+    .elvingame {
+        margin-left: -80px;
+        margin-top: -10px;
+    }
+
+    .foot {
+        margin-top: 40px;
+        width: 102.5%;
+        height: 800px;
+        display: block;
+    }
+
+    .gamestore {
+        font-size: 31px;
+    }
+
+    .textfoot {
+        width: 575px;
+        font-size: 22px;
+    }
+
+    .footbasliq {
+        margin-left: 220px;
+        font-size: 29px;
+        margin-top: 70px;
+    }
+
+    .footlist {
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .footsira {
+        font-size: 20px;
+        margin-left: -7px;
+        font-weight: 900;
+        margin-top: 35px;
+    }
+
+    #footbolmeler {
+        margin-top: -160px;
+        margin-left: 290px;
+    }
+
+    #foots {
+        font-size: 20px;
+    }
+
+    .footabune {
+        font-size: 30px;
+        margin-left: 1px;
+        margin-top: 80px;
+    }
+
+    .textfoot1 {
+        font-size: 25px;
+        width: 570px;
+    }
+
+    .inputfoot {
+        height: 40px;
+        width: 270px;
+        font-size: 17px;
+    }
+
+    .footbtn {
+        margin-top: -10px;
+    }
+
+    .abunemesaage {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .theend {
+        width: 106%;
+        display: block;
+        width: 100%;
+    }
+
+    .facebook,
+    .instagram {
+        width: 30px;
+        height: 30px;
+    }
+
+    .facebook {
+        margin-left: 10px;
+    }
+
+    .instagram {
+        margin-left: 20px;
+    }
+
+    .endtext {
+        font-size: 17px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 991px) {
+
+    /* .header hisesi */
+
+    .gamename1 {
+        font-size: 35px;
+        width: 250px;
+    }
+
+    .began {
+        width: 102.5%;
+    }
+
+    .userline {
+        margin-left: 250px;
+        margin-top: 4px;
+    }
+
+    .backmood {
+        margin-left: -50px;
+    }
+
+    .searce {
+        margin-left: 240px;
+    }
+
+    .playerbtn {
+        margin-left: 40px;
+    }
+
+    .hiddensearce {
+        margin-left: -128px;
+        width: 180px;
+    }
+
+    .hiddenlist {
+        margin-top: -100px;
+    }
+
+    .texthidden {
+        margin-left: 550px;
+    }
+
+    /* mainhisesi */
+
+
+    /* xeberler */
+
+    #services2,
+    #services3,
+    #services4,
+    #services5 {
+        width: 180px;
+        height: 140px;
+    }
+
+    #textxidmet1 {
+        width: 160px;
+        margin-left: -60px;
+    }
+
+    #textxidmet2 {
+        width: 180px;
+        margin-left: -65px;
+        font-size: 11px;
+        margin-top: 20px;
+    }
+
+    #services4 {
+        margin-left: -448px;
+    }
+
+    #services3 {
+        margin-left: 90px;
+    }
+
+    #services5 {
+        margin-left: 350px;
+    }
+
+    /* foothisesi */
+
+    .servicesboxs {
+        gap: 1px;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1400px) {
+
+    /* .headerhissesi */
+
+    * {
+        box-sizing: border-box;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
+    }
+
+    .began {
+        width: 101.5%;
+    }
+
+    .news {
+        margin-left: -5px;
+    }
+
+    .news,
+    .accounts {
+        font-size: 14px;
+    }
+
+    .mood {
+        margin-top: -5px;
+    }
+
+    .backmood {
+        width: 60px;
+        height: 25px;
+        margin-left: -200px;
+    }
+
+    .ri-moon-fill {
+        font-size: 13px;
+    }
+
+    .ri-sun-line {
+        font-size: 14px;
+    }
+
+    .button {
+        margin-top: -5px;
+    }
+
+    .entry {
+        width: 70px;
+        height: 30px;
+        margin-left: -100px;
+    }
+
+    .note {
+        width: 70px;
+        height: 30px;
+    }
+
+    .gamename {
+        margin-left: 15px;
+        margin-top: -25px;
+    }
+
+    .searce {
+        width: 170px;
+        height: 35px;
+        margin-top: -10px;
+        margin-left: 80px;
+    }
+
+    .searcebtn {
+        margin-top: -5px;
+        width: 23px;
+        height: 23px;
+        margin-left: -30px;
+
+    }
+
+    .ri-search-line {
+        margin-left: -3px;
+    }
+
+    .playerbtn {
+        width: 150px;
+        height: 30px;
+        font-size: 14px;
+        padding-left: 40px;
+        margin-left: -70px;
+        margin-top: -13px;
+    }
+
+    .balancebtn {
+        width: 150px;
+        height: 30px;
+        font-size: 14px;
+        padding-left: 40px;
+    }
+
+    .hiddensearce{
+        width: 167px;
+        margin-left: -140px;
+        margin-top: -20px;
+    }
+
+    .texthidden {
+        margin-left: 660px;
+    }
+
+    .ri-corner-right-up-fill {
+        margin-left: 700px;
+    }
+
+    .games{
+        margin-left: 10px;
+        margin-top: 4px;
+        width: 160px;
+    }
+
+    .games ul li a, .hiddensearce ul li a{
+        font-size: 15px;
+    }
+
+    .ri-add-line {
+        font-size: 20px;
+    }
+
+    .player {
+        margin-left: 200px;
+        margin-top: -5px;
+    }
+
+    .category {
+        width: 150px;
+        font-size: 15px;
+        height: 35px;
+        margin-left: 20px;
+    }
+
+    .home,
+    .game,
+    .payy,
+    .rule,
+    .aboutme,
+    .connection {
+        font-size: 17px;
+    }
+
+    .home {
+        margin-left: 50px;
+    }
+
+    .gamessell1 {
+        margin-left: 3px;
+        width: 100%;
+    }
+
+    .backrules {
+        width: 101%;
+    }
+
+    .ri-menu-5-fill {
+        display: none;
+    }
+
+    /* mainhisesi */
+
+    .uc60 {
+        margin-left: 0px;
+        width: 98%;
+        display: block;
+        margin-top: 20px;
+        height: 200px;
+        box-shadow: none;
+    }
+
+    .pubguc {
+        width: 100px;
+        height: 160px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    #pubguc {
+        font-size: 19px;
+        margin-left: 130px;
+        margin-top: -120px;
+    }
+
+    .ucprice {
+        font-size: 20px;
+        margin-left: 450px;
+        margin-top: -45px;
+    }
+
+    .ucspan {
+        font-size: 19px;
+    }
+
+    .ucinput,
+    .ucinput1,
+    .ucinput2,
+    .ucinput3,
+    .ucinput4,
+    .ucinput5 {
+        margin-left: 130px;
+        margin-top: 10px;
+    }
+
+    .ucselect,
+    .ucselect1,
+    .ucselect2,
+    .ucselect3,
+    .ucselect4,
+    .ucselect5 {
+        margin-top: -70px;
+        margin-left: 110px;
+        font-size: 15px;
+        height: 40px;
+    }
+
+    .ucbtn,
+    .ucbtn1,
+    .ucbtn2,
+    .ucbtn3,
+    .ucbtn4,
+    .ucbtn5 {
+        width: 60px;
+        height: 40px;
+        margin-top: -70px;
+        margin-left: 100px;
+    }
+
+    .uc60:hover {
+        margin-left: 1px;
+    }
+
+    .hiddenuc:hover,
+    .hiddenuc1:hover,
+    .hiddenuc2:hover,
+    .hiddenuc3:hover,
+    .hiddenuc4:hover,
+    .hiddenuc5:hover {
+        margin-left: 1px;
+    }
+
+    .hiddenuc,
+    .hiddenuc1,
+    .hiddenuc2,
+    .hiddenuc3,
+    .hiddenuc4,
+    .hiddenuc5 {
+        display: none;
+        margin-left: 3px;
+        height: 220px;
+        background-color: white;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .ucvalyuta,
+    .ucvalyuta1,
+    .ucvalyuta2,
+    .ucvalyuta3,
+    .ucvalyuta4,
+    .ucvalyuta5 {
+        margin-top: -7px;
+        margin-left: 175px;
+    }
+
+    .uctd,
+    .uctd1,
+    .uctd2,
+    .uctd3,
+    .uctd4,
+    .uctd5 {
+        margin-left: -20px;
+    }
+
+    .pubgvalyuta {
+        margin-top: 27px;
+        margin-left: 160px;
+    }
+
+    #pubgprize {
+        margin-left: 650px;
+        margin-top: -47px;
+    }
+
+    #pubgazn {
+        margin-left: 850px;
+        margin-top: -45px;
+    }
+
+    .pubgname,
+    .uctd,
+    .uctd1,
+    .uctd2,
+    .uctd3,
+    .uctd4,
+    .uctd5 {
+        margin-top: -7px;
+    }
+
+    .pubgmebleg {
+        margin-left: -360px;
+        margin-top: 27px;
+    }
+
+    .ucprize,
+    .ucprize1,
+    .ucprize2,
+    .ucprize3,
+    .ucprize4,
+    .ucprize5 {
+        margin-left: -335px;
+        margin-top: -7px;
+    }
+
+    .pubgname {
+        margin-left: 27px;
+    }
+
+    .pubgsayi {
+        margin-top: 30px;
+        margin-left: 200px;
+    }
+
+    .ucnumber,
+    .ucnumber1,
+    .ucnumber2,
+    .ucnumber3,
+    .ucnumber4,
+    .ucnumber5 {
+        margin-left: 225px;
+        margin-top: -7px;
+    }
+
+    .mobileuc {
+        margin-left: -15px;
+    }
+
+    .pubgyekunmebleg {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .amount,
+    .amount1,
+    .amount2,
+    .amount3,
+    .amount4,
+    .amount5 {
+        margin-left: 35px;
+        margin-top: 3px;
+    }
+
+    .ucenterbtn1 {
+        margin-top: 60px;
+        margin-left: -750px;
+    }
+
+    .ucentertd {
+        margin-top: 80px;
+        margin-left: -650px;
+    }
+
+    .ucentertd4 {
+        margin-top: 80px;
+        margin-left: -650px;
+    }
+
+    tr {
+        width: 200px;
+    }
+
+    /* xeberlerhisesi */
+
+    .new {
+        margin-top: 300px;
+        width: 100%;
+    }
+
+    .servicesboxs {
+        gap: 0px;
+    }
+
+    #services2,
+    #services3,
+    #services4,
+    #services5 {
+        width: 260px;
+    }
+
+    #services2 {
+        margin-left: -150px;
+    }
+
+    #services3 {
+        margin-left: 70px;
+    }
+
+    #services4 {
+        margin-left: 73px;
+    }
+
+    #services5 {
+        margin-top: 300px;
+        margin-left: -925px;
+    }
+
+    #textxidmet1 {
+        width: 250px;
+        margin-left: -95px;
+    }
+
+    #textxidmet2 {
+        width: 300px;
+        margin-left: -95px;
+    }
+
+    /* foothisesi */
+
+    .foot{
+        margin-top: 250px;
+        width: 101.4%;
+        display: block;
+        height: 840px;
+    }
+
+    .elvingame{
+        margin-left: -130px;
+        margin-top: -25px;
+    }
+
+    .gamestore{
+        font-size: 32px;
+    }
+
+    .textfoot{
+        width: 900px;
+        font-size: 25px;
+    }
+
+    .footbasliq{
+        margin-top: 100px;
+        margin-left: 285px;
+        font-size: 32px;
+    }
+
+    .footsira{
+        margin-left: 450px;
+        margin-top: -185px;
+    }
+
+    .footabune{
+        margin-top: 80px;
+        font-size: 32px;
+        margin-left: 320px;
+    }
+
+    .textfoot1{
+        font-size: 32px;
+        width: 900px;
+    }
+
+    .abunemesaage{
+        margin-left: 450px;
+        margin-top: -40px;
+    }
+
+    .endtext{
+        margin-left: 20px;
+    }
+
+    #istagramid{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    /* .headerhisse */
+
+    * {
+        box-sizing: border-box;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
+    }
+
+
+    .button {
+        margin-left: 150px;
+    }
+
+    .backmood{
+        margin-left: -10px;
+    }
+
+    .searce{
+        margin-left: 200px;
+    }
+
+    .player{
+        margin-left: 300px;
+    }
+
+    .home, .game, .payy, .aboutme, .rule, .connection{
+        margin-left: 85px;
+    }
+
+    .hiddensearce{
+        margin-left: -130px;
+        width: 180px;
+    }
+
+    .texthidden{
+        margin-left: 875px;
+    }
+
+    .ri-corner-right-up-fill{
+        margin-left: 915px;
+    }
+
+    /* mainhisesi */
+
+
+    /* xeberlerhisesi */
+
+    #services2, #services3, #services4, #services5{
+        width: 300px;
+    }
+
+    #services2{
+        margin-left: -190px;
+    }
+
+    #services3{
+        margin-left: 150px;
+    }
+
+    #services4{
+        margin-left: 150px;
+    }
+
+    #services5{
+        margin-left: -1200px;
+    }
+
+    #textxidmet1{
+        width: 300px;
+        margin-left: -110px;
+    }
 }

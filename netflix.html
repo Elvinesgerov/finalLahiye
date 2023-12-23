@@ -20,9 +20,9 @@
 <body>
 
     <div class="began">
-        <i class="ri-list-check"></i>
+        <i class="ri-menu-5-fill"></i>
         <h1 class="gamename1"><i><b>Game Store</b></i></h1>
-        <i class="ri-user-line"></i>
+        <a href="./enter.html" class="userline"><i class="ri-user-line"></i></a>
         <a href="./news.html" class="news">
             <i class="ri-book-fill"></i>
             Xeberler </a>
@@ -120,6 +120,42 @@
         </ul>
     </div>
 
+    <div class="hiddenlist">
+        <div class="hiddenhome">
+            <i class="ri-home-5-line"></i>
+            <a href="./index.html" alt="" class="hiddenclick">Ana Səhifə</a>
+        </div>
+        <hr>
+
+        <div class="hiddenhome">
+            <i class="ri-article-line"></i>
+            <a href="./news.html" alt="" class="hiddenclick">Xəbərlər</a>
+        </div>
+        <hr>
+
+        <div class="hiddenhome">
+            <i class="ri-gamepad-line"></i>
+            <a href="./games.html" alt="" class="hiddenclick">Oyunlar</a>
+        </div>
+        <hr>
+
+        <div class="hiddenhome">
+            <i class="ri-visa-line"></i>
+            <a href="./account.html" alt="" class="hiddenclick">Bank Hesablari</a>
+        </div>
+        <hr>
+        <div class="hiddenhome">
+            <i class="ri-question-mark"></i>
+            <a href="./help.html" alt="" class="hiddenclick">Yardim</a>
+        </div>
+        <hr>
+
+        <div class="hiddenhome">
+            <i class="ri-smartphone-line"></i>
+            <a href="./connection.html" alt="" class="hiddenclick">Əlaqə</a>
+        </div>
+    </div>
+
     <div class="backrules">
         <div class="gamessell1">
             <i class="ri-discord-fill"></i>
@@ -127,10 +163,10 @@
         </div>
         <div class="uc60">
             <img class="pubguc" src="./netflixfotoumumi.jpg" alt="">
-            <p class="uctext">1 Ayliq otaq </p>
+            <p class="uctext" id="pubguc">1 Ayliq otaq </p>
             <p class="ucprice">319.14 <span class="ucspan">Rubl</span></p>
-            <p class="ucprice">3.52 <span class="ucspan">Usd</span></p>
-            <p class="ucprice">6 <span class="ucspan">Azn</span></p>
+            <p class="ucprice" id="pubgprize">3.52 <span class="ucspan">Usd</span></p>
+            <p class="ucprice" id="pubgazn">6 <span class="ucspan">Azn</span></p>
             <input class="ucinput" type="number" value="1">
             <select class="ucselect" name="" id="">
                 <option value="Rubl">Rubl</option>
@@ -145,16 +181,16 @@
                 <thead>
                     <tr>
                         <th>Name</th>
-                        <th>Ay</th>
-                        <th>Valyuta</th>
-                        <th>Meblegi</th>
-                        <th>Sayi</th>
-                        <th>Yekun Mebleg</th>
+                        <th class="mobileuc">Ayliq</th>
+                        <th class="pubgvalyuta">Valyuta</th>
+                        <th class="pubgmebleg">Meblegi</th>
+                        <th class="pubgsayi">Sayi</th>
+                        <th class="pubgyekunmebleg">Yekun Mebleg</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="nametd">Netflix</td>
+                        <td class="pubgname">Netflix</td>
                         <td class="uctd">60</td>
                         <td class="ucvalyuta">Rubl</td>
                         <td class="ucprize">96.82</td>
@@ -168,10 +204,10 @@
 
         <div class="uc60">
             <img class="pubguc" src="./netflixfotoumumi.jpg" alt="">
-            <p class="uctext">3 Ayliq Otaq</p>
+            <p class="uctext" id="pubguc">3 Ayliq Otaq</p>
             <p class="ucprice">797.87 <span class="ucspan">Rubl</span></p>
-            <p class="ucprice">8.82 <span class="ucspan">Usd</span></p>
-            <p class="ucprice">15 <span class="ucspan">Azn</span></p>
+            <p class="ucprice" id="pubgprize">8.82 <span class="ucspan">Usd</span></p>
+            <p class="ucprice" id="pubgazn">15 <span class="ucspan">Azn</span></p>
             <input class="ucinput1" type="number" value="1">
             <select class="ucselect1" name="" id="">
                 <option value="Rubl">Rubl</option>
@@ -186,16 +222,16 @@
                 <thead>
                     <tr>
                         <th>Name</th>
-                        <th>Ayliq</th>
-                        <th>Valyuta</th>
-                        <th>Meblegi</th>
-                        <th>Sayi</th>
-                        <th>Yekun Mebleg</th>
+                        <th class="mobileuc">Ayliq</th>
+                        <th class="pubgvalyuta">Valyuta</th>
+                        <th class="pubgmebleg">Meblegi</th>
+                        <th class="pubgsayi">Sayi</th>
+                        <th class="pubgyekunmebleg">Yekun Mebleg</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="nametd1">Netflix</td>
+                        <td class="pubgname">Netflix</td>
                         <td class="uctd1">60</td>
                         <td class="ucvalyuta1">Rubl</td>
                         <td class="ucprize1">96.82</td>
@@ -209,10 +245,10 @@
 
         <div class="uc60">
             <img class="pubguc" src="./netflixfotoumumi.jpg" alt="">
-            <p class="uctext">6 Ayliq Otaq</p>
+            <p class="uctext" id="pubguc">6 Ayliq Otaq</p>
             <p class="ucprice">1329 <span class="ucspan">Rubl</span></p>
-            <p class="ucprice">14.70 <span class="ucspan">Usd</span></p>
-            <p class="ucprice">25 <span class="ucspan">Azn</span></p>
+            <p class="ucprice" id="pubgprize">14.70 <span class="ucspan">Usd</span></p>
+            <p class="ucprice" id="pubgazn">25 <span class="ucspan">Azn</span></p>
             <input class="ucinput2" type="number" value="1">
             <select class="ucselect2" name="" id="">
                 <option value="Rubl">Rubl</option>
@@ -227,16 +263,16 @@
                 <thead>
                     <tr>
                         <th>Name</th>
-                        <th>Ayliq</th>
-                        <th>Valyuta</th>
-                        <th>Meblegi</th>
-                        <th>Sayi</th>
-                        <th>Yekun Mebleg</th>
+                        <th class="mobileuc">Ayliq</th>
+                        <th class="pubgvalyuta">Valyuta</th>
+                        <th class="pubgmebleg">Meblegi</th>
+                        <th class="pubgsayi">Sayi</th>
+                        <th class="pubgyekunmebleg">Yekun Mebleg</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="nametd2">Netflix</td>
+                        <td class="pubgname">Netflix</td>
                         <td class="uctd2">60</td>
                         <td class="ucvalyuta2">Rubl</td>
                         <td class="ucprize2">96.82</td>
@@ -250,10 +286,10 @@
 
         <div class="uc60">
             <img class="pubguc" src="./netflixfotoumumi.jpg" alt="">
-            <p class="uctext">12 Ayliq Otaq</p>
+            <p class="uctext" id="pubguc">12 Ayliq Otaq</p>
             <p class="ucprice">2.127 <span class="ucspan">Rubl</span></p>
-            <p class="ucprice">23.52 <span class="ucspan">Usd</span></p>
-            <p class="ucprice">40 <span class="ucspan">Azn</span></p>
+            <p class="ucprice" id="pubgprize">23.52 <span class="ucspan">Usd</span></p>
+            <p class="ucprice" id="pubgazn">40 <span class="ucspan">Azn</span></p>
             <input class="ucinput3" type="number" value="1">
             <select class="ucselect3" name="" id="">
                 <option value="Rubl">Rubl</option>
@@ -268,16 +304,16 @@
                 <thead>
                     <tr>
                         <th>Name</th>
-                        <th>Ayliq</th>
-                        <th>Valyuta</th>
-                        <th>Meblegi</th>
-                        <th>Sayi</th>
-                        <th>Yekun Mebleg</th>
+                        <th class="mobileuc">Ayliq</th>
+                        <th class="pubgvalyuta">Valyuta</th>
+                        <th class="pubgmebleg">Meblegi</th>
+                        <th class="pubgsayi">Sayi</th>
+                        <th class="pubgyekunmebleg">Yekun Mebleg</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="nametd3">Netflix</td>
+                        <td class="pubgname">Netflix</td>
                         <td class="uctd3">60</td>
                         <td class="ucvalyuta3">Rubl</td>
                         <td class="ucprize3">96.82</td>
@@ -291,10 +327,10 @@
 
         <div class="uc60">
             <img class="pubguc" src="./netflixfotoumumi.jpg" alt="">
-            <p class="uctext">18 Ayliq Otaq</p>
+            <p class="uctext" id="pubguc">18 Ayliq Otaq</p>
             <p class="ucprice">2.925 <span class="ucspan">Rubl</span></p>
-            <p class="ucprice">32.35 <span class="ucspan">Usd</span></p>
-            <p class="ucprice">55 <span class="ucspan">Azn</span></p>
+            <p class="ucprice" id="pubgprize">32.35 <span class="ucspan">Usd</span></p>
+            <p class="ucprice" id="pubgazn">55 <span class="ucspan">Azn</span></p>
             <input class="ucinput4" type="number" value="1">
             <select class="ucselect4" name="" id="">
                 <option value="Rubl">Rubl</option>
@@ -309,16 +345,16 @@
                 <thead>
                     <tr>
                         <th>Name</th>
-                        <th>Ayliq</th>
-                        <th>Valyuta</th>
-                        <th>Meblegi</th>
-                        <th>Sayi</th>
-                        <th>Yekun Mebleg</th>
+                        <th class="mobileuc">Ayliq</th>
+                        <th class="pubgvalyuta">Valyuta</th>
+                        <th class="pubgmebleg">Meblegi</th>
+                        <th class="pubgsayi">Sayi</th>
+                        <th class="pubgyekunmebleg">Yekun Mebleg</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="nametd4">Netflix</td>
+                        <td class="pubgname">Netflix</td>
                         <td class="uctd4">60</td>
                         <td class="ucvalyuta4">Rubl</td>
                         <td class="ucprize4">96.82</td>
@@ -332,10 +368,10 @@
 
         <div class="uc60">
             <img class="pubguc" src="./netflixfotoumumi.jpg" alt="">
-            <p class="uctext">24 Ayliq Otaq</p>
+            <p class="uctext" id="pubguc">24 Ayliq Otaq</p>
             <p class="ucprice">3989 <span class="ucspan">Rubl</span></p>
-            <p class="ucprice">44.11 <span class="ucspan">Usd</span></p>
-            <p class="ucprice">75 <span class="ucspan">Azn</span></p>
+            <p class="ucprice" id="pubgprize">44.11 <span class="ucspan">Usd</span></p>
+            <p class="ucprice" id="pubgazn">75 <span class="ucspan">Azn</span></p>
             <input class="ucinput5" type="number" value="1">
             <select class="ucselect5" name="" id="">
                 <option value="Rubl">Rubl</option>
@@ -351,16 +387,16 @@
             <thead>
                 <tr>
                     <th>Name</th>
-                    <th>Ayliq</th>
-                    <th>Valyuta</th>
-                    <th>Meblegi</th>
-                    <th>Sayi</th>
-                    <th>Yekun Mebleg</th>
+                    <th class="mobileuc">Ayliq</th>
+                    <th class="pubgvalyuta">Valyuta</th>
+                    <th class="pubgmebleg">Meblegi</th>
+                    <th class="pubgsayi">Sayi</th>
+                    <th class="pubgyekunmebleg">Yekun Mebleg</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td class="nametd5">Netflix</td>
+                    <td class="pubgname">Netflix</td>
                     <td class="uctd5">60</td>
                     <td class="ucvalyuta5">Rubl</td>
                     <td class="ucprize5">96.82</td>
@@ -374,35 +410,35 @@
 
     <div class="new">
         <div class="servicesboxs">
-            <div class="services1">
-                <div class="jeticon">
+            <div class="services1" id="services2">
+                <div class="jeticon" id="jeticon1">
                     <i class="ri-arrow-right-up-line"></i>
-                    <h3 class="basliqxidmet">Sürətli Xidmət</h3>
-                    <p class="textxidmet">Aldığınız məhsullar ən sürətli şəkildə müştərilərə çatdırılır.</p>
+                    <h3 class="basliqxidmet" id="basliqxitmet1">Sürətli Xidmət</h3>
+                    <p class="textxidmet" id="textxidmet1">Aldığınız məhsullar ən sürətli şəkildə müştərilərə çatdırılır.</p>
                 </div>
             </div>
 
-            <div class="services1">
-                <div class="jeticon">
+            <div class="services1" id="services3">
+                <div class="jeticon" id="jeticon1">
                     <i class="ri-shield-fill"></i>
-                    <h3 class="basliqxidmet">Təhlükəsizlik</h3>
-                    <p class="textxidmet">Ən təhlükəsiz vasitələrlə ödənişləri həyata keçirə bilərsiniz.</p>
+                    <h3 class="basliqxidmet" id="basliqxitmet1">Təhlükəsizlik</h3>
+                    <p class="textxidmet" id="textxidmet1">Ən təhlükəsiz vasitələrlə ödənişləri həyata keçirə bilərsiniz.</p>
                 </div>
             </div>
 
-            <div class="services1">
-                <div class="jeticon">
+            <div class="services1" id="services4">
+                <div class="jeticon" id="jeticon1">
                     <i class="ri-money-dollar-circle-fill"></i>
-                    <h3 class="basliqxidmet">Sərfəli qiymət</h3>
-                    <p class="textxidmet">Endirimli və ən münasib qiymətə alış-verişdən zövq alın..</p>
+                    <h3 class="basliqxidmet" id="basliqxitmet1">Sərfəli qiymət</h3>
+                    <p class="textxidmet" id="textxidmet1">Endirimli və ən münasib qiymətə alış-verişdən zövq alın..</p>
                 </div>
             </div>
 
-            <div class="services1">
-                <div class="jeticon">
+            <div class="services1" id="services5">
+                <div class="jeticon" id="jeticon1">
                     <i class="ri-vip-fill"></i>
-                    <h3 class="basliqmusteri">Müştəri Məmnuniyyəti</h3>
-                    <p class="textxidmet">Müştərilərimizə keyfiyyətli xidmət göstərməkdən məmnunuq.</p>
+                    <h3 class="basliqmusteri" id="basliqxitmet2">Müştəri Məmnuniyyəti</h3>
+                    <p class="textxidmet" id="textxidmet2">Müştərilərimizə keyfiyyətli xidmət göstərməkdən məmnunuq.</p>
                 </div>
             </div>
         </div>
@@ -427,7 +463,7 @@
             </ul>
         </div>
 
-        <div class="elvingame">
+        <div class="elvingame" id="footbolmeler">
             <ul class="footsira">
                 <li class="footlist"><a href="./account.html">Bank Hesablari</a></li>
                 <li class="footlist"><a href="./account.html">Balans Artir</a></li>
@@ -437,7 +473,7 @@
         </div>
 
         <div class="elvingame">
-            <h2>Abunə Ol</h2>
+            <h2 class="footabune">Abunə Ol</h2>
             <p class="textfoot1">Saytımızda olan bütün yeniliklərdən xəbərdar olmaq üçün abunə olmağı unutmayın !</p>
             <input class="inputfoot" type="email" placeholder="Email">
             <button class="footbtn"><i class="ri-send-plane-fill"></i></button>

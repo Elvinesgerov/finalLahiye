@@ -86,12 +86,25 @@ let nametd4 = document.querySelector(".nametd4")
 let nametd5 = document.querySelector(".nametd5")
 let texthidden = document.querySelector(".texthidden")
 let oxs = document.querySelector(".ri-corner-right-up-fill")
+let list = document.querySelector (".ri-menu-5-fill")
+let hiddenlist = document.querySelector(".hiddenlist")
 
 let arry = ["pubg mobile", "free fire", "tiktok", "e futbol", "point blank", "call of duty mobile", "netflix", "roblox", "spotify", "valorant"]
 let flag = true
 let flag1 = true
 let flag2 = true
 let flag3 = true
+let flag5 = true
+
+list.addEventListener("click", ()=>{
+    if(flag5 == true){
+        hiddenlist.style.display = "block"
+        flag5 = false
+    }else {
+        hiddenlist.style.display = "none"
+        flag5 = true
+    }
+})
 
 
 footbtn.addEventListener("click", () => {

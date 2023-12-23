@@ -2356,18 +2356,28 @@ input {
         padding-left: 40px;
     }
 
+    .games{
+        margin-left: 10px;
+        margin-top: 4px;
+        width: 160px;
+    }
+
     .hiddensearce{
-        width: 215px;
-        margin-left: -240px;
+        width: 180px;
+        margin-left: -160px;
         margin-top: -20px;
     }
 
-    .texthidden{
-        margin-left: 860px;
+    .texthidden {
+        margin-left: 635px;
     }
 
-    .ri-corner-right-up-fill{
-        margin-left: 895px;
+    .games ul li a, .hiddensearce ul li a{
+        font-size: 15px;
+    }
+
+    .ri-corner-right-up-fill {
+        margin-left: 675px;
     }
 
     .ri-add-line {
