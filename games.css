@@ -971,7 +971,7 @@ td {
         background-color: #f5f5f5;
         height: 35px;
         padding-top: 27px;
-        width: 104%;
+        width: 108%;
         margin-top: -10px;
     }
 
@@ -1124,7 +1124,8 @@ td {
         margin-left: -50px;
     }
 
-    .games ul li a, .hiddensearce ul li a{
+    .games ul li a,
+    .hiddensearce ul li a {
         font-size: 15px;
     }
 
@@ -1162,8 +1163,8 @@ td {
     }
 
     .gamessell1 {
-        margin-left: -5px;
-        width: 99%;
+        margin-left: 0px;
+        width: 102%;
         margin-top: 2px;
         padding-left: 30px;
     }
@@ -1175,8 +1176,6 @@ td {
     .play {
         font-size: 20px;
     }
-
-    /* mainhisesi */
 
     .uc60 {
         margin-left: 0px;
@@ -1366,6 +1365,122 @@ td {
         width: 200px;
     }
 
+    /* oyunlar */ /* ---------------------------------------------------------------------------- */
+
+    .sell {
+        margin-top: 30px;
+        width: 108%;
+    }
+
+    .pubgfoto,
+    .spotifyfoto,
+    .netflixfoto,
+    .calldutyfoto,
+    .netflixfoto,
+    .freefrifoto,
+    .tiktokfoto,
+    .valorantfoto,
+    .efutbollfoto,
+    .pointblankfoto {
+        width: 120px;
+        height: 60px;
+    }
+
+    .pubgfoto, .freefrifoto, .valorantfoto, .efutbollfoto, .calldutyfoto, .pointblankfoto, .netflixfoto{
+        margin-left: -6px;
+        margin-top: -6px;
+    }
+
+    .tiktokfoto {
+        margin-top: -8px;
+    }
+
+    .efutboll {
+        margin-top: 170px;
+        margin-left: -371px;
+        width: 128px;
+        height: 70px;
+    }
+
+    .mobilefoto {
+        width: 128px;
+        height: 70px;
+        margin-left: 7px;
+    }
+
+    .spotifyfoto {
+        margin-left: -7px;
+        margin-top: -7px;
+    }
+
+    .spotify {
+        width: 128px;
+        height: 70px;
+        margin-top: 100px;
+        margin-left: -52px;
+    }
+
+    html{
+        width: 100%;
+        margin-left: -5px;
+    }
+
+    .netflix1 {
+        width: 128px;
+        height: 70px;
+        margin-top: 100px;
+        margin-left: -375px;
+    }
+
+    .netflix {
+        width: 128px;
+        height: 70px;
+        margin-left: -210px;
+        margin-top: 15px;
+    }
+
+    .pointblank {
+        width: 120px;
+        height: 70px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    .callduty {
+        width: 128px;
+        height: 70px;
+        margin-left: -48px;
+        margin-top: -70px;
+    }
+
+    .valorant {
+        width: 128px;
+        height: 70px;
+        margin-top: 90px;
+        margin-left: -53px;
+    }
+
+    .freefoto {
+        width: 128px;
+        height: 70px;
+        margin-left: -55px;
+    }
+
+    .tictocfoto {
+        width: 128px;
+        height: 70px;
+        margin-left: -371px;
+        margin-top: 90px;
+    }
+
+    .tiktokfoto{
+        margin-left: -6px;
+    }
+
+    .gamesfoto1 {
+        margin-left: -10px;
+    }
+
     /* xeberlerhisesi */
 
     #services2,
@@ -1381,7 +1496,7 @@ td {
     }
 
     #services2 {
-        margin-left: 15px;
+        margin-left: 18px;
         margin-top: 10px;
     }
 
@@ -1450,6 +1565,10 @@ td {
         width: 106%;
     }
 
+    .new{
+        margin-top: 300px;
+    }
+
     /* foots */
 
     .elvingame {
@@ -1458,7 +1577,7 @@ td {
 
     .foot {
         margin-top: 40px;
-        width: 105%;
+        width: 108%;
         height: 1150px;
         display: block;
     }
@@ -1616,10 +1735,6 @@ td {
     .gamessell1 {
         width: 99%;
     }
-
-    /* .servicesboxs{
-        margin-top: 300px;
-    } */
 
 }
 
@@ -1790,7 +1905,8 @@ td {
         margin-left: -75px;
     }
 
-    .games ul li a, .hiddensearce ul li a{
+    .games ul li a,
+    .hiddensearce ul li a {
         font-size: 15px;
     }
 
@@ -2042,6 +2158,120 @@ td {
         width: 200px;
     }
 
+    /* oyunlar */ /* ---------------------------------------------------------------------------- */
+
+    .pubgfoto,
+    .spotifyfoto,
+    .netflixfoto,
+    .calldutyfoto,
+    .netflixfoto,
+    .freefrifoto,
+    .tiktokfoto,
+    .valorantfoto,
+    .efutbollfoto,
+    .pointblankfoto {
+        width: 138px;
+        height: 80px;
+    }
+
+    .tiktokfoto {
+        margin-top: -8px;
+    }
+
+    .efutboll {
+        margin-top: 130px;
+        margin-left: -450px;
+        width: 147px;
+        height: 90px;
+    }
+
+    .mobilefoto {
+        width: 147px;
+        height: 90px;
+        margin-left: 15px;
+    }
+
+    .spotifyfoto {
+        margin-left: -7px;
+        margin-top: -7px;
+    }
+
+    .spotify {
+        width: 147px;
+        height: 90px;
+        margin-top: 130px;
+        margin-left: -232px;
+    }
+
+    .netflix1 {
+        width: 147px;
+        height: 90px;
+        margin-top: 25px;
+        margin-left: -665px;
+    }
+
+    .netflix {
+        width: 147px;
+        height: 90px;
+        margin-left: -15px;
+        margin-top: 20px;
+    }
+
+    .pointblank {
+        width: 147px;
+        height: 90px;
+        margin-left: 23px;
+        margin-top: -88px;
+    }
+
+    .callduty {
+        width: 147px;
+        height: 90px;
+        margin-left: -15px;
+        margin-top: 20px;
+    }
+
+    .valorant {
+        width: 147px;
+        height: 90px;
+        margin-top: 130px;
+        margin-left: -230px;
+    }
+
+    .freefoto {
+        width: 147px;
+        height: 90px;
+        margin-left: -20px;
+        margin-top: 12px;
+    }
+
+    .tictocfoto {
+        width: 147px;
+        height: 90px;
+        margin-left: -15px;
+        margin-top: 12px;
+    }
+
+    .gamesfoto1 {
+        margin-left: -10px;
+    }
+
+    .sell {
+        margin-top: 60px;
+        width: 102.5%;
+        height: 500px;
+    }
+
+    .pubgfoto, .freefrifoto, .valorantfoto, .efutbollfoto, .calldutyfoto, .pointblankfoto, .netflixfoto{
+        margin-left: -6px;
+        margin-top: -6px;
+    }
+
+    .tiktokfoto {
+        margin-top: -8px;
+        margin-left: -5px;
+    }
+
     /* xeberler */
 
     #services2,
@@ -2122,7 +2352,7 @@ td {
         width: 102.5%;
     }
 
-    .new {
+    .new{
         margin-top: 300px;
     }
 
@@ -2272,7 +2502,87 @@ td {
         margin-left: 550px;
     }
 
+    .gamename1 {
+        font-size: 35px;
+        width: 250px;
+    }
+
+    .userline {
+        margin-left: 380px;
+        margin-top: 4px;
+    }
+
+    .backmood {
+        margin-left: -50px;
+    }
+
+    .searce {
+        margin-left: 240px;
+    }
+
+    .playerbtn {
+        margin-left: 40px;
+    }
+
+    .hiddensearce {
+        margin-left: -128px;
+        width: 180px;
+    }
+
+    .hiddenlist {
+        margin-top: -100px;
+    }
+
+    .texthidden {
+        margin-left: 550px;
+    }
+
     /* mainhisesi */
+
+    .tictocfoto {
+        margin-left: 155px;
+        margin-top: 15px;
+    }
+
+    .efutboll {
+        margin-top: 15px;
+        margin-left: -435px;
+    }
+
+    .mobilefoto {
+        margin-top: 11px;
+    }
+
+    .freefoto {
+        margin-left: -35px;
+    }
+
+    .callduty {
+        margin-top: -87px;
+        margin-left: -30px;
+    }
+
+    .netflix {
+        margin-top: -87px;
+        margin-left: -50px;
+    }
+
+    .netflix1 {
+        margin-left: -615px;
+    }
+
+    .spotify {
+        margin-left: -30px;
+        margin-top: 25px;
+    }
+
+    #usergames{
+        margin-left: 250px;
+    }
+
+    .sell {
+        height: 400px;
+    }
 
 
     /* xeberler */
@@ -2417,7 +2727,7 @@ td {
         padding-left: 40px;
     }
 
-    .hiddensearce{
+    .hiddensearce {
         width: 167px;
         margin-left: -140px;
         margin-top: -20px;
@@ -2431,13 +2741,14 @@ td {
         margin-left: 700px;
     }
 
-    .games{
+    .games {
         margin-left: 10px;
         margin-top: 4px;
         width: 160px;
     }
 
-    .games ul li a, .hiddensearce ul li a{
+    .games ul li a,
+    .hiddensearce ul li a {
         font-size: 15px;
     }
 
@@ -2694,6 +3005,56 @@ td {
         width: 200px;
     }
 
+
+    /* ----------------------oyunlar---------------------- */
+
+    .mobilefoto{
+        margin-left: 20px;
+    }
+
+    .valorant{
+        margin-top: 200px;
+        margin-left: -1000px;
+    }
+
+    .efutboll{
+        margin-top: 200px;
+    }
+
+    .pointblank{
+        margin-left: 20px;
+    }
+
+
+    .callduty{
+        margin-left: 87px;
+    }
+
+    .netflix{
+        margin-left: 80px;
+        margin-top: -150px;
+    }
+
+    .netflix1{
+        margin-left: -247px;
+    }
+
+    .spotify{
+        margin-top: 200px;
+        margin-left: -920px;
+    }
+
+    .sell{
+        width: 101.5%;
+        height: 800px;
+    }
+
+    .gamesfoto1{
+        gap: 0px;
+        margin-left: 3px;
+        width: 100%;
+    }
+
     /* xeberlerhisesi */
 
     .new {
@@ -2741,59 +3102,59 @@ td {
 
     /* foothisesi */
 
-    .foot{
+    .foot {
         margin-top: 250px;
         width: 101.4%;
         display: block;
         height: 840px;
     }
 
-    .elvingame{
+    .elvingame {
         margin-left: -130px;
         margin-top: -25px;
     }
 
-    .gamestore{
+    .gamestore {
         font-size: 32px;
     }
 
-    .textfoot{
+    .textfoot {
         width: 900px;
         font-size: 25px;
     }
 
-    .footbasliq{
+    .footbasliq {
         margin-top: 100px;
         margin-left: 285px;
         font-size: 32px;
     }
 
-    .footsira{
+    .footsira {
         margin-left: 450px;
         margin-top: -185px;
     }
 
-    .footabune{
+    .footabune {
         margin-top: 80px;
         font-size: 32px;
         margin-left: 320px;
     }
 
-    .textfoot1{
+    .textfoot1 {
         font-size: 32px;
         width: 900px;
     }
 
-    .abunemesaage{
+    .abunemesaage {
         margin-left: 450px;
         margin-top: -40px;
     }
 
-    .endtext{
+    .endtext {
         margin-left: 20px;
     }
 
-    #istagramid{
+    #istagramid {
         margin-left: 20px;
     }
 }
@@ -2818,61 +3179,110 @@ td {
         margin-left: 150px;
     }
 
-    .backmood{
+    .began{
+        width: 103%;
+    }
+
+    .backmood {
         margin-left: -10px;
     }
 
-    .searce{
+    .searce {
         margin-left: 200px;
     }
 
-    .player{
+    .player {
         margin-left: 300px;
     }
 
-    .home, .game, .payy, .aboutme, .rule, .connection{
+    .home,
+    .game,
+    .payy,
+    .aboutme,
+    .rule,
+    .connection {
         margin-left: 85px;
     }
 
-    .hiddensearce{
+    .hiddensearce {
         margin-left: -130px;
         width: 180px;
     }
 
-    .texthidden{
+    .texthidden {
         margin-left: 875px;
     }
 
-    .ri-corner-right-up-fill{
+    .ri-corner-right-up-fill {
         margin-left: 915px;
     }
 
     /* mainhisesi */
 
+    .sell{
+        height: 650px;
+    }
+
+    .netflix{
+        margin-left: 330px;
+        margin-top: -325px;
+    }
+
+    .callduty{
+        margin-left: 60px;
+    }
+
+    .efutboll{
+        margin-left: -30px;
+    }
+
+    .valorant{
+        margin-left: -940px;
+    }
+
+    .freefoto{
+        margin-left: -30px;
+    }
+
+    .tictocfoto{
+        margin-left: -30px;
+    }
+
+    .netflix1{
+        margin-top: -150px;
+    }
+
+    .spotify{
+        margin-left: -530px;
+        margin-top: -150px;
+    }
 
     /* xeberlerhisesi */
 
-    #services2, #services3, #services4, #services5{
+    #services2,
+    #services3,
+    #services4,
+    #services5 {
         width: 300px;
     }
 
-    #services2{
+    #services2 {
         margin-left: -190px;
     }
 
-    #services3{
+    #services3 {
         margin-left: 150px;
     }
 
-    #services4{
+    #services4 {
         margin-left: 150px;
     }
 
-    #services5{
+    #services5 {
         margin-left: -1200px;
     }
 
-    #textxidmet1{
+    #textxidmet1 {
         width: 300px;
         margin-left: -110px;
     }

@@ -35,13 +35,26 @@ let category = document.querySelector(".category")
 let games = document.querySelector(".games")
 let texthidden = document.querySelector(".texthidden")
 let oxs = document.querySelector(".ri-corner-right-up-fill")
+let list = document.querySelector (".ri-menu-5-fill")
+let hiddenlist = document.querySelector(".hiddenlist")
 
 let arry = ["pubg mobile", "free fire", "tiktok", "e futbol", "point blank", "call of duty mobile", "netflix", "roblox", "spotify", "valorant"]
+let searceFilter
 let flag = true
 let flag1 = true
 let flag2 = true
 let flag3 = true
-let searceFilter
+let flag5 = true
+
+list.addEventListener("click", ()=>{
+    if(flag5 == true){
+        hiddenlist.style.display = "block"
+        flag5 = false
+    }else {
+        hiddenlist.style.display = "none"
+        flag5 = true
+    }
+})
 
 footbtn.addEventListener("click", () => {
     if (inputfoot.value != "" && inputfoot.value != " " && flag3 == true){
@@ -81,6 +94,7 @@ searce.addEventListener("keyup", () => {
 mood.addEventListener("click", ()=>{
     if(flag == true){
         mobilefoto.style.backgroundColor = "#313131"
+        list.style.color = "white"
         freefoto.style.backgroundColor = "#313131"
         tictocfoto.style.backgroundColor = "#313131"
         valorant.style.backgroundColor = "#313131"
@@ -127,6 +141,7 @@ mood.addEventListener("click", ()=>{
             item.style.color = "black"
         })
         mobilefoto.style.backgroundColor = "white"
+        list.style.color = "black"
         freefoto.style.backgroundColor = "white"
         tictocfoto.style.backgroundColor = "white"
         valorant.style.backgroundColor = "white"
