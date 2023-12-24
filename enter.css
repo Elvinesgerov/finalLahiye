@@ -44,7 +44,7 @@ body {
     width: 10px;
 }
 
-.back-boxs{
+.back-boxs, .back-boxs3{
     width: 190px;
     height: 140px;
     background-color: #f5f5f5;
@@ -146,4 +146,342 @@ input{
     margin-left: 175px;
     margin-top: 20px;
     font-size: 18px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
+    }
+
+    #backboxs, #backboxs4, #backboxs5{
+        display: none;
+    }
+
+    .enterinputs{
+        margin-left: -900px;
+        margin-top: -100px;
+        width: 100%;
+    }
+
+    .gamestore{
+        margin-left: -120px;
+    }
+
+    .backmood{
+        margin-left: -40px;
+    }
+
+    .enteremail, .entersifre, .inputpassword, .hiddenemail, .hiddenpassword{
+        margin-left: 1px;
+        width: 100%;
+        height: 40px;
+    }
+
+    .ri-eye-off-fill, .ri-eye-off-line, .ri-lock-fill{
+        font-size: 19px;
+    }
+
+    .entersifretext{
+        margin-left: -15px;
+        font-size: 17px;
+    }
+
+    .enternote{
+        margin-left: -25px;
+        font-size: 17px;
+    }
+
+    .enterbtn{
+        margin-left: 35%;
+        width: 100px;
+        font-size: 13px;
+    }
+
+    .ri-lock-fill{
+        margin-left: 85%;
+        margin-top: -65px;
+    }
+
+    .ri-eye-off-line{
+        margin-left: 84%;
+        margin-top: -30px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+
+    .enteremail, .entersifre, .inputpassword, .hiddenemail, .hiddenpassword{
+        margin-left: 30px;
+        width: 80%;
+        height: 40px;
+    }
+
+    .ri-eye-off-line{
+        margin-left: 76%;
+    }
+
+    .ri-lock-fill{
+        margin-left: 76%;
+    }
+    
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+
+    .enteremail, .entersifre, .inputpassword, .hiddenemail, .hiddenpassword{
+        margin-left: 70px;
+        width: 65%;
+        height: 40px;
+    }
+
+    .enternote{
+        margin-left: 40px;
+    }
+
+    .enterbtn{
+        margin-left: 40%;
+    }
+
+    .ri-eye-off-line{
+        margin-left: 70%;
+    }
+
+    .ri-lock-fill{
+        margin-left: 71%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
+    }
+
+    #backboxs, #backboxs4, #backboxs5{
+        display: none;
+    }
+
+    #backboxs{
+        display: none;
+    }
+
+    .enterinputs{
+        margin-left: -840px;
+        margin-top: -100px;
+        width: 80%;
+    }
+
+    .gamestore{
+        margin-left: -120px;
+    }
+
+    .backmood{
+        margin-left: -40px;
+    }
+
+    .enteremail, .entersifre, .inputpassword, .hiddenemail, .hiddenpassword{
+        margin-left: 30px;
+        width: 70%;
+        height: 40px;
+    }
+
+    .ri-eye-off-fill, .ri-eye-off-line, .ri-lock-fill{
+        font-size: 19px;
+    }
+
+    .entersifretext{
+        margin-left: -15px;
+        font-size: 17px;
+    }
+
+    .enternote{
+        margin-left: -25px;
+        font-size: 17px;
+    }
+
+    .enterbtn{
+        margin-left: 35%;
+        width: 100px;
+        font-size: 13px;
+    }
+
+    .ri-lock-fill{
+        margin-left: 68%;
+        margin-top: -65px;
+    }
+
+    .ri-eye-off-line{
+        margin-left: 67%;
+        margin-top: -30px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 991px) {
+
+    #backboxs1, #backboxs3{
+        margin-left: 30px;
+    }
+    
+}
+
+@media screen and (min-width: 800px) and (max-width: 991px) {
+    .enteremail, .entersifre, .inputpassword, .hiddenemail, .hiddenpassword{
+        margin-left: 100px;
+        width: 55%;
+        height: 40px;
+    }
+
+    .entersifretext{
+        margin-left: 80px;
+    }
+
+    #backboxs1, #backboxs3{
+        margin-left: 12%;
+    }
+
+    .enternote{
+        margin-left: -10px;
+    }
+
+    .ri-eye-off-line{
+        margin-left: 63%;
+    }
+
+    .ri-lock-fill{
+        margin-left: 65%;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1400px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
+    }
+
+    #backboxs{
+        display: block;
+    }
+
+    #backboxs{
+        display: none;
+    }
+
+    .enterinputs{
+        margin-left: -800px;
+        margin-top: -100px;
+        width: 80%;
+    }
+
+    .gamestore{
+        margin-left: -120px;
+    }
+
+    .backmood{
+        margin-left: -40px;
+    }
+
+    .enteremail, .entersifre, .inputpassword, .hiddenemail, .hiddenpassword{
+        margin-left: 150px;
+        width: 50%;
+        height: 40px;
+    }
+
+    .ri-eye-off-fill, .ri-eye-off-line, .ri-lock-fill{
+        font-size: 19px;
+    }
+
+    .entersifretext{
+        margin-left: 130px;
+        font-size: 17px;
+    }
+
+    .enternote{
+        margin-left: -5px;
+        font-size: 17px;
+    }
+
+    .enterbtn{
+        margin-left: 40%;
+        width: 100px;
+        font-size: 13px;
+    }
+
+    .ri-lock-fill{
+        margin-left: 64%;
+        margin-top: -65px;
+    }
+
+    .ri-eye-off-line{
+        margin-left: 63%;
+        margin-top: -30px;
+    }
+
+    #backboxs1, #backboxs3, #backboxs4, #backboxs5{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width: 1191px) and (max-width: 1400px) {
+    .ri-eye-off-line{
+        margin-left: 61%;
+    }
+
+    .ri-lock-fill{
+        margin-left: 62%;
+    }
+}
+
+@media screen and (min-width: 1291px) and (max-width: 1400px) {
+
+    #backboxs1, #backboxs3, #backboxs4, #backboxs5{
+        margin-left: 70px;
+    }
+
+    .ri-eye-off-line{
+        margin-left: 60%;
+    }
+
+    .ri-lock-fill{
+        margin-left: 60%;
+    }
+    
+}
+
+@media screen and (min-width: 1391px) and (max-width: 1400px) {
+
+    #backboxs1, #backboxs3, #backboxs4, #backboxs5{
+        margin-left: 90px;
+    }
+
+    .enteremail, .entersifre, .inputpassword, .hiddenemail, .hiddenpassword{
+        margin-left: 270px;
+        width: 40%;
+        height: 40px;
+    }
+
+    .entersifretext{
+        margin-left: 250px;
+    }
+    
 }

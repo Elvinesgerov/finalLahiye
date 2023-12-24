@@ -44,14 +44,27 @@ let cardnumber2 = document.querySelector(".cardnumber2")
 let cardnumber3 = document.querySelector(".cardnumber3")
 let cardbutton = document.querySelector(".cardbutton")
 let cardbutton1 = document.querySelector(".cardbutton1")
+let list = document.querySelector (".ri-menu-5-fill")
+let hiddenlist = document.querySelector(".hiddenlist")
 
 
 let arry = ["pubg mobile", "free fire", "tiktok", "e futbol", "point blank", "call of duty mobile", "netflix", "roblox", "spotify", "valorant"]
+let searceFilter
 let flag = true
 let flag1 = true
 let flag2 = true
 let flag3 = true
-let searceFilter
+let flag5 = true
+
+list.addEventListener("click", ()=>{
+    if(flag5 == true){
+        hiddenlist.style.display = "block"
+        flag5 = false
+    }else {
+        hiddenlist.style.display = "none"
+        flag5 = true
+    }
+})
 
 
 accountbtn.addEventListener("click", ()=>{
@@ -209,6 +222,7 @@ mood.addEventListener("click", ()=>{
         filetext1.style.color = "white"
         filetext2.style.color = "white"
         filetext3.style.color = "white"
+        list.style.color = "white"
         month.style.color = "white"
         note.style.backgroundColor = "white"
         note.style.color = "black"
@@ -245,6 +259,7 @@ mood.addEventListener("click", ()=>{
         filetext1.style.color = "green"
         filetext2.style.color = "green"
         filetext3.style.color = "green"
+        list.style.color = "black"
         month.style.color = "black"
         note.style.backgroundColor = "black"
         note.style.color = "white"

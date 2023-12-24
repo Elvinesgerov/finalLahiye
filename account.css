@@ -5,7 +5,7 @@ body {
     overflow-x: hidden;
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -21,7 +21,11 @@ body {
     margin-top: -10px;
 }
 
-.news, .accounts, .help, .about, .connectionlink{
+.news,
+.accounts,
+.help,
+.about,
+.connectionlink {
     font-size: 17px;
 }
 
@@ -39,7 +43,14 @@ body {
     box-shadow: 10px 5px 5px orange;
 }
 
-.ri-sun-line{
+.ri-menu-5-fill,
+.gamename1,
+.ri-user-line,
+.hiddenlist {
+    display: none;
+}
+
+.ri-sun-line {
     color: orange;
     font-size: 20px;
 }
@@ -170,25 +181,34 @@ body {
     transform: rotate(360deg);
 }
 
-input{
+input {
     box-shadow: 10px 5px 5px orange;
 }
 
-.searcebtn, .facebook, .instagram, .services1{
+.searcebtn,
+.facebook,
+.instagram,
+.services1 {
     transition: transform 0.5s ease;
     cursor: pointer;
 }
 
-.searcebtn, .facebook, .instagram, .services1{
+.searcebtn,
+.facebook,
+.instagram,
+.services1 {
     transition: transform 0.5s ease;
     cursor: pointer;
 }
 
-.searcebtn:hover, .facebook:hover, .instagram:hover, .services1:hover{
+.searcebtn:hover,
+.facebook:hover,
+.instagram:hover,
+.services1:hover {
     transform: rotate(360deg);
 }
 
-.player{
+.player {
     margin-left: 18%;
 }
 
@@ -205,16 +225,16 @@ input{
     transform: rotate(360deg);
 }
 
-.playerbtn:hover{
+.playerbtn:hover {
     background-color: orange;
     color: white;
 }
 
-.playerbtn:hover .ri-shopping-basket-fill{
+.playerbtn:hover .ri-shopping-basket-fill {
     color: white;
 }
 
-.playerbtn{
+.playerbtn {
     width: 200px;
     height: 50px;
     border-radius: 10px;
@@ -223,22 +243,22 @@ input{
     background-color: white;
 }
 
-.ri-shopping-basket-fill{
+.ri-shopping-basket-fill {
     font-size: 20px;
     margin-left: -50px;
     color: orange;
 }
 
-.balancebtn:hover .ri-add-line{
+.balancebtn:hover .ri-add-line {
     color: white;
 }
 
-.balancebtn:hover{
+.balancebtn:hover {
     background-color: orange;
     color: white;
 }
 
-.main{
+.main {
     padding-left: 17%;
     border: none;
     background-color: white;
@@ -248,7 +268,7 @@ input{
     width: 1911px;
 }
 
-.category{
+.category {
     width: 250px;
     height: 50px;
     border: 3px solid orange;
@@ -259,7 +279,7 @@ input{
     font-size: 19px;
 }
 
-.games{
+.games {
     width: 242.5px;
     margin-left: 16.5%;
     margin-top: 0%;
@@ -272,7 +292,7 @@ input{
     border: 3px solid orange;
 }
 
-.balancebtn{
+.balancebtn {
     width: 200px;
     height: 50px;
     border-radius: 10px;
@@ -282,32 +302,36 @@ input{
     margin-left: 15px;
 }
 
-.ri-add-line{
+.ri-add-line {
     font-size: 25px;
     margin-left: -70px;
     color: orange;
 }
 
-.home{
+.home {
     margin-left: 10%;
     font-size: 20px;
     margin-top: 12px;
 }
 
-.game, .payy, .rule, .aboutme, .connection{
+.game,
+.payy,
+.rule,
+.aboutme,
+.connection {
     margin-left: 5%;
     font-size: 20px;
     margin-top: 12px;
 }
 
-a{
+a {
     text-decoration: none;
     font-size: 20px;
     transition: 0.6s;
     color: black;
 }
 
-a:hover{
+a:hover {
     color: orange;
     position: relative;
     top: -5px;
@@ -315,14 +339,16 @@ a:hover{
 }
 
 
-.ri-shopping-cart-fill, .ri-bank-line, .ri-question-line{
+.ri-shopping-cart-fill,
+.ri-bank-line,
+.ri-question-line {
     color: white;
     font-size: 30px;
     margin-left: 22px;
     margin-top: 14px;
 }
 
-.gamessell1{
+.gamessell1 {
     border: none;
     width: 1525px;
     height: 60px;
@@ -334,18 +360,18 @@ a:hover{
     gap: 30px;
 }
 
-.play{
+.play {
     margin-top: -30px;
     color: white;
     font-size: 25px;
     margin-left: 75px;
 }
 
-.acountbank{
+.acountbank {
     margin-top: 15px;
 }
 
-.bankaccount{
+.bankaccount {
     background-color: #f5f5f5;
     width: 1515px;
     margin-left: 16.7%;
@@ -355,44 +381,44 @@ a:hover{
     box-shadow: 10px 5px 5px orange;
 }
 
-.headertext{
+.headertext {
     padding-top: 15px;
 }
 
-.box1{
+.box1 {
     display: flex;
 }
 
-.account1{
+.account1 {
     margin-left: 30.5%;
 }
 
-.account2{
+.account2 {
     margin-left: 20%;
 }
 
-.text1{
+.text1 {
     font-size: 19px;
     margin-top: -10px;
     margin-left: 12px;
     color: grey;
 }
 
-.text2{
+.text2 {
     font-size: 18px;
     margin-left: 5px;
     margin-top: -11px;
     color: grey;
 }
 
-.number1{
+.number1 {
     font-size: 19px;
     margin-top: -10px;
     margin-left: -30px;
     color: gray;
 }
 
-.birbankcard{
+.birbankcard {
     width: 230px;
     height: 120px;
     margin-left: 25px;
@@ -400,7 +426,8 @@ a:hover{
     border-radius: 15px;
 }
 
-.accountbtn, .accountbtn1{
+.accountbtn,
+.accountbtn1 {
     width: 150px;
     height: 40px;
     margin-top: 10px;
@@ -492,7 +519,7 @@ a:hover{
     margin-left: 38%;
 }
 
-.ri-arrow-right-up-line{
+.ri-arrow-right-up-line {
     font-size: 34px;
     margin-left: 3px;
     margin-top: -2px;
@@ -534,7 +561,7 @@ a:hover{
     font-size: 23px;
 }
 
-.footlist{
+.footlist {
     font-weight: 800;
     font-size: 26px;
 }
@@ -559,7 +586,7 @@ a:hover{
     margin-left: 10px;
 }
 
-.ri-send-plane-fill{
+.ri-send-plane-fill {
     font-size: 25px;
 }
 
@@ -601,15 +628,16 @@ a:hover{
     margin-left: 15px;
 }
 
-.hiddenlink{
+.hiddenlink {
     font-size: 22px;
 }
 
-.elvingame ul li a{
+.elvingame ul li a {
     font-size: 21px;
 }
 
-.hiddenbirbank, .hiddenbirbank1{
+.hiddenbirbank,
+.hiddenbirbank1 {
     background-color: #f5f5f5;
     width: 1510px;
     height: 250px;
@@ -623,7 +651,8 @@ a:hover{
     display: none;
 }
 
-.formfile, .formfile1{
+.formfile,
+.formfile1 {
     width: 300px;
     box-shadow: none;
     background-color: green;
@@ -631,28 +660,33 @@ a:hover{
     border: none;
     color: white;
 }
-label{
+
+label {
     font-size: 28px;
     font-style: italic;
     font-weight: 900;
     color: orange;
 }
 
-.hiddenfile{
+.hiddenfile {
     margin-left: 70px;
     margin-top: 20px;
-    padding-top:25px;
+    padding-top: 25px;
 }
 
 
-.hiddencard, .hiddencard1{
+.hiddencard,
+.hiddencard1 {
     margin-left: 850px;
     padding-top: 30px;
     margin-top: -185px;
     /* margin-top: -250px; */
 }
 
-.cardnumber, .cardnumber1, .cardnumber2, .cardnumber3{
+.cardnumber,
+.cardnumber1,
+.cardnumber2,
+.cardnumber3 {
     width: 200px;
     height: 40px;
     padding-left: 10px;
@@ -663,12 +697,15 @@ label{
     box-shadow: 10px 5px 5px blue;
 }
 
-.cardinputs{
+.cardinputs {
     display: flex;
     gap: 40px;
 }
 
-.cardbutton, .filebutton, .filebutton1, .cardbutton1{
+.cardbutton,
+.filebutton,
+.filebutton1,
+.cardbutton1 {
     width: 100px;
     height: 40px;
     border: 3px solid blue;
@@ -678,14 +715,17 @@ label{
     font-size: 17px;
 }
 
-span{
+span {
     color: orange;
     font-weight: 900;
     font-style: italic;
     font-size: 20px;
 }
 
-.filetext, .filetext1, .filetext2, .filetext3{
+.filetext,
+.filetext1,
+.filetext2,
+.filetext3 {
     font-size: 20px;
     font-style: italic;
     font-weight: 900;
@@ -693,68 +733,2121 @@ span{
     display: none;
 }
 
-.bankaccount:hover{
+.bankaccount:hover {
     margin-left: 500px;
     background-color: grey;
     color: white;
     transition: 1.5s;
 }
 
-.bankaccount:hover .text1{
+.bankaccount:hover .text1 {
     color: white;
     transition: 1.5s;
 }
 
-.bankaccount:hover .text2{
+.bankaccount:hover .text2 {
     color: white;
     transition: 1.5s;
 }
 
-.bankaccount:hover .number1{
+.bankaccount:hover .number1 {
     color: white;
     transition: 1.5s;
 }
 
-.hiddenbirbank:hover{
+.hiddenbirbank:hover {
     margin-left: 500px;
     background-color: grey;
     color: white;
     transition: 1.5s;
 }
 
-.hiddenbirbank1:hover{
+.hiddenbirbank1:hover {
     margin-left: 500px;
     background-color: grey;
     color: white;
     transition: 1.5s;
 }
 
-.hiddenbirbank:hover .filetext{
+.hiddenbirbank:hover .filetext {
     color: white;
     transition: 1.5s;
 }
 
-.hiddenbirbank1:hover .filetext{
+.hiddenbirbank1:hover .filetext {
     color: white;
     transition: 1.5s;
 }
 
-.hiddenbirbank:hover .filetext1{
+.hiddenbirbank:hover .filetext1 {
     color: white;
     transition: 1.5s;
 }
 
-.hiddenbirbank1:hover .filetext1{
+.hiddenbirbank1:hover .filetext1 {
     color: white;
     transition: 1.5s;
 }
 
-.hiddenbirbank1:hover .filetext2{
+.hiddenbirbank1:hover .filetext2 {
     color: white;
     transition: 1.5s;
 }
 
-.hiddenbirbank1:hover .filetext3{
+.hiddenbirbank1:hover .filetext3 {
     color: white;
     transition: 1.5s;
+}
+
+.hiddenbalance {
+    display: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+
+    /* header hisesi ///////// */
+
+    * {
+        box-sizing: border-box;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
+    }
+
+    .began {
+        display: flex;
+        gap: 20px;
+        background-color: #f5f5f5;
+        height: 35px;
+        padding-top: 27px;
+        width: 106%;
+        margin-top: -10px;
+    }
+
+    .ri-menu-5-fill {
+        margin-top: -23px;
+        margin-left: -40px;
+        font-size: 20px;
+        display: block;
+    }
+
+    .userline {
+        margin-left: 50px;
+    }
+
+    .hiddenlist {
+        background-color: bisque;
+        position: absolute;
+        z-index: 2;
+        margin-top: -85px;
+        margin-left: -7px;
+    }
+
+    .gamename1 {
+        display: block;
+        color: orange;
+        font-size: 21px;
+        margin-left: 10%;
+        margin-top: -25px;
+        width: 120px;
+    }
+
+    .ri-user-line {
+        display: block;
+        margin-left: 25%;
+        font-size: 20px;
+        margin-top: -22px;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .news,
+    .accounts,
+    .help,
+    .about,
+    .connectionlink {
+        display: none;
+    }
+
+    .mood {
+        margin-left: -95px;
+        margin-top: -21px;
+    }
+
+    .backmood {
+        width: 40px;
+        height: 20px;
+        padding-top: -5px;
+    }
+
+    .ri-moon-fill {
+        font-size: 10px;
+        margin-left: -4px;
+    }
+
+    .ri-sun-line {
+        font-size: 13px;
+        font-weight: 900;
+    }
+
+    .hiddenbalance {
+        display: block;
+        margin-left: -3px;
+        margin-top: 15px;
+    }
+
+    .balancebtn1 {
+        display: block;
+        width: 70px;
+        font-size: 11px;
+        height: 30px;
+        margin-top: 10px;
+        padding-left: 5px;
+        border-radius: 10px;
+        background-color: orange;
+        color: white;
+        border: 3px solid orange;
+        box-shadow: none;
+    }
+
+    .ri-bank-line {
+        display: none;
+    }
+
+    .header {
+        width: 106%;
+    }
+
+    .playerbtn {
+        box-shadow: none;
+        width: 70px;
+        height: 30px;
+        background-color: orange;
+        color: white;
+        border: 3px solid orange;
+        font-size: 11px;
+        padding-top: -20px;
+        margin-top: 1px;
+    }
+
+    .ri-shopping-basket-fill {
+        display: none;
+    }
+
+    .ri-add-line {
+        display: none;
+    }
+
+    .gamename {
+        display: none;
+    }
+
+    .searce {
+        width: 100px;
+        height: 30px;
+        margin-top: -70px;
+        margin-left: 40px;
+    }
+
+    .searcebtn {
+        display: none;
+    }
+
+    .ri-search-line {
+        font-size: 10px;
+        margin-left: -5px;
+    }
+
+    .playerbtn {
+        display: block;
+    }
+
+    .player {
+        margin-left: 10%;
+        margin-top: -70px;
+    }
+
+    .balancebtn {
+        display: none;
+    }
+
+    .main {
+        display: none;
+    }
+
+    .hiddensearce {
+        width: 115px;
+        margin-top: -100px;
+        margin-left: -25px;
+    }
+
+    .ri-corner-right-up-fill {
+        margin-left: 3px;
+    }
+
+    .texthidden {
+        font-size: 12px;
+        margin-left: 225px;
+        width: 60px;
+    }
+
+    .texthidden p {
+        margin-left: -18px;
+    }
+
+    .hiddenlist {
+        width: 150px;
+    }
+
+    .hiddensearce ul li {
+        font-size: 13px;
+        margin-left: -12px;
+    }
+
+    .hiddensearce ul {
+        margin-top: 3px;
+    }
+
+    .games ul li a,
+    .hiddensearce ul li a {
+        font-size: 15px;
+    }
+
+    .gamessell1 {
+        margin-left: -5px;
+        width: 100%;
+        height: 30px;
+        margin-top: -15px;
+    }
+
+    .play {
+        margin-top: -15px;
+        font-size: 20px;
+    }
+
+    /* mainhisesi */
+
+    .bankaccount {
+        width: 100%;
+        margin-left: -5px;
+        height: 400px;
+    }
+
+    .headertext {
+        font-size: 19px;
+    }
+
+    .box1 {
+        display: block;
+    }
+
+    .account1 {
+        margin-left: 15px;
+    }
+
+    .text1 {
+        margin-left: 10px;
+    }
+
+    .bankcardnumber {
+        margin-left: 140px;
+        margin-top: -73px;
+    }
+
+    .number1 {
+        font-size: 15px;
+        margin-left: 140px;
+    }
+
+    .accountname {
+        font-size: 18px;
+        margin-left: -19%;
+    }
+
+    .text2 {
+        font-size: 17px;
+        margin-left: -17%;
+    }
+
+    .accountbtn,
+    .accountbtn1 {
+        width: 100px;
+        font-size: 17px;
+        margin-left: 40px;
+        margin-top: -15px;
+    }
+
+    .hiddenbirbank,
+    .hiddenbirbank1 {
+        width: 100%;
+        display: block;
+        margin-left: -5px;
+        height: 570px;
+    }
+
+    .hiddenfile {
+        display: block;
+    }
+
+    .accountlabel {
+        margin-left: -60px;
+        font-size: 23px;
+    }
+
+    .formfile,
+    .formfile1 {
+        font-size: 15px;
+        width: 220px;
+        margin-left: -65px;
+    }
+
+    .filebutton,
+    .filebutton1 {
+        margin-left: -65px;
+        font-size: 14px;
+        width: 80px;
+    }
+
+    .hiddencard,
+    .hiddencard1 {
+        width: 100%;
+        margin-left: 2px;
+        margin-top: -10px;
+    }
+
+    .accountlabel1 {
+        font-size: 23px;
+    }
+
+    .filetext,
+    .filetext2 {
+        display: block;
+        margin-left: -60px;
+        font-size: 15px;
+    }
+
+    span {
+        font-size: 15px;
+    }
+
+    .cardinputs {
+        display: block;
+    }
+
+    .cardnumber,
+    .cardnumber2 {
+        font-size: 15px;
+        margin-top: -10px;
+        width: 94%;
+    }
+
+    .cardnumber1,
+    .cardnumber3 {
+        margin-top: 20px;
+        width: 94%;
+        font-size: 15px;
+    }
+
+    .cardbutton,
+    .cardbutton1 {
+        margin-top: 20px;
+        font-size: 14px;
+        width: 80px;
+    }
+
+    .filetext1,
+    .filetext3 {
+        display: block;
+    }
+
+    .bankaccount:hover,
+    .hiddenbirbank:hover,
+    .hiddenbirbank1:hover {
+        margin-left: 1px;
+    }
+
+    /* xeberlerhisesi */
+
+    .new {
+        width: 100%;
+        margin-left: -1px;
+    }
+
+    #services2,
+    #services3,
+    #services4,
+    #services5 {
+        width: 130px;
+        height: 140px;
+        box-shadow: none;
+    }
+
+    #services2 {
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    #services3 {
+        margin-left: -35px;
+        margin-top: 10px;
+    }
+
+    #services4 {
+        margin-left: -333px;
+        margin-top: 170px;
+    }
+
+    #services5 {
+        margin-top: 173px;
+        margin-left: -35px;
+    }
+
+    .ri-send-plane-fill {
+        font-size: 27px;
+    }
+
+    #jeticon1 {
+        width: 40px;
+        height: 40px;
+        margin-top: -20px;
+    }
+
+    .ri-arrow-right-up-line,
+    .ri-vip-fill,
+    .ri-shield-fill,
+    .ri-money-dollar-circle-fill {
+        font-size: 26px;
+    }
+
+    .ri-money-dollar-circle-fill {
+        margin-top: -20px;
+    }
+
+    #basliqxitmet1 {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: -30px;
+        width: 112px;
+    }
+
+    #basliqxitmet2 {
+        font-size: 12px;
+        margin-left: -50px;
+        margin-top: 15px;
+        width: 121px;
+    }
+
+    #textxidmet1 {
+        font-size: 13px;
+        margin-left: -51px;
+        margin-top: -7px;
+        width: 132px;
+    }
+
+    #textxidmet2 {
+        font-size: 10px;
+        margin-left: -51px;
+        margin-top: -7px;
+        width: 130px;
+    }
+
+    .servicesboxs {
+        margin-left: -10px;
+        width: 106%;
+    }
+
+    /* Foothissesi */
+
+    .elvingame {
+        margin-left: -35px;
+    }
+
+    .foot {
+        margin-top: 40px;
+        width: 106%;
+        height: 1150px;
+        display: block;
+    }
+
+    .gamestore {
+        font-size: 31px;
+    }
+
+    .textfoot {
+        width: 289px;
+        font-size: 21px;
+    }
+
+    .footbasliq {
+        margin-left: 65px;
+        font-size: 29px;
+    }
+
+    .footlist {
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .footsira {
+        font-size: 20px;
+        margin-left: -7px;
+        font-weight: 900;
+    }
+
+    #footbolmeler {
+        margin-top: 40px;
+    }
+
+    #foots {
+        font-size: 20px;
+    }
+
+    .footabune {
+        font-size: 30px;
+        margin-left: 55px;
+    }
+
+    .textfoot1 {
+        font-size: 25px;
+    }
+
+    .inputfoot {
+        height: 40px;
+        width: 270px;
+        font-size: 17px;
+    }
+
+    .footbtn {
+        margin-top: 20px;
+    }
+
+    .abunemesaage {
+        margin-top: 20px;
+        font-size: 17px;
+    }
+
+    .theend {
+        width: 106%;
+        display: block;
+    }
+
+    .facebook,
+    .instagram {
+        width: 30px;
+        height: 30px;
+    }
+
+    .facebook {
+        margin-left: 10px;
+    }
+
+    .instagram {
+        margin-left: 20px;
+    }
+
+    .endtext {
+        font-size: 17px;
+        margin-left: 10px;
+    }
+
+
+}
+
+@media screen and (min-width: 450px) and (max-width: 600px) {
+
+    /* header hisses */
+
+    .gamename1 {
+        margin-left: 30%;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
+    }
+
+    .began {
+        width: 106%;
+    }
+
+    .ri-user-line {
+        margin-left: 230px;
+    }
+
+    .userline {
+        margin-left: -30%;
+    }
+
+    .ri-menu-5-fill {
+        margin-left: -55px;
+    }
+
+    .hiddenbalance {
+        display: block;
+        margin-left: -3px;
+        margin-top: 15px;
+    }
+
+    .balancebtn1 {
+        display: block;
+        width: 65px;
+        font-size: 12px;
+        padding-left: 5px;
+        border-radius: 10px;
+        background-color: orange;
+        color: white;
+        border: 3px solid orange;
+    }
+
+    .ri-add-line {
+        display: none;
+    }
+
+    .searce {
+        margin-left: 95px;
+    }
+
+    .player {
+        margin-left: 110px;
+    }
+
+    .hiddensearce {
+        margin-left: -62px;
+    }
+
+    .texthidden {
+        margin-left: 365px;
+    }
+
+    /* mainhisesi */
+
+    .cardnumber,
+    .cardnumber1,
+    .cardnumber2,
+    .cardnumber3 {
+        width: 70%;
+    }
+
+    .cardbutton,
+    .cardbutton1 {
+        margin-left: 20px;
+    }
+
+    /* Xeberler */
+
+    #services3 {
+        margin-left: 10px;
+    }
+
+    #services2 {
+        margin-left: 30px;
+    }
+
+    #services2,
+    #services3,
+    #services4,
+    #services5 {
+        width: 180px;
+        height: 140px;
+    }
+
+    #services4 {
+        margin-left: -480px;
+    }
+
+    #services5 {
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+
+    /* .headerhisesi */
+
+    * {
+        box-sizing: border-box;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
+    }
+
+    .began {
+        display: flex;
+        gap: 20px;
+        background-color: #f5f5f5;
+        height: 45px;
+        padding-top: 27px;
+        width: 103%;
+        margin-top: -10px;
+    }
+
+    .ri-menu-5-fill {
+        margin-top: -23px;
+        margin-left: 13px;
+        font-size: 26px;
+        display: block;
+    }
+
+    .userline {
+        margin-left: 130px;
+    }
+
+    .gamename1 {
+        display: block;
+        color: orange;
+        font-size: 30px;
+        margin-left: 30%;
+        margin-top: -25px;
+        width: 200px;
+    }
+
+    .ri-user-line {
+        display: block;
+        margin-left: 25%;
+        font-size: 25px;
+        margin-top: -22px;
+    }
+
+
+    .header {
+        width: 102.5%;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .news,
+    .accounts,
+    .help,
+    .connectionlink,
+    .about {
+        display: none;
+    }
+
+    .mood {
+        margin-left: -95px;
+        margin-top: -21px;
+    }
+
+    .backmood {
+        width: 45px;
+        height: 30px;
+        padding-top: -5px;
+        margin-left: -70px;
+    }
+
+    .ri-moon-fill {
+        font-size: 13px;
+        margin-left: -4px;
+    }
+
+    .ri-sun-line {
+        font-size: 15px;
+        font-weight: 900;
+    }
+
+    .hiddenbalance {
+        display: block;
+        margin-left: -3px;
+        margin-top: 15px;
+    }
+
+    .balancebtn1 {
+        display: block;
+        width: 130px;
+        font-size: 15px;
+        height: 40px;
+        margin-top: 10px;
+        padding-left: 5px;
+        border-radius: 10px;
+        background-color: orange;
+        color: white;
+        border: 3px solid orange;
+        box-shadow: none;
+    }
+
+    .playerbtn {
+        box-shadow: none;
+        width: 130px;
+        height: 40px;
+        background-color: orange;
+        color: white;
+        border: 3px solid orange;
+        font-size: 15px;
+        padding-top: -20px;
+        margin-top: -10px;
+    }
+
+    .ri-shopping-basket-fill {
+        display: none;
+    }
+
+    .ri-add-line {
+        display: none;
+    }
+
+    .gamename {
+        display: none;
+    }
+
+    .searce {
+        width: 173px;
+        height: 40px;
+        margin-top: -80px;
+        margin-left: 90px;
+    }
+
+    .searcebtn {
+        display: none;
+    }
+
+    .ri-search-line {
+        font-size: 10px;
+        margin-left: -5px;
+    }
+
+    .playerbtn {
+        display: block;
+        margin-left: 40px;
+    }
+
+    .ri-menu-5-fill {
+        margin-left: -90px;
+    }
+
+    .player {
+        margin-left: 10%;
+        margin-top: -70px;
+    }
+
+    .balancebtn {
+        display: none;
+    }
+
+    .main {
+        display: none;
+    }
+
+    .hiddensearce {
+        width: 180px;
+        margin-top: -75px;
+        margin-left: -35px;
+    }
+
+    .games ul li a,
+    .hiddensearce ul li a {
+        font-size: 15px;
+    }
+
+    .ri-corner-right-up-fill {
+        margin-left: 3px;
+    }
+
+    .texthidden {
+        font-size: 12px;
+        margin-left: 800px;
+        width: 60px;
+    }
+
+    .texthidden p {
+        margin-left: -18px;
+    }
+
+    .hiddenlist {
+        width: 150px;
+        position: absolute;
+        z-index: 1;
+        background-color: bisque;
+        margin-top: -95px;
+        margin-left: -7px;
+    }
+
+    .hiddensearce ul li {
+        font-size: 13px;
+        margin-left: -12px;
+    }
+
+    .hiddensearce ul {
+        margin-top: 3px;
+    }
+
+    .gamessell1 {
+        margin-left: 3px;
+        width: 99%;
+        margin-top: 2px;
+        padding-left: 30px;
+    }
+
+    /* mainhissesi */
+
+    .bankaccount {
+        width: 100%;
+        margin-left: -5px;
+        height: 280px;
+    }
+
+    .headertext {
+        font-size: 19px;
+    }
+
+    .box1 {
+        display: block;
+    }
+
+    .account1 {
+        margin-left: 15px;
+    }
+
+    .text1 {
+        margin-left: 42%;
+    }
+
+    .bankcardnumber {
+        margin-left: 70%;
+        margin-top: -75px;
+    }
+
+    .number1 {
+        font-size: 15px;
+        margin-left: 67%;
+    }
+
+    .birbankcard {
+        width: 35%;
+        margin-left: 10px;
+    }
+
+    .accountname {
+        font-size: 18px;
+        margin-left: 26%;
+    }
+
+    .text2 {
+        font-size: 17px;
+        margin-left: 27%;
+    }
+
+    .accountbtn,
+    .accountbtn1 {
+        width: 100px;
+        font-size: 17px;
+        margin-left: 65%;
+        margin-top: -100px;
+    }
+
+    .hiddenbirbank,
+    .hiddenbirbank1 {
+        width: 100%;
+        display: block;
+        margin-left: -5px;
+        height: 570px;
+    }
+
+    .hiddenfile {
+        display: block;
+    }
+
+    .accountlabel {
+        margin-left: -60px;
+        font-size: 23px;
+    }
+
+    .formfile,
+    .formfile1 {
+        font-size: 15px;
+        width: 220px;
+        margin-left: -65px;
+    }
+
+    .filebutton,
+    .filebutton1 {
+        margin-left: -65px;
+        font-size: 14px;
+        width: 80px;
+    }
+
+    .hiddencard,
+    .hiddencard1 {
+        width: 100%;
+        margin-left: 2px;
+        margin-top: -10px;
+    }
+
+    .accountlabel1 {
+        font-size: 23px;
+    }
+
+    .filetext,
+    .filetext2 {
+        display: block;
+        margin-left: -60px;
+        font-size: 15px;
+    }
+
+    span {
+        font-size: 15px;
+    }
+
+    .cardinputs {
+        display: block;
+    }
+
+    .cardnumber,
+    .cardnumber2 {
+        font-size: 15px;
+        margin-top: -10px;
+        margin-left: 10px;
+        width: 40%;
+    }
+
+    .cardnumber1,
+    .cardnumber3 {
+        margin-top: 20px;
+        width: 40%;
+        font-size: 15px;
+        margin-left: 27px;
+    }
+
+    .cardbutton,
+    .cardbutton1 {
+        margin-top: 20px;
+        font-size: 14px;
+        width: 80px;
+        margin-left: 20px;
+    }
+
+    .filetext1,
+    .filetext3 {
+        display: block;
+    }
+
+    .bankaccount:hover,
+    .hiddenbirbank:hover,
+    .hiddenbirbank1:hover {
+        margin-left: 1px;
+    }
+
+    .bankname {
+        margin-left: 40%;
+        margin-top: -110px;
+    }
+
+    /* xeberler */
+
+
+    #services2,
+    #services3,
+    #services4,
+    #services5 {
+        width: 150px;
+        height: 140px;
+    }
+
+    .ri-send-plane-fill {
+        font-size: 27px;
+    }
+
+    #services2 {
+        margin-left: 35px;
+        margin-top: 15px;
+    }
+
+    #services3 {
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+
+    #services4 {
+        margin-left: -415px;
+        margin-top: 180px;
+    }
+
+    #services5 {
+        margin-top: 15px;
+        margin-left: 220px;
+    }
+
+    #jeticon1 {
+        width: 40px;
+        height: 40px;
+        margin-top: -20px;
+    }
+
+    .ri-arrow-right-up-line,
+    .ri-vip-fill,
+    .ri-shield-fill,
+    .ri-money-dollar-circle-fill {
+        font-size: 26px;
+    }
+
+    .ri-money-dollar-circle-fill {
+        margin-top: -20px;
+    }
+
+    #basliqxitmet1 {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: -30px;
+        width: 112px;
+    }
+
+    #basliqxitmet2 {
+        font-size: 12px;
+        margin-left: -50px;
+        margin-top: 15px;
+        width: 121px;
+    }
+
+    #textxidmet1 {
+        font-size: 13px;
+        margin-left: -51px;
+        margin-top: -7px;
+        width: 132px;
+    }
+
+    #textxidmet2 {
+        font-size: 12px;
+        margin-left: -51px;
+        margin-top: -7px;
+        width: 139px;
+    }
+
+    .servicesboxs {
+        margin-left: -10px;
+        width: 102.5%;
+    }
+
+    .new {
+        width: 100%;
+    }
+
+    .gamessell1 {
+        margin-left: 3px;
+        width: 99%;
+        margin-top: 2px;
+        padding-left: 30px;
+        height: 70px;
+    }
+
+    /* foothisesi */
+
+    .elvingame {
+        margin-left: -80px;
+        margin-top: -10px;
+    }
+
+    .foot {
+        margin-top: 40px;
+        width: 102.5%;
+        height: 800px;
+        display: block;
+    }
+
+    .gamestore {
+        font-size: 31px;
+    }
+
+    .textfoot {
+        width: 575px;
+        font-size: 22px;
+    }
+
+    .footbasliq {
+        margin-left: 220px;
+        font-size: 29px;
+        margin-top: 70px;
+    }
+
+    .footlist {
+        font-size: 20px;
+        margin-left: -10px;
+    }
+
+    .footsira {
+        font-size: 20px;
+        margin-left: -7px;
+        font-weight: 900;
+        margin-top: 65px;
+    }
+
+    #footbolmeler {
+        margin-top: -120px;
+        margin-left: 290px;
+    }
+
+    #foots {
+        font-size: 20px;
+    }
+
+    .footabune {
+        font-size: 30px;
+        margin-left: 1px;
+        margin-top: 80px;
+    }
+
+    .textfoot1 {
+        font-size: 25px;
+        width: 570px;
+    }
+
+    .inputfoot {
+        height: 40px;
+        width: 270px;
+        font-size: 17px;
+    }
+
+    .footbtn {
+        margin-top: -10px;
+    }
+
+    .abunemesaage {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .theend {
+        width: 106%;
+        display: block;
+        width: 100%;
+    }
+
+    .facebook,
+    .instagram {
+        width: 30px;
+        height: 30px;
+    }
+
+    .facebook {
+        margin-left: 10px;
+    }
+
+    .instagram {
+        margin-left: 20px;
+    }
+
+    .endtext {
+        font-size: 17px;
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (min-width: 751px) and (max-width: 991px) {
+
+    /* .headerhisesi */
+
+    * {
+        box-sizing: border-box;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
+    }
+
+    .began {
+        display: flex;
+        gap: 20px;
+        background-color: #f5f5f5;
+        height: 45px;
+        padding-top: 27px;
+        width: 103%;
+        margin-top: -10px;
+    }
+
+    .ri-menu-5-fill {
+        margin-top: -23px;
+        margin-left: 13px;
+        font-size: 26px;
+        display: block;
+    }
+
+    .userline {
+        margin-left: 230px;
+    }
+
+    .gamename1 {
+        display: block;
+        color: orange;
+        font-size: 30px;
+        margin-left: 25%;
+        margin-top: -25px;
+        width: 200px;
+    }
+
+    .ri-user-line {
+        display: block;
+        margin-left: 25%;
+        font-size: 25px;
+        margin-top: -22px;
+    }
+
+
+    .header {
+        width: 102.5%;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .news,
+    .accounts,
+    .help,
+    .connectionlink,
+    .about {
+        display: none;
+    }
+
+    .mood {
+        margin-left: -95px;
+        margin-top: -21px;
+    }
+
+    .backmood {
+        width: 45px;
+        height: 30px;
+        padding-top: -5px;
+        margin-left: -70px;
+    }
+
+    .ri-moon-fill {
+        font-size: 13px;
+        margin-left: -4px;
+    }
+
+    .ri-sun-line {
+        font-size: 15px;
+        font-weight: 900;
+    }
+
+    .hiddenbalance {
+        display: block;
+        margin-left: -3px;
+        margin-top: 15px;
+    }
+
+    .balancebtn1 {
+        display: block;
+        width: 130px;
+        font-size: 15px;
+        height: 40px;
+        margin-top: 10px;
+        padding-left: 5px;
+        border-radius: 10px;
+        background-color: orange;
+        color: white;
+        border: 3px solid orange;
+        box-shadow: none;
+    }
+
+    .playerbtn {
+        box-shadow: none;
+        width: 130px;
+        height: 40px;
+        background-color: orange;
+        color: white;
+        border: 3px solid orange;
+        font-size: 15px;
+        padding-top: -20px;
+        margin-top: -10px;
+    }
+
+    .ri-shopping-basket-fill {
+        display: none;
+    }
+
+    .ri-add-line {
+        display: none;
+    }
+
+    .gamename {
+        display: none;
+    }
+
+    .searce {
+        width: 173px;
+        height: 40px;
+        margin-top: -80px;
+        margin-left: 90px;
+    }
+
+    .searcebtn {
+        display: none;
+    }
+
+    .ri-search-line {
+        font-size: 10px;
+        margin-left: -5px;
+    }
+
+    .playerbtn {
+        display: block;
+        margin-left: 40px;
+    }
+
+    .ri-menu-5-fill {
+        margin-left: -90px;
+    }
+
+    .player {
+        margin-left: 10%;
+        margin-top: -70px;
+    }
+
+    .balancebtn {
+        display: none;
+    }
+
+    .main {
+        display: none;
+    }
+
+    .hiddensearce {
+        width: 180px;
+        margin-top: -75px;
+        margin-left: -35px;
+    }
+
+    .games ul li a,
+    .hiddensearce ul li a {
+        font-size: 15px;
+    }
+
+    .ri-corner-right-up-fill {
+        margin-left: 3px;
+    }
+
+    .texthidden {
+        font-size: 12px;
+        margin-left: 800px;
+        width: 60px;
+    }
+
+    .texthidden p {
+        margin-left: -18px;
+    }
+
+    .hiddenlist {
+        width: 150px;
+        position: absolute;
+        z-index: 1;
+        background-color: bisque;
+        margin-top: -95px;
+        margin-left: -7px;
+    }
+
+    .hiddensearce ul li {
+        font-size: 13px;
+        margin-left: -12px;
+    }
+
+    .hiddensearce ul {
+        margin-top: 3px;
+    }
+
+    .gamessell1 {
+        margin-left: 3px;
+        width: 99%;
+        margin-top: 2px;
+        padding-left: 30px;
+        height: 70px;
+    }
+
+    /* xeberler */
+
+}
+
+@media screen and (min-width: 991px) and (max-width: 1400px) {
+
+    /* .headerhissesi */
+
+    * {
+        box-sizing: border-box;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
+    }
+
+    .began {
+        width: 101.5%;
+    }
+
+    .news {
+        margin-left: -170px;
+    }
+
+    .news,
+    .accounts,
+    .help,
+    .about,
+    .connectionlink {
+        font-size: 14px;
+    }
+
+    .mood {
+        margin-top: -5px;
+    }
+
+    .backmood {
+        width: 60px;
+        height: 25px;
+        margin-left: -200px;
+    }
+
+    .ri-moon-fill {
+        font-size: 13px;
+    }
+
+    .ri-sun-line {
+        font-size: 14px;
+    }
+
+    .button {
+        margin-top: -5px;
+    }
+
+    .entry {
+        width: 70px;
+        height: 30px;
+        margin-left: -100px;
+    }
+
+    .note {
+        width: 70px;
+        height: 30px;
+    }
+
+    .gamename {
+        margin-left: -175px;
+        margin-top: -25px;
+    }
+
+    .searce {
+        width: 170px;
+        height: 35px;
+        margin-top: -10px;
+        margin-left: 80px;
+    }
+
+    .searcebtn {
+        margin-top: -5px;
+        width: 23px;
+        height: 23px;
+        margin-left: -30px;
+
+    }
+
+    .ri-search-line {
+        margin-left: -3px;
+    }
+
+    .playerbtn {
+        width: 150px;
+        height: 30px;
+        font-size: 14px;
+        padding-left: 40px;
+        margin-left: -70px;
+        margin-top: -13px;
+    }
+
+    .balancebtn {
+        width: 150px;
+        height: 30px;
+        font-size: 14px;
+        padding-left: 40px;
+    }
+
+    .hiddensearce {
+        width: 180px;
+        margin-left: -70px;
+        margin-top: -30px;
+    }
+
+    .texthidden {
+        margin-left: 660px;
+    }
+
+    .ri-corner-right-up-fill {
+        margin-left: 700px;
+    }
+
+    .games {
+        margin-left: 3px;
+        margin-top: 4px;
+        width: 160px;
+    }
+
+    .games ul li a,
+    .hiddensearce ul li a {
+        font-size: 15px;
+    }
+
+    .ri-add-line {
+        font-size: 20px;
+    }
+
+    .player {
+        margin-left: 200px;
+        margin-top: -5px;
+    }
+
+    .category {
+        width: 150px;
+        font-size: 15px;
+        height: 35px;
+        margin-left: -150px;
+    }
+
+    .home,
+    .game,
+    .payy,
+    .rule,
+    .aboutme,
+    .connection {
+        font-size: 17px;
+    }
+
+    .home {
+        margin-left: 50px;
+    }
+
+    .gamessell1 {
+        margin-left: 3px;
+        width: 100%;
+    }
+
+    .backrules {
+        width: 101%;
+    }
+
+    .ri-menu-5-fill {
+        display: none;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .game,
+    .payy,
+    .rule,
+    .aboutme,
+    .connection {
+        margin-left: 60px;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    /* mainhissesi */
+
+    .bankaccount {
+        width: 100%;
+        margin-left: -5px;
+        height: 280px;
+    }
+
+    .headertext {
+        font-size: 19px;
+    }
+
+    .box1 {
+        display: block;
+    }
+
+    .account1 {
+        margin-left: 15px;
+    }
+
+    .text1 {
+        margin-left: 42%;
+    }
+
+    .bankcardnumber {
+        margin-left: 70%;
+        margin-top: -75px;
+    }
+
+    .number1 {
+        font-size: 15px;
+        margin-left: 67%;
+    }
+
+    .birbankcard {
+        width: 35%;
+        margin-left: 10px;
+    }
+
+    .accountname {
+        font-size: 18px;
+        margin-left: 26%;
+    }
+
+    .text2 {
+        font-size: 17px;
+        margin-left: 27%;
+    }
+
+    .accountbtn,
+    .accountbtn1 {
+        width: 100px;
+        font-size: 17px;
+        margin-left: 65%;
+        margin-top: -100px;
+    }
+
+    .hiddenbirbank,
+    .hiddenbirbank1 {
+        width: 100%;
+        display: flex;
+        margin-left: -5px;
+        height: 270px;
+    }
+
+    .hiddenfile {
+        display: block;
+    }
+
+    .accountlabel {
+        margin-left: -60px;
+        font-size: 23px;
+    }
+
+    .formfile,
+    .formfile1 {
+        font-size: 15px;
+        width: 220px;
+        margin-left: -65px;
+    }
+
+    .filebutton,
+    .filebutton1 {
+        margin-left: -65px;
+        font-size: 14px;
+        width: 80px;
+    }
+
+    .hiddencard,
+    .hiddencard1 {
+        width: 100%;
+        margin-left: 2px;
+        margin-top: -10px;
+    }
+
+    .accountlabel1 {
+        font-size: 23px;
+    }
+
+    .filetext,
+    .filetext2 {
+        display: block;
+        margin-left: -60px;
+        font-size: 15px;
+        width: 250px;
+    }
+
+    span {
+        font-size: 15px;
+    }
+
+    .cardinputs {
+        display: block;
+    }
+
+    .cardnumber,
+    .cardnumber2 {
+        font-size: 15px;
+        margin-top: -10px;
+        margin-left: 10px;
+        width: 40%;
+    }
+
+    .cardnumber1,
+    .cardnumber3 {
+        margin-top: 20px;
+        width: 40%;
+        font-size: 15px;
+        margin-left: 27px;
+    }
+
+    .cardbutton,
+    .cardbutton1 {
+        margin-top: 20px;
+        font-size: 14px;
+        width: 80px;
+        margin-left: 20px;
+    }
+
+    .filetext1,
+    .filetext3 {
+        display: block;
+        font-size: 17px;
+        margin-left: 20px;
+    }
+
+    .bankaccount:hover,
+    .hiddenbirbank:hover,
+    .hiddenbirbank1:hover {
+        margin-left: 1px;
+    }
+
+    .bankname {
+        margin-left: 40%;
+        margin-top: -110px;
+    }
+
+    .birbankcard{
+        width: 25%;
+    }
+
+    .hiddencard, .hiddencard1{
+        margin-left: 250px;
+    }
+
+    .hiddenfile{
+        margin-top: -10px;
+        margin-left: 80px;
+    }
+
+    /* xeberler */
+
+    .new {
+        width: 100%;
+    }
+
+    .servicesboxs {
+        gap: 0px;
+    }
+
+    #services2,
+    #services3,
+    #services4,
+    #services5 {
+        width: 260px;
+    }
+
+    #services2 {
+        margin-left: -130px;
+    }
+
+    #services3 {
+        margin-left: 70px;
+    }
+
+    #services4 {
+        margin-left: 73px;
+    }
+
+    #services5 {
+        margin-top: 300px;
+        margin-left: -925px;
+    }
+
+    #textxidmet1 {
+        width: 250px;
+        margin-left: -95px;
+    }
+
+    #textxidmet2 {
+        width: 300px;
+        margin-left: -95px;
+    }
+
+    .gamessell1{
+        margin-left: 20px;
+    }
+
+    /* foothissesi */
+
+    .foot{
+        margin-top: 250px;
+        width: 101.4%;
+        display: block;
+        height: 840px;
+    }
+
+    .elvingame{
+        margin-left: -130px;
+        margin-top: -25px;
+    }
+
+    .gamestore{
+        font-size: 32px;
+    }
+
+    .textfoot{
+        width: 900px;
+        font-size: 25px;
+    }
+
+    .footbasliq{
+        margin-top: 100px;
+        margin-left: 285px;
+        font-size: 32px;
+    }
+
+    .footsira{
+        margin-left: 450px;
+        margin-top: -145px;
+    }
+
+    .footabune{
+        margin-top: 80px;
+        font-size: 32px;
+        margin-left: 320px;
+    }
+
+    .textfoot1{
+        font-size: 32px;
+        width: 900px;
+    }
+
+    .abunemesaage{
+        margin-left: 450px;
+        margin-top: -40px;
+    }
+
+    .endtext{
+        margin-left: 20px;
+    }
+
+    #istagramid{
+        margin-left: 20px;
+    }
+
+    .theend{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
+    }
+
+
+    .button {
+        margin-left: 150px;
+    }
+
+    .backmood{
+        margin-left: -10px;
+    }
+
+    .searce{
+        margin-left: 170px;
+    }
+
+    .player{
+        margin-left: 300px;
+    }
+
+    .gamename{
+        width: 250px;
+        margin-left: -200px;
+    }
+
+    .home, .game, .payy, .aboutme, .rule, .connection{
+        margin-left: 85px;
+    }
+
+    .hiddensearce{
+        margin-left: -130px;
+        width: 180px;
+    }
+
+    .texthidden{
+        margin-left: 875px;
+    }
+
+    .ri-corner-right-up-fill{
+        margin-left: 915px;
+    }
+
+    .birbankcard{
+        width: 20%;
+    }
+
+    /* xeberler */
+
+    .new {
+        width: 100%;
+    }
+
+    .servicesboxs {
+        gap: 0px;
+    }
+
+    #services2,
+    #services3,
+    #services4,
+    #services5 {
+        width: 260px;
+    }
+
+    #services2 {
+        margin-left: -130px;
+    }
+
+    #services3 {
+        margin-left: 70px;
+    }
+
+    #services4 {
+        margin-left: 73px;
+    }
+
+    #services5 {
+        margin-top: 300px;
+        margin-left: -925px;
+    }
+
+    #textxidmet1 {
+        width: 250px;
+        margin-left: -95px;
+    }
+
+    #textxidmet2 {
+        width: 300px;
+        margin-left: -95px;
+    }
+
+    .gamessell1{
+        margin-left: 20px;
+    }
+    
 }
