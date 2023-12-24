@@ -31,7 +31,10 @@ let answer2 = document.querySelector(".answer2")
 let inputfoot = document.querySelector(".inputfoot")
 let abunemesaage = document.querySelector(".abunemesaage");
 let footbtn = document.querySelector(".footbtn")
+let list = document.querySelector (".ri-menu-5-fill")
+let hiddenlist = document.querySelector(".hiddenlist")
 let arry = ["pubg mobile", "free fire", "tiktok", "e futbol", "point blank", "call of duty mobile", "netflix", "roblox", "spotify", "valorant"]
+let searceFilter
 let flag = true
 let flag1 = true
 let flag2 = true
@@ -39,7 +42,17 @@ let flag3 = true
 let flag4 = true
 let flag5 = true
 let flag6 = true
-let searceFilter
+let flag7 = true
+
+list.addEventListener("click", ()=>{
+    if(flag7 == true){
+        hiddenlist.style.display = "block"
+        flag7 = false
+    }else {
+        hiddenlist.style.display = "none"
+        flag7 = true
+    }
+})
 
 footbtn.addEventListener("click", () => {
     if (inputfoot.value != "" && inputfoot.value != " " && flag6 == true){
@@ -103,6 +116,7 @@ mood.addEventListener("click", () => {
         })
         backmood.style.backgroundColor = "#313131"
         month.style.color = "white"
+        list.style.color = "white"
         note.style.backgroundColor = "white"
         note.style.color = "black"
         header.style.backgroundColor = "#232323"
@@ -140,6 +154,7 @@ mood.addEventListener("click", () => {
         backmood.style.backgroundColor = "white"
         month.style.color = "black"
         note.style.backgroundColor = "black"
+        list.style.color = "black"
         note.style.color = "white"
         header.style.backgroundColor = "white"
         searce.style.backgroundColor = "white"

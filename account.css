@@ -1086,7 +1086,6 @@ span {
     .hiddenbirbank,
     .hiddenbirbank1 {
         width: 100%;
-        display: block;
         margin-left: -5px;
         height: 570px;
     }
@@ -1127,7 +1126,6 @@ span {
 
     .filetext,
     .filetext2 {
-        display: block;
         margin-left: -60px;
         font-size: 15px;
     }
@@ -1159,11 +1157,6 @@ span {
         margin-top: 20px;
         font-size: 14px;
         width: 80px;
-    }
-
-    .filetext1,
-    .filetext3 {
-        display: block;
     }
 
     .bankaccount:hover,
